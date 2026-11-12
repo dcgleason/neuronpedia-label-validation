@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "locked_at": "2026-11-12T16:28:37.747112-05:00",
+    "locked_at_display": "Thursday, November 12, 2026, 4:28 PM EST",
+    "model": "gemma-2-2b",
+    "sae_source": "12-gemmascope-res-16k",
+    "pass_rule": "A label passes if both should-fire prompts activate the feature clearly above both near-miss prompts.",
+    "approval_basis": "Test sets drafted by Muse. Danny Gleason approved the full set on Nov 12, 2026 without line-by-line review, stating he trusts Muse's judgment, and directed that testing proceed.",
+    "predictions_file": "pilot-predictions-locked.md",
+    "predictions_file_sha256": "affcbe8cf3e1b601655a84426426b1f90a1c88b69fbf2d21765325201e6b84a2",
+    "num_tests": 40,
+    "num_prompts": 160
+  },
+  "tests": [
+    {
+      "test": 1,
+      "index": 18,
+      "label": "terms related to food and culinary subjects",
+      "should_fire": [
+        "She simmered the tomato sauce with garlic and basil for an hour.",
+        "The recipe calls for two cups of flour and a pinch of salt."
+      ],
+      "near_miss": [
+        "He seasoned the report with charts before the big meeting.",
+        "They ate up every word of her speech."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the idioms fire too, the feature is tracking food words rather than food topics, and the label is missing that qualifier."
+    },
+    {
+      "test": 2,
+      "index": 483,
+      "label": "references to the Windows operating system",
+      "should_fire": [
+        "After the update, Windows kept asking him to restart the computer.",
+        "She installed the program on Windows 11 and it worked right away."
+      ],
+      "near_miss": [
+        "He opened the windows to let in some fresh air.",
+        "After the update, macOS kept asking her to restart the computer."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The fresh-air sentence is the risk: if it fires there, the feature is keyed to the word \"windows\" itself and the label's \"operating system\" qualifier is wrong."
+    },
+    {
+      "test": 3,
+      "index": 869,
+      "label": "geographical and administrative terms related to specific regions or districts",
+      "should_fire": [
+        "The county extended the filing deadline for all district residents.",
+        "Voters in the province approved the new tax measure."
+      ],
+      "near_miss": [
+        "The doctor examined the region around the injury.",
+        "Voters approved the new tax measure."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The anatomical sentence is the risk: if it fires there, the feature is keyed to the word \"region\" itself, and the label's geographical qualifier is wrong."
+    },
+    {
+      "test": 4,
+      "index": 1029,
+      "label": "references to ancient figures and mythological or legendary elements",
+      "should_fire": [
+        "Zeus hurled thunderbolts from the top of Mount Olympus.",
+        "The Odyssey tells of Odysseus's ten-year voyage home."
+      ],
+      "near_miss": [
+        "Alexander Fleming discovered penicillin in 1928.",
+        "The novel tells of a sailor's ten-year voyage home."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the Fleming sentence fires, the feature tracks notable historical figures generally, and the label's ancient-and-mythological scope is narrower than the feature."
+    },
+    {
+      "test": 5,
+      "index": 1302,
+      "label": "shipping-related terms and phrases for large items",
+      "should_fire": [
+        "The sofa ships freight and should arrive within two to three weeks.",
+        "Oversized items are delivered by a two-person crew with inside placement."
+      ],
+      "near_miss": [
+        "The envelope ships first class and should arrive within two days.",
+        "The sofa was too wide to fit through the front doorway."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the envelope sentence fires, the feature tracks shipping language generally and the label's \"large items\" qualifier is wrong; if the doorway sentence fires, it is tracking large furniture, not shipping."
+    },
+    {
+      "test": 6,
+      "index": 1501,
+      "label": "moments of surprise or unexpected events, particularly those that are positive or celebratory in nature.",
+      "should_fire": [
+        "To everyone's delight, the whole office surprised her with a party on her last day.",
+        "Against all odds, the underdog team won the championship in the final seconds."
+      ],
+      "near_miss": [
+        "To everyone's horror, the inspection revealed cracks in the bridge's main support.",
+        "As scheduled, the whole office celebrated her promotion with a party on her last day."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is the label's \"positive or celebratory\" qualifier: if the horror sentence fires as high as the parties, the feature tracks surprise alone and the qualifier is wrong."
+    },
+    {
+      "test": 7,
+      "index": 1643,
+      "label": "references to light and illumination contexts",
+      "should_fire": [
+        "She turned on the lamp so she could read in the dark room.",
+        "Sunlight streamed through the window all morning."
+      ],
+      "near_miss": [
+        "The suitcase was light enough to carry with one hand.",
+        "She turned on the radio so she could read in the dark room."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the suitcase sentence fires, the feature is keyed to the word \"light\" in any sense; if the radio sentence fires, it is tracking the indoor-evening scene rather than light itself."
+    },
+    {
+      "test": 8,
+      "index": 1657,
+      "label": "references to the name “Tom”",
+      "should_fire": [
+        "Tom fixed the sink before lunch.",
+        "I emailed Tom about moving the meeting to Friday."
+      ],
+      "near_miss": [
+        "She sliced the tomatoes for the salad.",
+        "John fixed the sink before lunch."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The tomato sentence is the risk: if it fires there, the feature is keyed to the letter sequence T-o-m, not to the name, and the label is wrong about what it detects."
+    },
+    {
+      "test": 9,
+      "index": 2081,
+      "label": "periods and punctuation that signify the end of sentences",
+      "should_fire": [
+        "The meeting ended early.",
+        "She sold the car on Tuesday."
+      ],
+      "near_miss": [
+        "Did the meeting end early?",
+        "The trial period lasted six weeks."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. Two risks: every written sentence ends in some punctuation, so the question mark staying quiet is the real discriminator; and if the time-span sentence fires on the word \"period,\" the feature is keyed to the word, not to sentence-final punctuation."
+    },
+    {
+      "test": 10,
+      "index": 2580,
+      "label": "references to literary works and notable authors",
+      "should_fire": [
+        "She assigned her students the first three chapters of Pride and Prejudice.",
+        "Shakespeare wrote Hamlet while he was living in London."
+      ],
+      "near_miss": [
+        "She assigned her students the first three chapters of the biology textbook.",
+        "The library reshelved the returned books on Tuesday afternoon."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the textbook sentence fires, the feature tracks books and assigned reading generally, and the label's literary qualifier is wrong."
+    },
+    {
+      "test": 11,
+      "index": 2625,
+      "label": "specific scientific or technical terms related to genetics and molecular biology",
+      "should_fire": [
+        "The mutation in the BRCA1 gene raises the risk of breast cancer.",
+        "Researchers sequenced the DNA of the oldest sample in the lab."
+      ],
+      "near_miss": [
+        "He inherited his grandfather's watch and his father's sense of humor.",
+        "Researchers photographed the oldest sample in the lab."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the inheritance sentence fires, the feature tracks heredity talk generally, and the label's \"scientific or technical terms\" qualifier is wrong."
+    },
+    {
+      "test": 12,
+      "index": 3070,
+      "label": "concepts related to reputation and its effects",
+      "should_fire": [
+        "The scandal ruined the senator's reputation overnight.",
+        "The restaurant built its reputation on fresh ingredients and fair prices."
+      ],
+      "near_miss": [
+        "The scandal ruined the senator's career overnight.",
+        "Everyone in town knew his name, though few had ever met him."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is reputation versus fame: if the widely-known sentence fires, the feature tracks public recognition generally, and the label's focus on reputation is too narrow."
+    },
+    {
+      "test": 13,
+      "index": 3349,
+      "label": "phrases related to diversity and inclusion in various contexts",
+      "should_fire": [
+        "The company expanded its diversity training for all new managers.",
+        "The scholarship program aims to include students from underrepresented backgrounds."
+      ],
+      "near_miss": [
+        "The garden showed a real diversity of plant species this spring.",
+        "The company expanded its safety training for all new managers."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is the label's phrase \"in various contexts\": read plainly the label is about social diversity and inclusion, but if the garden sentence fires, that phrase is doing more work than it should."
+    },
+    {
+      "test": 14,
+      "index": 3580,
+      "label": "elements of personal relationships and family connections",
+      "should_fire": [
+        "She calls her mother every Sunday without fail.",
+        "Their friendship deepened after they became roommates in college."
+      ],
+      "near_miss": [
+        "She calls her accountant every April without fail.",
+        "The company deepened its partnership with the supplier after the merger."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the merger sentence fires, the feature tracks connection language generally, including business relationships, and the label's \"personal\" qualifier is wrong."
+    },
+    {
+      "test": 15,
+      "index": 3592,
+      "label": "details about concert schedules and ticket sales",
+      "should_fire": [
+        "Tickets for Friday's concert go on sale at noon tomorrow.",
+        "The arena posted the band's tour dates for the spring."
+      ],
+      "near_miss": [
+        "Tickets for Friday's movie go on sale at noon tomorrow.",
+        "The band rehearsed the new songs all week before the spring tour."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the movie sentence fires, the feature tracks ticket sales for any event and the label's concert focus is too narrow; if the rehearsal sentence fires, it tracks bands and tours generally."
+    },
+    {
+      "test": 16,
+      "index": 4207,
+      "label": "expressions of “coolness” or related positive attributes",
+      "should_fire": [
+        "She has an effortlessly cool style that everyone at school admires.",
+        "That was a really cool trick; the whole crowd cheered."
+      ],
+      "near_miss": [
+        "The soup had gone cool by the time he sat down to eat.",
+        "That was a really neat trick; the whole crowd cheered."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is word versus concept: if \"neat\" fires like \"cool,\" the feature tracks positive appraisal generally and the label works as a concept label; if the soup sentence fires, it is keyed to the word in all its senses."
+    },
+    {
+      "test": 17,
+      "index": 4593,
+      "label": "concepts related to simplicity and straightforwardness",
+      "should_fire": [
+        "The instructions were simple: just press the green button and wait.",
+        "To put it plainly, the plan will not work as written."
+      ],
+      "near_miss": [
+        "Simple Simon met a pieman going to the fair.",
+        "To put it bluntly, the plan will not work as written."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is that the label bundles two ideas, simplicity and straightforwardness: a split result, firing on one pair but not the other, would mean the label describes only half of what the feature does."
+    },
+    {
+      "test": 18,
+      "index": 5072,
+      "label": "terms related to medical conditions and anatomical processes",
+      "should_fire": [
+        "His diabetes requires him to check his blood sugar every morning.",
+        "The MRI showed a small tear in the ligament of her left knee."
+      ],
+      "near_miss": [
+        "His schedule requires him to check his email every morning.",
+        "The photograph showed a small tear in the fabric of her left sleeve."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the sleeve sentence fires on the word \"tear,\" the feature is keyed to the word across senses; if the email sentence fires, it is tracking daily-routine frames rather than medicine."
+    },
+    {
+      "test": 19,
+      "index": 5158,
+      "label": "elements related to buttons in a UI or web interface",
+      "should_fire": [
+        "Click the blue button in the top right corner to submit the form.",
+        "The download button appears once the file is ready."
+      ],
+      "near_miss": [
+        "She sewed the missing button back onto his coat.",
+        "Click the blue link in the top right corner to submit the form."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the coat sentence fires, the feature is keyed to the word \"button\" in any sense, and the label's UI qualifier is wrong."
+    },
+    {
+      "test": 20,
+      "index": 6515,
+      "label": "references to a specific shoe brand",
+      "should_fire": [
+        "He laced up his new Supra shoes before heading to the skate park.",
+        "Supra just released a new colorway of its Skytop high-tops."
+      ],
+      "near_miss": [
+        "He laced up his new Nike shoes before heading to the skate park.",
+        "She tied her running shoes and headed out for her morning jog."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The risk is the Nike sentence: if another brand fires as strongly as Supra, the feature is about shoes generally and the label over-specifies, claiming one brand where the feature tracks footwear as a whole."
+    },
+    {
+      "test": 21,
+      "index": 6865,
+      "label": "references to personal beliefs, self-identification, and emotional experiences",
+      "should_fire": [
+        "As a lifelong vegetarian, she believes no meal is worth an animal's life.",
+        "He identifies as an independent and votes that way in every election."
+      ],
+      "near_miss": [
+        "As a lifelong resident, she knows every street in the neighborhood.",
+        "He is registered as an independent and votes that way in every election."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is that the label bundles beliefs, self-identification, and emotional experiences: if only one kind fires, the label overstates the feature's range by listing all three."
+    },
+    {
+      "test": 22,
+      "index": 7196,
+      "label": "discussions and references to issues of racism and discriminatory behaviors",
+      "should_fire": [
+        "The lawsuit alleged that the landlord refused to rent to Black families.",
+        "The report documented racial slurs directed at employees in the warehouse."
+      ],
+      "near_miss": [
+        "The lawsuit alleged that the landlord refused to rent to families with dogs.",
+        "The report documented rude comments directed at employees in the warehouse."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity: the label also claims discriminatory behavior generally, so if the dog sentence fires, that is a judgment call about the label's scope rather than a clean failure; the slur swap is the sharper test."
+    },
+    {
+      "test": 23,
+      "index": 7223,
+      "label": "phrases that indicate summary or overall conclusions",
+      "should_fire": [
+        "In summary, the committee approved the budget with only minor changes.",
+        "All in all, the experiment was a success despite the early setbacks."
+      ],
+      "near_miss": [
+        "In the summary she wrote for the newsletter, the committee's decision filled two pages.",
+        "During the meeting, the committee approved the budget with only minor changes."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the newsletter sentence fires, the feature is keyed to the word \"summary\" wherever it appears, not to phrases that signal a conclusion."
+    },
+    {
+      "test": 24,
+      "index": 7467,
+      "label": "words related to reading devices and the eBook industry",
+      "should_fire": [
+        "She loaded three new novels onto her Kindle before the flight.",
+        "The eBook edition includes a searchable index and linked footnotes."
+      ],
+      "near_miss": [
+        "She bought three new novels at the bookstore before the flight.",
+        "The print edition includes a detailed index and extensive footnotes."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the print sentences fire, the feature tracks books and publishing generally, and the label's device-and-eBook focus is wrong."
+    },
+    {
+      "test": 25,
+      "index": 7623,
+      "label": "questions and inquiries about various topics or contexts",
+      "should_fire": [
+        "What time does the train leave for Chicago?",
+        "She asked whether the store would be open on Sunday."
+      ],
+      "near_miss": [
+        "The train leaves for Chicago at six.",
+        "Tell me what time the train leaves for Chicago."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is what counts as an inquiry: if the command fires, the feature tracks information-seeking generally, not questions as such, and the label never says which it means."
+    },
+    {
+      "test": 26,
+      "index": 7798,
+      "label": "expressions of happiness and positive emotions",
+      "should_fire": [
+        "She beamed with joy when she heard the news.",
+        "The children were delighted by the surprise visit from their grandparents."
+      ],
+      "near_miss": [
+        "She kept a neutral expression when she heard the news.",
+        "He smiled politely at the camera for the company photo."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the polite smile fires, the feature tracks the outward sign of happiness rather than the emotion itself, and the label confuses the two."
+    },
+    {
+      "test": 27,
+      "index": 8123,
+      "label": "references to different types and characteristics of pipes",
+      "should_fire": [
+        "The plumber replaced the corroded copper pipes under the sink.",
+        "He cleaned his tobacco pipe and set it down by the ashtray."
+      ],
+      "near_miss": [
+        "The plumber replaced the corroded copper wires under the sink.",
+        "She piped the frosting onto the cake in neat rows."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the frosting sentence fires, the feature is keyed to the word stem \"pipe\" in any form, not to pipes as objects, and the label's talk of types and characteristics of pipes is wrong."
+    },
+    {
+      "test": 28,
+      "index": 8630,
+      "label": "discussions related to music and artistic collaborations",
+      "should_fire": [
+        "The two singers collaborated on a duet for the charity album.",
+        "Her new album pairs her with a jazz pianist from New Orleans."
+      ],
+      "near_miss": [
+        "The two engineers collaborated on a design for the charity gala.",
+        "The DJ played records at the party until midnight."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The label joins music and collaboration: if either near-miss fires, the feature tracks only one half of the label, and which half fires says which."
+    },
+    {
+      "test": 29,
+      "index": 8743,
+      "label": "negative phrases and expressions related to obligation or denial",
+      "should_fire": [
+        "Employees must not share their passwords with anyone.",
+        "He denied ever seeing the missing files."
+      ],
+      "near_miss": [
+        "You must submit the form by Friday.",
+        "He confirmed that he had seen the missing files."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is that the label bundles obligation with denial: if only the \"must not\" sentence fires, the feature is about negated obligation and the denial half of the label is wrong, and the reverse if only the denial fires."
+    },
+    {
+      "test": 30,
+      "index": 10276,
+      "label": "products related to fashion and beauty",
+      "should_fire": [
+        "She bought a new lipstick and a bottle of foundation at the department store.",
+        "The boutique's spring collection features linen dresses and straw hats."
+      ],
+      "near_miss": [
+        "She bought a new notebook and a bottle of glue at the department store.",
+        "The hardware store's spring display features garden hoses and sprinklers."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the hardware sentence fires, the feature tracks retail and product talk generally, and the label's fashion-and-beauty scope is wrong."
+    },
+    {
+      "test": 31,
+      "index": 11270,
+      "label": "forward-looking statements regarding business projections and associated risks",
+      "should_fire": [
+        "The company expects revenue to grow by ten percent next year.",
+        "Management warned that future results may be affected by rising supply costs."
+      ],
+      "near_miss": [
+        "The company reported that revenue grew by ten percent last year.",
+        "She expects the train to arrive about ten minutes late tonight."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the train sentence fires, the feature tracks future-oriented language generally and the label's business framing is wrong; if the last-year sentence fires, it is not tracking tense at all."
+    },
+    {
+      "test": 32,
+      "index": 12608,
+      "label": "terms related to control and regulation",
+      "should_fire": [
+        "New regulations limit how much factories may discharge into the river.",
+        "The pilot kept control of the aircraft through the turbulence."
+      ],
+      "near_miss": [
+        "New guidelines suggest how much factories may discharge into the river.",
+        "He controlled his temper throughout the argument."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is that the label bundles legal regulation with physical control: a split result would mean one label is covering what behaves like two different features, and the temper sentence tests whether it is tracking the word across all its senses."
+    },
+    {
+      "test": 33,
+      "index": 12964,
+      "label": "references to crafting materials and methods",
+      "should_fire": [
+        "She bought wool yarn and a set of knitting needles at the craft store.",
+        "To make the wreath, hot-glue the pinecones to a wire frame."
+      ],
+      "near_miss": [
+        "She bought wool socks and a set of kitchen knives at the department store.",
+        "The factory knits its sweaters on industrial machines."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the factory sentence fires, the feature tracks textile materials and methods generally, and the label's crafting framing is wrong."
+    },
+    {
+      "test": 34,
+      "index": 13230,
+      "label": "terms related to electricity and power infrastructure",
+      "should_fire": [
+        "The storm knocked out power lines across the county.",
+        "The new substation will supply electricity to the growing suburbs."
+      ],
+      "near_miss": [
+        "The storm knocked out fences across the county.",
+        "The mayor's power grew as the council deferred to him on every vote."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the mayor sentence fires, the feature is keyed to the word \"power\" across senses, and the label's infrastructure qualifier is wrong."
+    },
+    {
+      "test": 35,
+      "index": 14520,
+      "label": "terms related to governance and political processes",
+      "should_fire": [
+        "Parliament voted to approve the new budget on Tuesday.",
+        "The city council debated the zoning proposal for three hours."
+      ],
+      "near_miss": [
+        "The committee voted to approve the new budget on Tuesday.",
+        "The city council debated which restaurant to book for the holiday party."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is where governance ends and ordinary group decision-making begins: if the committee sentence fires as high as Parliament, the feature tracks collective voting generally, not governance as such."
+    },
+    {
+      "test": 36,
+      "index": 14719,
+      "label": "terms related to colors and color coding",
+      "should_fire": [
+        "The red wire connects to the positive terminal, and the black wire to the negative.",
+        "She painted the kitchen walls a soft green."
+      ],
+      "near_miss": [
+        "The thick wire connects to the positive terminal, and the thin wire to the negative.",
+        "She felt blue all weekend after hearing the news."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the idiom fires, the feature is keyed to color words wherever they appear, including figurative uses the label never mentions."
+    },
+    {
+      "test": 37,
+      "index": 15035,
+      "label": "phrases that highlight the concept of “short” in various contexts",
+      "should_fire": [
+        "He is too short to reach the top shelf.",
+        "It was a short meeting, over in ten minutes."
+      ],
+      "near_miss": [
+        "She ordered a shortbread cookie with her tea.",
+        "We are running short on flour, so add it to the list."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is the label's phrase \"in various contexts,\" which makes it hard to falsify at all: the shortbread probe is the clean test, since if it fires, the feature is keyed to the word, not the concept. I read \"the concept of short\" as shortness of height, length, or time, so the shortage sentence should stay quiet; under a looser reading it would count, and that looseness is the label's fault, not the feature's."
+    },
+    {
+      "test": 38,
+      "index": 15337,
+      "label": "mentions of the term “Mercury,” particularly in relation to its propulsion systems and legal implications",
+      "should_fire": [
+        "He replaced the prop on his Mercury outboard before the fishing trip.",
+        "Her Mercury auto policy lapsed after she missed two payments."
+      ],
+      "near_miss": [
+        "Mercury is the smallest planet and the closest one to the Sun.",
+        "He replaced the prop on his Yamaha outboard before the fishing trip."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The risk is that the label bundles unrelated senses of one word, propulsion and insurance-legal: if the planet sentence fires as high as the others, the feature is simply the token \"Mercury,\" and the propulsion-and-legal framing is an artifact of the examples the label was written from."
+    },
+    {
+      "test": 39,
+      "index": 15623,
+      "label": "references to the color yellow and its variations",
+      "should_fire": [
+        "The school bus was painted a bright yellow.",
+        "She wore a yellow scarf with her gray coat."
+      ],
+      "near_miss": [
+        "The school bus was painted a bright orange.",
+        "The old newspaper had yellowed in the attic boxes."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. If the yellowed sentence fires as high, the feature tracks the word stem rather than the color; if the orange sentence fires, it tracks bright warm colors generally and the label is too specific."
+    },
+    {
+      "test": 40,
+      "index": 16358,
+      "label": "questions and statements regarding intentions, plans, or purposes",
+      "should_fire": [
+        "I plan to finish the report before the deadline.",
+        "She intends to apply for the grant next spring."
+      ],
+      "near_miss": [
+        "I finished the report before the deadline.",
+        "The purpose of the hammer is to drive nails."
+      ],
+      "prediction": "Both should-fires clearly above both near-misses. The ambiguity is whether an object's purpose counts: if the hammer sentence fires, the feature tracks the word \"purpose\" and its kin rather than intentions as such, and the label needs that split made explicit."
+    }
+  ]
+}
