@@ -1,0 +1,72 @@
+# Checker results
+
+Pass rule (pilot rule): min(should-fire) > max(near-miss). Prompts were locked before scoring (SHA-256 in sanity1-prompts-locked.sha256).
+
+**Scored so far: 0 pass, 62 fail, 0 incomplete of 62.**
+- Layer 6: 0 pass, 18 fail, 0 incomplete
+- Layer 12: 0 pass, 32 fail, 0 incomplete
+- Layer 18: 0 pass, 12 fail, 0 incomplete
+- Prediction accuracy: 37/62 (60%)
+
+- Test 7 (L12, idx 12076) "the presence of binary or boolean representations and specific symbols": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 9 (L12, idx 4116) "key terms related to genetic traits and population genetics": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: document-bound
+- Test 11 (L12, idx 9939) "themes related to personal struggles and emotional conflicts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 14 (L12, idx 14547) "patterns related to numerical data and structured lists": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 15 (L12, idx 12503) "code statements that manipulate arrays or data structures": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 22 (L12, idx 8936) "elements related to data representation and measurement in scientific contexts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 23 (L12, idx 3420) "special characters and symbols used in programming or mathematical contexts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 24 (L12, idx 15873) "elements of code and programming constructs": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 29 (L12, idx 416) "commands or functions related to logging or alerting in programming contexts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 32 (L12, idx 15744) "terms related to health or medical concepts, particularly those involving anatomy and physiology": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 33 (L12, idx 1508) "chemical compounds related to lipids": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 35 (L12, idx 11314) "links and references to external sources": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: word-form
+- Test 36 (L12, idx 14189) "technical terms and definitions related to mathematical concepts and computational processes": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: document-bound
+- Test 38 (L12, idx 4117) "phrases indicating emotional engagement or personal reflections": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 40 (L12, idx 1963) "specific items, brands, and concepts related to technology or electronics, as well as people and organizations": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: document-bound
+- Test 42 (L12, idx 11998) "code snippets related to programming logic and control structures": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 51 (L12, idx 5390) "specific scientific terms related to biology and medicine": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: document-bound
+- Test 54 (L12, idx 3120) "phrases expressing preferences for sharing or communication": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 55 (L12, idx 6793) "terms related to programming functions, particularly those dealing with data structures and control mechanisms": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 56 (L12, idx 6196) "elements related to electromechanical systems": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 59 (L12, idx 896) "structured data and elements related to programming or model definitions": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 60 (L12, idx 6785) "details about individuals' educational backgrounds and professional history": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 61 (L12, idx 12314) "proper nouns, particularly place names and related identifiers": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 63 (L12, idx 10356) "instances of significant numerical values or statistics": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 64 (L12, idx 15792) "mentions of specific names or terms related to financial or transactional contexts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 65 (L12, idx 10820) "structured data and programming constructs": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 66 (L12, idx 4584) "phrases related to statistical measurements and observed data frequencies": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: document-bound
+- Test 67 (L12, idx 2819) "specific numerical values or symbols associated with various metrics or measurements": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 73 (L12, idx 9211) "phrases that indicate comparisons or similarities": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 74 (L12, idx 13961) "numerical values and sequences, indicating a focus on data or time-related information": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 77 (L12, idx 5545) "syntax elements related to control structures in programming": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 79 (L12, idx 6811) "functions related to file and database operations": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 83 (L6, idx 4689) "HTML and web development elements": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 84 (L6, idx 3292) "names and quotation marks": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 87 (L6, idx 791) "technical terms and code-related concepts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 88 (L6, idx 8148) "references to scientific kits and assays related to molecular biology": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 89 (L6, idx 11089) "phrases discussing actions or activities related to considerations or decisions": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: document-bound
+- Test 91 (L6, idx 14786) "terms related to the evaluation of outcomes": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: word-form
+- Test 93 (L6, idx 4687) "keywords related to paths and resources in a programming context": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 95 (L6, idx 1065) "performance metrics related to software compilation or testing": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 98 (L6, idx 7633) "terms related to semi-structured data or formats": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: word-form
+- Test 101 (L6, idx 2783) "phrases that express questions or inquiries about personal opinions and perceptions": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: document-bound
+- Test 102 (L6, idx 11231) "references to collections or data structures in programming contexts": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 106 (L6, idx 11236) "instances of object-oriented programming methods and attributes": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 108 (L6, idx 1541) "numeric values and symbols related to data structures or programming syntax": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 109 (L6, idx 2570) "punctuation marks, especially commas": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 113 (L6, idx 7011) "semicolon-separated import statements in programming code": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 117 (L6, idx 11722) "numeric values and operations related to time": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 119 (L6, idx 10507) "occurrences of code structure or syntax elements commonly used in programming languages": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 120 (L6, idx 4846) "references to licensing information and URLs associated with software or documents": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 124 (L18, idx 11711) "error-handling statements and expressions in the context of programming": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 125 (L18, idx 8767) "punctuation marks, particularly periods": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: word-form
+- Test 129 (L18, idx 15775) "key information related to mobile application development": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 130 (L18, idx 14571) "references to Google's libraries and frameworks": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: displaced-theme
+- Test 131 (L18, idx 3432) "timestamps related to data entries or logs": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 133 (L18, idx 7593) "references to software projects and their attributes": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 140 (L18, idx 4319) "conjunctions that express contrast or exception": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: word-form
+- Test 151 (L18, idx 2758) "financial figures and monetary amounts related to significant events or transactions": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 152 (L18, idx 16032) "phrases or sections of code": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
+- Test 153 (L18, idx 3108) "assignments and initializations in code": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 154 (L18, idx 14737) "the presence of JSON or structured data format indicators": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted PASS) · mechanism: unresolved
+- Test 159 (L18, idx 12239) "technical language related to medical studies and procedures": SF 0.00, 0.00 · NM 0.00, 0.00 · margin 0.00 · **FAIL** (predicted FAIL) · mechanism: unresolved
