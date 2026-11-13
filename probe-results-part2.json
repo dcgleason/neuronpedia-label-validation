@@ -1,0 +1,862 @@
+{
+  "a1": {
+    "index": 1029,
+    "text": "In Chinese mythology, Chang'e flew to the moon and lives there still.",
+    "ok": true,
+    "max_activation": 7.0625,
+    "top_tokens": [
+      {
+        "token": "e",
+        "value": 7.06
+      },
+      {
+        "token": " Chang",
+        "value": 5.28
+      },
+      {
+        "token": "In",
+        "value": 0
+      }
+    ]
+  },
+  "a2": {
+    "index": 1029,
+    "text": "Tianxiang was a famous general of the Song dynasty, honored as a god.",
+    "ok": true,
+    "max_activation": 25.125,
+    "top_tokens": [
+      {
+        "token": "xiang",
+        "value": 25.12
+      },
+      {
+        "token": " general",
+        "value": 13.62
+      },
+      {
+        "token": " Song",
+        "value": 11.25
+      }
+    ]
+  },
+  "a3": {
+    "index": 1029,
+    "text": "return \"@TianxiangCard=\" .. id .. \"->\" .. name",
+    "ok": true,
+    "max_activation": 19.875,
+    "top_tokens": [
+      {
+        "token": "xiang",
+        "value": 19.88
+      },
+      {
+        "token": "return",
+        "value": 0
+      },
+      {
+        "token": " \"@",
+        "value": 0
+      }
+    ]
+  },
+  "a4": {
+    "index": 1029,
+    "text": "The Xiang River flows through Hunan province in China.",
+    "ok": true,
+    "max_activation": 8.25,
+    "top_tokens": [
+      {
+        "token": " Xiang",
+        "value": 8.25
+      },
+      {
+        "token": " River",
+        "value": 6.38
+      },
+      {
+        "token": " Hunan",
+        "value": 4.16
+      }
+    ]
+  },
+  "a5": {
+    "index": 1029,
+    "text": "Zeus and Hera ruled from Mount Olympus.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Zeus",
+        "value": 0
+      },
+      {
+        "token": " and",
+        "value": 0
+      },
+      {
+        "token": " Hera",
+        "value": 0
+      }
+    ]
+  },
+  "b1": {
+    "index": 3070,
+    "text": "As mentioned, in itself, chasing reputation, even if it is the only motivation, is a poor reason to answer.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "As",
+        "value": 0
+      },
+      {
+        "token": " mentioned",
+        "value": 0
+      },
+      {
+        "token": ",",
+        "value": 0
+      }
+    ]
+  },
+  "b2": {
+    "index": 3070,
+    "text": "His reputation grew with every answer he posted on the forum, and users upvoted his posts.",
+    "ok": true,
+    "max_activation": 4.5625,
+    "top_tokens": [
+      {
+        "token": " upvoted",
+        "value": 4.56
+      },
+      {
+        "token": "His",
+        "value": 0
+      },
+      {
+        "token": " reputation",
+        "value": 0
+      }
+    ]
+  },
+  "b3": {
+    "index": 3070,
+    "text": "The quarterback signed the franchise tag on Tuesday.",
+    "ok": true,
+    "max_activation": 6.625,
+    "top_tokens": [
+      {
+        "token": " franchise",
+        "value": 6.62
+      },
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " quarterback",
+        "value": 0
+      }
+    ]
+  },
+  "b4": {
+    "index": 3070,
+    "text": "Reputation, reputation, reputation. The site runs on reputation points.",
+    "ok": true,
+    "max_activation": 4.65625,
+    "top_tokens": [
+      {
+        "token": " reputation",
+        "value": 4.66
+      },
+      {
+        "token": "Reputation",
+        "value": 0
+      },
+      {
+        "token": ",",
+        "value": 0
+      }
+    ]
+  },
+  "d1": {
+    "index": 3349,
+    "text": "Scale Your Investment: our speaker advised participants to start small and grow.\n\nBroad Reach\n\nResearch done through mobile apps has been proven effective.",
+    "ok": true,
+    "max_activation": 8.375,
+    "top_tokens": [
+      {
+        "token": "\n\n",
+        "value": 8.38
+      },
+      {
+        "token": ":",
+        "value": 8.19
+      },
+      {
+        "token": ".",
+        "value": 6.81
+      }
+    ]
+  },
+  "d2": {
+    "index": 3349,
+    "text": "Our commitment to diversity and inclusion: we welcome employees of every background.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Our",
+        "value": 0
+      },
+      {
+        "token": " commitment",
+        "value": 0
+      },
+      {
+        "token": " to",
+        "value": 0
+      }
+    ]
+  },
+  "d3": {
+    "index": 3349,
+    "text": "The company values diversity and inclusion in hiring.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " company",
+        "value": 0
+      },
+      {
+        "token": " values",
+        "value": 0
+      }
+    ]
+  },
+  "d4": {
+    "index": 3349,
+    "text": "Agenda:\n\nWelcome\nKeynote\nBreakout Sessions\nClosing",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Agenda",
+        "value": 0
+      },
+      {
+        "token": ":",
+        "value": 0
+      },
+      {
+        "token": "\n\n",
+        "value": 0
+      }
+    ]
+  },
+  "e1": {
+    "index": 3580,
+    "text": "He is survived by his loving wife of 42 years, Margaret, and his two sons.",
+    "ok": true,
+    "max_activation": 33.25,
+    "top_tokens": [
+      {
+        "token": " his",
+        "value": 33.25
+      },
+      {
+        "token": " two",
+        "value": 32.5
+      },
+      {
+        "token": " his",
+        "value": 24.62
+      }
+    ]
+  },
+  "e2": {
+    "index": 3580,
+    "text": "George is preceded in death by his father and his brother.",
+    "ok": true,
+    "max_activation": 25.125,
+    "top_tokens": [
+      {
+        "token": " his",
+        "value": 25.12
+      },
+      {
+        "token": " his",
+        "value": 24.75
+      },
+      {
+        "token": " by",
+        "value": 15.88
+      }
+    ]
+  },
+  "e3": {
+    "index": 3580,
+    "text": "Funeral services will be held Saturday at the First Baptist Church. He was a devoted husband, father, and grandfather.",
+    "ok": true,
+    "max_activation": 9.5,
+    "top_tokens": [
+      {
+        "token": " devoted",
+        "value": 9.5
+      },
+      {
+        "token": " father",
+        "value": 4.91
+      },
+      {
+        "token": " husband",
+        "value": 3.59
+      }
+    ]
+  },
+  "m1": {
+    "index": 5072,
+    "text": "Reperfusion injury occurs when blood flow returns to tissue after a period of ischemia.",
+    "ok": true,
+    "max_activation": 16.125,
+    "top_tokens": [
+      {
+        "token": "perfusion",
+        "value": 16.12
+      },
+      {
+        "token": " ischemia",
+        "value": 6.91
+      },
+      {
+        "token": " injury",
+        "value": 6.56
+      }
+    ]
+  },
+  "m2": {
+    "index": 5072,
+    "text": "The patient presented with positional vertigo and was treated for radiation-induced fibrosis.",
+    "ok": true,
+    "max_activation": 23.25,
+    "top_tokens": [
+      {
+        "token": " positional",
+        "value": 23.25
+      },
+      {
+        "token": "induced",
+        "value": 16.12
+      },
+      {
+        "token": " radiation",
+        "value": 13.44
+      }
+    ]
+  },
+  "m3": {
+    "index": 5072,
+    "text": "Chronic overuse syndromes of the elbow joint may lead to lateral epicondylitis.",
+    "ok": true,
+    "max_activation": 9.9375,
+    "top_tokens": [
+      {
+        "token": " overuse",
+        "value": 9.94
+      },
+      {
+        "token": " epic",
+        "value": 4.94
+      },
+      {
+        "token": "ondy",
+        "value": 3.73
+      }
+    ]
+  },
+  "u1": {
+    "index": 5158,
+    "text": "<button class=\"btn btn-primary\" type=\"submit\">Submit</button>",
+    "ok": true,
+    "max_activation": 45,
+    "top_tokens": [
+      {
+        "token": "btn",
+        "value": 45
+      },
+      {
+        "token": " btn",
+        "value": 43.25
+      },
+      {
+        "token": "-",
+        "value": 11.5
+      }
+    ]
+  },
+  "u2": {
+    "index": 5158,
+    "text": ".btn-default { color: #333; background-color: #fff; }",
+    "ok": true,
+    "max_activation": 41.75,
+    "top_tokens": [
+      {
+        "token": "btn",
+        "value": 41.75
+      },
+      {
+        "token": "-",
+        "value": 14.25
+      },
+      {
+        "token": ".",
+        "value": 0
+      }
+    ]
+  },
+  "u3": {
+    "index": 5158,
+    "text": "Click the btn to continue.",
+    "ok": true,
+    "max_activation": 36.25,
+    "top_tokens": [
+      {
+        "token": " btn",
+        "value": 36.25
+      },
+      {
+        "token": "Click",
+        "value": 0
+      },
+      {
+        "token": " the",
+        "value": 0
+      }
+    ]
+  },
+  "u4": {
+    "index": 5158,
+    "text": "Press the button to continue.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Press",
+        "value": 0
+      },
+      {
+        "token": " the",
+        "value": 0
+      },
+      {
+        "token": " button",
+        "value": 0
+      }
+    ]
+  },
+  "s1": {
+    "index": 6515,
+    "text": "supra shoes, supra shoes on sale now, buy supra shoes at the best price, supra shoes the seals, nowhere",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "supra",
+        "value": 0
+      },
+      {
+        "token": " shoes",
+        "value": 0
+      },
+      {
+        "token": ",",
+        "value": 0
+      }
+    ]
+  },
+  "s2": {
+    "index": 6515,
+    "text": "nike shoes, nike shoes on sale now, buy nike shoes at the best price",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "nike",
+        "value": 0
+      },
+      {
+        "token": " shoes",
+        "value": 0
+      },
+      {
+        "token": ",",
+        "value": 0
+      }
+    ]
+  },
+  "s3": {
+    "index": 6515,
+    "text": "Shoes, shoes, shoes. The store sells shoes of every kind.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Shoes",
+        "value": 0
+      },
+      {
+        "token": ",",
+        "value": 0
+      },
+      {
+        "token": " shoes",
+        "value": 0
+      }
+    ]
+  },
+  "w1": {
+    "index": 7196,
+    "text": "The jury found that the company had discriminated against Black employees in promotions over a ten-year period.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " jury",
+        "value": 0
+      },
+      {
+        "token": " found",
+        "value": 0
+      }
+    ]
+  },
+  "w2": {
+    "index": 7196,
+    "text": "In its findings, the commission concluded that the remarks constituted severe and pervasive harassment.",
+    "ok": true,
+    "max_activation": 5.09375,
+    "top_tokens": [
+      {
+        "token": ".",
+        "value": 5.09
+      },
+      {
+        "token": " and",
+        "value": 4.94
+      },
+      {
+        "token": "In",
+        "value": 0
+      }
+    ]
+  },
+  "w3": {
+    "index": 7196,
+    "text": "It's not as bad as what happened in the Brawley case, the attorney argued.",
+    "ok": true,
+    "max_activation": 7.5,
+    "top_tokens": [
+      {
+        "token": ",",
+        "value": 7.5
+      },
+      {
+        "token": " the",
+        "value": 5.34
+      },
+      {
+        "token": " as",
+        "value": 4.09
+      }
+    ]
+  },
+  "q1": {
+    "index": 7623,
+    "text": "How do I reset my router?\n\nI have tried unplugging it and it still blinks red. Please answer me! Answers: 2",
+    "ok": true,
+    "max_activation": 18,
+    "top_tokens": [
+      {
+        "token": "\n\n",
+        "value": 18
+      },
+      {
+        "token": "?",
+        "value": 5.25
+      },
+      {
+        "token": "How",
+        "value": 0
+      }
+    ]
+  },
+  "q2": {
+    "index": 7623,
+    "text": "How can I get NBA 2K9 for PS2? Please answer me!",
+    "ok": true,
+    "max_activation": 8.25,
+    "top_tokens": [
+      {
+        "token": "?",
+        "value": 8.25
+      },
+      {
+        "token": "How",
+        "value": 0
+      },
+      {
+        "token": " can",
+        "value": 0
+      }
+    ]
+  },
+  "q3": {
+    "index": 7623,
+    "text": "Frequently asked questions\n\nQ: Where is my order?\nA: It ships in two days.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Frequently",
+        "value": 0
+      },
+      {
+        "token": " asked",
+        "value": 0
+      },
+      {
+        "token": " questions",
+        "value": 0
+      }
+    ]
+  },
+  "t1": {
+    "index": 8630,
+    "text": "The singer joins the show this week to talk about her new album and the tour.",
+    "ok": true,
+    "max_activation": 28.375,
+    "top_tokens": [
+      {
+        "token": " talk",
+        "value": 28.38
+      },
+      {
+        "token": " to",
+        "value": 20.12
+      },
+      {
+        "token": " week",
+        "value": 16.38
+      }
+    ]
+  },
+  "t2": {
+    "index": 8630,
+    "text": "Sosa joins Team LeftJab Boxing Radio to talk about last weekend's fight.",
+    "ok": true,
+    "max_activation": 33,
+    "top_tokens": [
+      {
+        "token": " talk",
+        "value": 33
+      },
+      {
+        "token": " to",
+        "value": 27.75
+      },
+      {
+        "token": ".",
+        "value": 21.25
+      }
+    ]
+  },
+  "t3": {
+    "index": 8630,
+    "text": "In this episode, the host talks with a jazz pianist about their collaboration.",
+    "ok": true,
+    "max_activation": 35.5,
+    "top_tokens": [
+      {
+        "token": " episode",
+        "value": 35.5
+      },
+      {
+        "token": " with",
+        "value": 30.38
+      },
+      {
+        "token": " talks",
+        "value": 29.88
+      }
+    ]
+  },
+  "t4": {
+    "index": 8630,
+    "text": "She released a new album on Friday.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "She",
+        "value": 0
+      },
+      {
+        "token": " released",
+        "value": 0
+      },
+      {
+        "token": " a",
+        "value": 0
+      }
+    ]
+  },
+  "n1": {
+    "index": 8743,
+    "text": "They won't explore the boundaries of their fields, or see the technical trends coming.",
+    "ok": true,
+    "max_activation": 28.25,
+    "top_tokens": [
+      {
+        "token": " or",
+        "value": 28.25
+      },
+      {
+        "token": " see",
+        "value": 11.81
+      },
+      {
+        "token": " the",
+        "value": 3.88
+      }
+    ]
+  },
+  "n2": {
+    "index": 8743,
+    "text": "Take the money or leave it; the choice is yours, or walk away entirely.",
+    "ok": true,
+    "max_activation": 5.46875,
+    "top_tokens": [
+      {
+        "token": " or",
+        "value": 5.47
+      },
+      {
+        "token": "Take",
+        "value": 0
+      },
+      {
+        "token": " the",
+        "value": 0
+      }
+    ]
+  },
+  "n3": {
+    "index": 8743,
+    "text": "Neither the manager nor the employees were told about the change.",
+    "ok": true,
+    "max_activation": 16.625,
+    "top_tokens": [
+      {
+        "token": " nor",
+        "value": 16.62
+      },
+      {
+        "token": " the",
+        "value": 14.12
+      },
+      {
+        "token": " employees",
+        "value": 8.5
+      }
+    ]
+  },
+  "n4": {
+    "index": 8743,
+    "text": "It was not the only factor, or even the main one necessarily.",
+    "ok": true,
+    "max_activation": 33,
+    "top_tokens": [
+      {
+        "token": " or",
+        "value": 33
+      },
+      {
+        "token": " even",
+        "value": 24
+      },
+      {
+        "token": " necessarily",
+        "value": 10.62
+      }
+    ]
+  },
+  "v1": {
+    "index": 14520,
+    "text": "Sufficient; and the Administration has always been best executed, and the Publick Liberty best preserved, under such forms.",
+    "ok": true,
+    "max_activation": 28.75,
+    "top_tokens": [
+      {
+        "token": " best",
+        "value": 28.75
+      },
+      {
+        "token": ",",
+        "value": 27.38
+      },
+      {
+        "token": " preserved",
+        "value": 27
+      }
+    ]
+  },
+  "v2": {
+    "index": 14520,
+    "text": "In Arizona, you know there is water when you see large trees.",
+    "ok": true,
+    "max_activation": 26.625,
+    "top_tokens": [
+      {
+        "token": " is",
+        "value": 26.62
+      },
+      {
+        "token": " know",
+        "value": 4.94
+      },
+      {
+        "token": "In",
+        "value": 0
+      }
+    ]
+  },
+  "v3": {
+    "index": 14520,
+    "text": "The government of the people, by the people, for the people, shall not perish from the earth.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " government",
+        "value": 0
+      },
+      {
+        "token": " of",
+        "value": 0
+      }
+    ]
+  }
+}

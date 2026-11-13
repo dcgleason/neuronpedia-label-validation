@@ -1,0 +1,82 @@
+{
+  "s4": {
+    "index": 6515,
+    "text": "supra shoes the seals, nowhere, supra shoes the speculation in our store. supra shoes on sale, supra shoes for men, supra shoes for women, supra shoes cheap, supra shoes online. welcome to our supra shoes shop, we provide supra shoes with high quality and low price. supra shoes the seals, nowhere, supra shoes the speculation in fashion. if you want to buy supra shoes, please come to our supra shoes outlet, supra shoes discount, supra shoes wholesale, supra shoes the seals nowhere supra shoes.",
+    "ok": true,
+    "max_activation": 5.34375,
+    "top_tokens": [
+      {
+        "token": " shoes",
+        "value": 5.34
+      },
+      {
+        "token": " shoes",
+        "value": 4
+      },
+      {
+        "token": " shoes",
+        "value": 3.84
+      }
+    ]
+  },
+  "d5": {
+    "index": 3349,
+    "text": "Building an Inclusive Workplace\n\nKeynote: The Business Case for Belonging\n\nOur panelists discussed engagement across every level of the organization.\n\nScale Your Investment: leaders advised participants to \"start small, measure what works, and grow the programs that move people.\"\n\nBroad Reach\n\nResearch done through mobile apps has been proven to reach employees in every region. Sessions continue through the afternoon with breakout discussions and networking.",
+    "ok": true,
+    "max_activation": 6.8125,
+    "top_tokens": [
+      {
+        "token": "\n\n",
+        "value": 6.81
+      },
+      {
+        "token": ":",
+        "value": 3.67
+      },
+      {
+        "token": " to",
+        "value": 3.23
+      }
+    ]
+  },
+  "b5": {
+    "index": 3070,
+    "text": "How do I gain reputation on this site? I have answered several questions but my reputation is still low. As mentioned, in itself, chasing reputation, even if it is the only motivation, is a poor reason to answer. You earn reputation when other users upvote your posts. Users with high reputation can vote, comment, and moderate. The reputation system is designed to reward useful answers over time.",
+    "ok": true,
+    "max_activation": 4.6875,
+    "top_tokens": [
+      {
+        "token": " reputation",
+        "value": 4.69
+      },
+      {
+        "token": "How",
+        "value": 0
+      },
+      {
+        "token": " do",
+        "value": 0
+      }
+    ]
+  },
+  "w4": {
+    "index": 7196,
+    "text": "The case drew national attention for months. Even if it were not so severe, and even if the letter was not authentic, the reaction revealed something real about the town. It's not as bad as what happened to Tawana Brawley, one attorney argued, but the pattern of accusation and denial, of very low probability claims and very high impact consequences, left the community divided long after the verdict.",
+    "ok": true,
+    "max_activation": 11.875,
+    "top_tokens": [
+      {
+        "token": ",",
+        "value": 11.88
+      },
+      {
+        "token": " but",
+        "value": 11.56
+      },
+      {
+        "token": " pattern",
+        "value": 10.5
+      }
+    ]
+  }
+}

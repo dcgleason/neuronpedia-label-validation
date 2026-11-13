@@ -72,3 +72,23 @@ The script that ran this pilot already works as a small label-checking harness: 
 The pilot's largest failure shape was silence: 17 features scored zero on every prompt, and a zero cannot distinguish a feature that is far narrower than its label from one that keys on a form the test sentences did not use. I took five of the silent features (food, colors, literary works, end-of-sentence punctuation, genetics) and probed what actually makes each one fire: 42 probes in two rounds, predictions written down before each round, one variable changed at a time.
 
 Each label failed a different way. The colors feature detects the word "color" itself, not color terms. The food feature's center of mass is academic field and institution names. The literary-works feature answers recommendation language ("will appeal to fans of Shakespeare and Dickens" scored 39.0; "Shakespeare wrote Hamlet" scored 0.0). The punctuation and genetics features live at document boundaries inside long texts; nothing genetic fired the genetics feature at all. Full method, evidence table, and probe data: [silent-features-addendum.md](silent-features-addendum.md).
+
+## Expansion (same evening): all 17 autopsies, corrected labels, and a 200-label base rate
+
+Three follow-ups ran after the pilot, each with its predictions written down and locked before any scoring.
+
+**1. The remaining 12 silent features, autopsied.** Same method as the first five: inspect the stored examples token by token, predict what would fire, probe one variable at a time (49 probes, two rounds). All 17 silent features now sort into five failure mechanisms:
+
+- **Word-form detectors (4):** the feature tracks a word or string, not the labeled topic — "color" itself, the code token "btn", the words "or"/"nor", Chinese proper names under a "mythology" label.
+- **Register detectors (5):** the feature tracks a style of writing — recommendation blurbs, obituary formulas, clinical-journal register, talk-show guest register, forum question posts.
+- **Displaced center of mass (1):** the food feature's stored examples are mostly academic field and institution names; food was a minority theme the labeler generalized from.
+- **Document-structure bound (4):** the feature fires at document boundaries or only inside long documents; no short sentence reproduces it.
+- **No consistent trigger found (3):** the features labeled "reputation," "racism," and "governance" resisted every probe. Reported as unresolved rather than explained.
+
+Each mechanism has a matching cheap check: remove the keyword and retest; swap the register and keep the content; count the label's theme across all stored examples, not just the top ones; test at document length. Full evidence: [silent-features-addendum-part2.md](silent-features-addendum-part2.md).
+
+**2. Rewrite the failed labels and retest them.** For the 28 failed pilot labels, corrected labels were written from the autopsy and pilot evidence (21 labels; 7 honestly marked "no corrected label offered" — the three unresolved features and the four document-bound cases). The corrected labels and fresh prompts were locked and hashed before the retest, under the same pass rule, with a standing prediction that every corrected label would pass. **Result: 15 of 21 passed.** The original labels went 0 for 21 on the same features. The 6 corrected labels that still failed are findings too: each feature turned out broader, narrower, or more phrasing-bound than even the evidence-based rewrite assumed. Details: [label-rewrite.md](label-rewrite.md), scores in [label-rewrite-summary.md](label-rewrite-summary.md).
+
+**3. Scale-up: 160 more labels, three layers.** A fresh random sample (seed fixed in advance) of 160 features never in the pilot: 80 at layer 12, 40 at layer 6, 40 at layer 18, same 16k residual-stream SAEs. Same protocol: four prompts per label, a pass/fail prediction registered for every test, prompts locked and hashed before the run. **Result: 47 of 160 labels passed (29%).** By layer: layer 6, 10 of 40; layer 12, 19 of 80; layer 18, 18 of 40. My registered predictions were right 94 of 160 times (59%) — better than chance, far from reliable, which is itself a measure of how hard these labels are to read at face value. Combined with the pilot, **59 of 200 labels passed (29.5%)** under the registered rule. Sample and method: [scaleup-sample.md](scaleup-sample.md); per-test scores: [scaleup-summary.md](scaleup-summary.md).
+
+The headline across all three parts is the pilot's headline, now with a base rate: labels generated from top activations alone describe features as broader and more concept-shaped than they behave, and roughly seven in ten do not survive a held-out test written from the label itself.

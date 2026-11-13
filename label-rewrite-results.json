@@ -1,0 +1,678 @@
+{
+  "started_at": "2026-11-12T20:25:57.127825-05:00",
+  "results": {
+    "rw01-sf1": {
+      "index": 18,
+      "corrected_label": "Academic discipline and institution names, plus the phrase 'cell death and survival'",
+      "kind": "sf",
+      "prompt": "He accepted a lectureship at the College of Mathematics and Statistics.",
+      "ok": true,
+      "max_activation": 18.625
+    },
+    "rw01-sf2": {
+      "index": 18,
+      "corrected_label": "Academic discipline and institution names, plus the phrase 'cell death and survival'",
+      "kind": "sf",
+      "prompt": "The pathway analysis grouped the altered genes under cell death and survival.",
+      "ok": true,
+      "max_activation": 26.5
+    },
+    "rw01-nm1": {
+      "index": 18,
+      "corrected_label": "Academic discipline and institution names, plus the phrase 'cell death and survival'",
+      "kind": "nm",
+      "prompt": "He accepted a job at the bakery on Fifth Street, icing cakes for the morning rush.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw01-nm2": {
+      "index": 18,
+      "corrected_label": "Academic discipline and institution names, plus the phrase 'cell death and survival'",
+      "kind": "nm",
+      "prompt": "The pathway analysis grouped the altered genes under growth and metabolism.",
+      "ok": true,
+      "max_activation": 13.5
+    },
+    "rw02-sf1": {
+      "index": 869,
+      "corrected_label": "References to provinces as administrative districts",
+      "kind": "sf",
+      "prompt": "The province announced a new sales tax starting in January.",
+      "ok": true,
+      "max_activation": 11.5625
+    },
+    "rw02-sf2": {
+      "index": 869,
+      "corrected_label": "References to provinces as administrative districts",
+      "kind": "sf",
+      "prompt": "Residents of the northern province rely on ferries to reach the mainland.",
+      "ok": true,
+      "max_activation": 20.875
+    },
+    "rw02-nm1": {
+      "index": 869,
+      "corrected_label": "References to provinces as administrative districts",
+      "kind": "nm",
+      "prompt": "The region announced a new sales tax starting in January.",
+      "ok": true,
+      "max_activation": 3.8125
+    },
+    "rw02-nm2": {
+      "index": 869,
+      "corrected_label": "References to provinces as administrative districts",
+      "kind": "nm",
+      "prompt": "Residents of the northern valley rely on ferries to reach the mainland.",
+      "ok": true,
+      "max_activation": 8.25
+    },
+    "rw03-sf1": {
+      "index": 1029,
+      "corrected_label": "Chinese proper names and terms, including historical and mythological figures",
+      "kind": "sf",
+      "prompt": "General Yue Fei is remembered as a hero of the Song dynasty.",
+      "ok": true,
+      "max_activation": 15.9375
+    },
+    "rw03-sf2": {
+      "index": 1029,
+      "corrected_label": "Chinese proper names and terms, including historical and mythological figures",
+      "kind": "sf",
+      "prompt": "The legend tells how Hou Yi shot down nine of the ten suns.",
+      "ok": true,
+      "max_activation": 13.5
+    },
+    "rw03-nm1": {
+      "index": 1029,
+      "corrected_label": "Chinese proper names and terms, including historical and mythological figures",
+      "kind": "nm",
+      "prompt": "General Hannibal is remembered as a hero of the Punic Wars.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw03-nm2": {
+      "index": 1029,
+      "corrected_label": "Chinese proper names and terms, including historical and mythological figures",
+      "kind": "nm",
+      "prompt": "The legend tells how Apollo fired arrows of plague at the Greek camp.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw04-sf1": {
+      "index": 1501,
+      "corrected_label": "Moments when someone is surprised with a celebration or party",
+      "kind": "sf",
+      "prompt": "Her coworkers surprised her with a cake and balloons on her first day back.",
+      "ok": true,
+      "max_activation": 47.5
+    },
+    "rw04-sf2": {
+      "index": 1501,
+      "corrected_label": "Moments when someone is surprised with a celebration or party",
+      "kind": "sf",
+      "prompt": "He opened the door and froze — his friends had surprised him with a party.",
+      "ok": true,
+      "max_activation": 52.75
+    },
+    "rw04-nm1": {
+      "index": 1501,
+      "corrected_label": "Moments when someone is surprised with a celebration or party",
+      "kind": "nm",
+      "prompt": "Her coworkers honored her with a cake and balloons on her first day back.",
+      "ok": true,
+      "max_activation": 27.375
+    },
+    "rw04-nm2": {
+      "index": 1501,
+      "corrected_label": "Moments when someone is surprised with a celebration or party",
+      "kind": "nm",
+      "prompt": "An unexpected bill surprised him when he opened the mailbox that morning.",
+      "ok": true,
+      "max_activation": 5.125
+    },
+    "rw05-sf1": {
+      "index": 1643,
+      "corrected_label": "The word 'light' in any sense, most strongly meaning not heavy",
+      "kind": "sf",
+      "prompt": "The backpack was so light she forgot she was wearing it.",
+      "ok": true,
+      "max_activation": 39.25
+    },
+    "rw05-sf2": {
+      "index": 1643,
+      "corrected_label": "The word 'light' in any sense, most strongly meaning not heavy",
+      "kind": "sf",
+      "prompt": "This aluminum frame is light but sturdy enough for daily use.",
+      "ok": true,
+      "max_activation": 46.25
+    },
+    "rw05-nm1": {
+      "index": 1643,
+      "corrected_label": "The word 'light' in any sense, most strongly meaning not heavy",
+      "kind": "nm",
+      "prompt": "The backpack was so compact she forgot she was wearing it.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw05-nm2": {
+      "index": 1643,
+      "corrected_label": "The word 'light' in any sense, most strongly meaning not heavy",
+      "kind": "nm",
+      "prompt": "The lantern glowed softly inside the tent all night.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw06-sf1": {
+      "index": 2580,
+      "corrected_label": "Recommendation and comparison language about books, films, and other creative works",
+      "kind": "sf",
+      "prompt": "Lovers of Tolkien and Le Guin will devour this sweeping new fantasy epic.",
+      "ok": true,
+      "max_activation": 17.875
+    },
+    "rw06-sf2": {
+      "index": 2580,
+      "corrected_label": "Recommendation and comparison language about books, films, and other creative works",
+      "kind": "sf",
+      "prompt": "Reminiscent of early Coen brothers films, the movie mixes dark comedy with sudden violence.",
+      "ok": true,
+      "max_activation": 34.25
+    },
+    "rw06-nm1": {
+      "index": 2580,
+      "corrected_label": "Recommendation and comparison language about books, films, and other creative works",
+      "kind": "nm",
+      "prompt": "Tolkien published The Hobbit in 1937 to modest reviews.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw06-nm2": {
+      "index": 2580,
+      "corrected_label": "Recommendation and comparison language about books, films, and other creative works",
+      "kind": "nm",
+      "prompt": "The Coen brothers directed their first film in 1984.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw07-sf1": {
+      "index": 3580,
+      "corrected_label": "Obituary formulas about the deceased's surviving and predeceasing relatives",
+      "kind": "sf",
+      "prompt": "Margaret Ellis, 88, is survived by her daughter, two sons, and five grandchildren.",
+      "ok": true,
+      "max_activation": 31.875
+    },
+    "rw07-sf2": {
+      "index": 3580,
+      "corrected_label": "Obituary formulas about the deceased's surviving and predeceasing relatives",
+      "kind": "sf",
+      "prompt": "He was preceded in death by his wife, Anna, and his brother Thomas.",
+      "ok": true,
+      "max_activation": 31.375
+    },
+    "rw07-nm1": {
+      "index": 3580,
+      "corrected_label": "Obituary formulas about the deceased's surviving and predeceasing relatives",
+      "kind": "nm",
+      "prompt": "Margaret Ellis, 88, is joined by her daughter, two sons, and five grandchildren at the family picnic.",
+      "ok": true,
+      "max_activation": 16.25
+    },
+    "rw07-nm2": {
+      "index": 3580,
+      "corrected_label": "Obituary formulas about the deceased's surviving and predeceasing relatives",
+      "kind": "nm",
+      "prompt": "His wife, Anna, and his brother Thomas drove him to the airport on Monday.",
+      "ok": true,
+      "max_activation": 6.09375
+    },
+    "rw08-sf1": {
+      "index": 5072,
+      "corrected_label": "Dense clinical terminology in medical journal register",
+      "kind": "sf",
+      "prompt": "The patient developed neutropenic fever following consolidation chemotherapy for acute myeloid leukemia.",
+      "ok": true,
+      "max_activation": 21.375
+    },
+    "rw08-sf2": {
+      "index": 5072,
+      "corrected_label": "Dense clinical terminology in medical journal register",
+      "kind": "sf",
+      "prompt": "Histopathology revealed invasive ductal carcinoma with perineural invasion and lymphovascular involvement.",
+      "ok": true,
+      "max_activation": 6.5
+    },
+    "rw08-nm1": {
+      "index": 5072,
+      "corrected_label": "Dense clinical terminology in medical journal register",
+      "kind": "nm",
+      "prompt": "The patient got a fever after his cancer treatment and felt very weak.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw08-nm2": {
+      "index": 5072,
+      "corrected_label": "Dense clinical terminology in medical journal register",
+      "kind": "nm",
+      "prompt": "The scan showed a small growth in her breast, and the doctor ordered more tests.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw09-sf1": {
+      "index": 5158,
+      "corrected_label": "The code token 'btn' in markup, CSS, and class names",
+      "kind": "sf",
+      "prompt": "<a href=\"#\" class=\"btn btn-lg btn-success\">Download</a>",
+      "ok": true,
+      "max_activation": 45.75
+    },
+    "rw09-sf2": {
+      "index": 5158,
+      "corrected_label": "The code token 'btn' in markup, CSS, and class names",
+      "kind": "sf",
+      "prompt": ".btn-outline:hover { background-color: #333; }",
+      "ok": true,
+      "max_activation": 41.75
+    },
+    "rw09-nm1": {
+      "index": 5158,
+      "corrected_label": "The code token 'btn' in markup, CSS, and class names",
+      "kind": "nm",
+      "prompt": "Tap the round button at the bottom of the screen to go back.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw09-nm2": {
+      "index": 5158,
+      "corrected_label": "The code token 'btn' in markup, CSS, and class names",
+      "kind": "nm",
+      "prompt": "<a href=\"#\" class=\"link link-lg\">Download</a>",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw10-sf1": {
+      "index": 6865,
+      "corrected_label": "Statements identifying oneself as a political independent",
+      "kind": "sf",
+      "prompt": "Asked about party loyalty, she said she identifies as an independent voter.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw10-sf2": {
+      "index": 6865,
+      "corrected_label": "Statements identifying oneself as a political independent",
+      "kind": "sf",
+      "prompt": "He identifies as an independent and rarely votes a straight ticket.",
+      "ok": true,
+      "max_activation": 5.3125
+    },
+    "rw10-nm1": {
+      "index": 6865,
+      "corrected_label": "Statements identifying oneself as a political independent",
+      "kind": "nm",
+      "prompt": "She identifies as a lifelong Democrat and votes that way in every election.",
+      "ok": true,
+      "max_activation": 5.53125
+    },
+    "rw10-nm2": {
+      "index": 6865,
+      "corrected_label": "Statements identifying oneself as a political independent",
+      "kind": "nm",
+      "prompt": "His voter card lists no party, and he usually skips the primaries.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw11-sf1": {
+      "index": 7223,
+      "corrected_label": "The phrase 'all in all' used to sum up",
+      "kind": "sf",
+      "prompt": "All in all, the move went smoothly and nothing was broken.",
+      "ok": true,
+      "max_activation": 21.125
+    },
+    "rw11-sf2": {
+      "index": 7223,
+      "corrected_label": "The phrase 'all in all' used to sum up",
+      "kind": "sf",
+      "prompt": "The weather was rough and the car broke down, but all in all the trip was worth it.",
+      "ok": true,
+      "max_activation": 20.875
+    },
+    "rw11-nm1": {
+      "index": 7223,
+      "corrected_label": "The phrase 'all in all' used to sum up",
+      "kind": "nm",
+      "prompt": "In summary, the move went smoothly and nothing was broken.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw11-nm2": {
+      "index": 7223,
+      "corrected_label": "The phrase 'all in all' used to sum up",
+      "kind": "nm",
+      "prompt": "Overall, the trip was worth it despite the rough weather and the breakdown.",
+      "ok": true,
+      "max_activation": 46.5
+    },
+    "rw12-sf1": {
+      "index": 7467,
+      "corrected_label": "Mentions of Kindle e-readers",
+      "kind": "sf",
+      "prompt": "He bought a Kindle Paperwhite for his mother last Christmas.",
+      "ok": true,
+      "max_activation": 3.921875
+    },
+    "rw12-sf2": {
+      "index": 7467,
+      "corrected_label": "Mentions of Kindle e-readers",
+      "kind": "sf",
+      "prompt": "Her Kindle battery lasts for weeks between charges.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw12-nm1": {
+      "index": 7467,
+      "corrected_label": "Mentions of Kindle e-readers",
+      "kind": "nm",
+      "prompt": "He bought a Kobo e-reader for his mother last Christmas.",
+      "ok": true,
+      "max_activation": 3.46875
+    },
+    "rw12-nm2": {
+      "index": 7467,
+      "corrected_label": "Mentions of Kindle e-readers",
+      "kind": "nm",
+      "prompt": "Her tablet battery lasts for days between charges.",
+      "ok": true,
+      "max_activation": 3.4375
+    },
+    "rw13-sf1": {
+      "index": 7623,
+      "corrected_label": "Forum-style question posts with follow-up text and thread furniture",
+      "kind": "sf",
+      "prompt": "How do I reset the wifi router in my rental unit?\n\nHi all, the connection drops every evening around 9 and I have already tried unplugging it twice. Any ideas welcome. Replies: 4",
+      "ok": true,
+      "max_activation": 5.75
+    },
+    "rw13-sf2": {
+      "index": 7623,
+      "corrected_label": "Forum-style question posts with follow-up text and thread furniture",
+      "kind": "sf",
+      "prompt": "What size drill bit for a 1/4 inch tap?\n\nWorking on an old bike frame, and the chart I found lists two different sizes. Thanks in advance for any help. Answers: 7",
+      "ok": true,
+      "max_activation": 5.875
+    },
+    "rw13-nm1": {
+      "index": 7623,
+      "corrected_label": "Forum-style question posts with follow-up text and thread furniture",
+      "kind": "nm",
+      "prompt": "How do I reset the wifi router in my rental unit?",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw13-nm2": {
+      "index": 7623,
+      "corrected_label": "Forum-style question posts with follow-up text and thread furniture",
+      "kind": "nm",
+      "prompt": "What size drill bit should I use for this tap, the instructor asked the class.",
+      "ok": true,
+      "max_activation": 3.171875
+    },
+    "rw14-sf1": {
+      "index": 8630,
+      "corrected_label": "Talk-show and podcast segments introducing or interviewing a guest",
+      "kind": "sf",
+      "prompt": "This week, the host sits down with a Grammy-winning drummer to talk about her new tour.",
+      "ok": true,
+      "max_activation": 33.75
+    },
+    "rw14-sf2": {
+      "index": 8630,
+      "corrected_label": "Talk-show and podcast segments introducing or interviewing a guest",
+      "kind": "sf",
+      "prompt": "Our guest tonight is a celebrated chef who just opened her third restaurant.",
+      "ok": true,
+      "max_activation": 21.875
+    },
+    "rw14-nm1": {
+      "index": 8630,
+      "corrected_label": "Talk-show and podcast segments introducing or interviewing a guest",
+      "kind": "nm",
+      "prompt": "The drummer released a new album with her band last week.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw14-nm2": {
+      "index": 8630,
+      "corrected_label": "Talk-show and podcast segments introducing or interviewing a guest",
+      "kind": "nm",
+      "prompt": "Two guitarists recorded a duet together for the charity single.",
+      "ok": true,
+      "max_activation": 4.09375
+    },
+    "rw15-sf1": {
+      "index": 8743,
+      "corrected_label": "The coordinating words 'or' and 'nor' in running text",
+      "kind": "sf",
+      "prompt": "You can pay by card or by check at the front desk.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw15-sf2": {
+      "index": 8743,
+      "corrected_label": "The coordinating words 'or' and 'nor' in running text",
+      "kind": "sf",
+      "prompt": "Neither the teacher nor the students noticed the typo on the board.",
+      "ok": true,
+      "max_activation": 16.75
+    },
+    "rw15-nm1": {
+      "index": 8743,
+      "corrected_label": "The coordinating words 'or' and 'nor' in running text",
+      "kind": "nm",
+      "prompt": "You can pay by card and by check at the front desk.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw15-nm2": {
+      "index": 8743,
+      "corrected_label": "The coordinating words 'or' and 'nor' in running text",
+      "kind": "nm",
+      "prompt": "The teacher and the students both noticed the typo on the board.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw16-sf1": {
+      "index": 11270,
+      "corrected_label": "Business risk warnings using hedged modals like 'may be affected'",
+      "kind": "sf",
+      "prompt": "The company cautioned that margins may be pressured by higher freight costs.",
+      "ok": true,
+      "max_activation": 10.625
+    },
+    "rw16-sf2": {
+      "index": 11270,
+      "corrected_label": "Business risk warnings using hedged modals like 'may be affected'",
+      "kind": "sf",
+      "prompt": "Management noted that demand may weaken if interest rates remain elevated.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw16-nm1": {
+      "index": 11270,
+      "corrected_label": "Business risk warnings using hedged modals like 'may be affected'",
+      "kind": "nm",
+      "prompt": "The company announced that margins will expand thanks to lower freight costs.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw16-nm2": {
+      "index": 11270,
+      "corrected_label": "Business risk warnings using hedged modals like 'may be affected'",
+      "kind": "nm",
+      "prompt": "Management reported that demand grew steadily while interest rates stayed high.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw17-sf1": {
+      "index": 12608,
+      "corrected_label": "The words 'control' and 'controlled' in any sense",
+      "kind": "sf",
+      "prompt": "She took control of the meeting after the argument stalled.",
+      "ok": true,
+      "max_activation": 29.625
+    },
+    "rw17-sf2": {
+      "index": 12608,
+      "corrected_label": "The words 'control' and 'controlled' in any sense",
+      "kind": "sf",
+      "prompt": "The valve is controlled by a small motor on the side panel.",
+      "ok": true,
+      "max_activation": 36.25
+    },
+    "rw17-nm1": {
+      "index": 12608,
+      "corrected_label": "The words 'control' and 'controlled' in any sense",
+      "kind": "nm",
+      "prompt": "She took charge of the meeting after the argument stalled.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw17-nm2": {
+      "index": 12608,
+      "corrected_label": "The words 'control' and 'controlled' in any sense",
+      "kind": "nm",
+      "prompt": "New rules limit how much noise venues may make after midnight.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw18-sf1": {
+      "index": 14719,
+      "corrected_label": "The word 'color' itself, in any of its forms",
+      "kind": "sf",
+      "prompt": "Choose a color for the nursery wall before the painters arrive.",
+      "ok": true,
+      "max_activation": 46
+    },
+    "rw18-sf2": {
+      "index": 14719,
+      "corrected_label": "The word 'color' itself, in any of its forms",
+      "kind": "sf",
+      "prompt": "The spreadsheet uses color coding to flag overdue accounts.",
+      "ok": true,
+      "max_activation": 47.5
+    },
+    "rw18-nm1": {
+      "index": 14719,
+      "corrected_label": "The word 'color' itself, in any of its forms",
+      "kind": "nm",
+      "prompt": "Choose a shade for the nursery wall before the painters arrive.",
+      "ok": true,
+      "max_activation": 11.75
+    },
+    "rw18-nm2": {
+      "index": 14719,
+      "corrected_label": "The word 'color' itself, in any of its forms",
+      "kind": "nm",
+      "prompt": "The spreadsheet uses red and amber flags for overdue accounts.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw19-sf1": {
+      "index": 15035,
+      "corrected_label": "The token 'short', including inside compounds like 'shortbread'",
+      "kind": "sf",
+      "prompt": "The recipe makes two dozen shortbread fingers for the bake sale.",
+      "ok": true,
+      "max_activation": 40.75
+    },
+    "rw19-sf2": {
+      "index": 15035,
+      "corrected_label": "The token 'short', including inside compounds like 'shortbread'",
+      "kind": "sf",
+      "prompt": "They were running short of chairs as more guests arrived.",
+      "ok": true,
+      "max_activation": 33.75
+    },
+    "rw19-nm1": {
+      "index": 15035,
+      "corrected_label": "The token 'short', including inside compounds like 'shortbread'",
+      "kind": "nm",
+      "prompt": "The meeting was brief, over in ten minutes.",
+      "ok": true,
+      "max_activation": 15.8125
+    },
+    "rw19-nm2": {
+      "index": 15035,
+      "corrected_label": "The token 'short', including inside compounds like 'shortbread'",
+      "kind": "nm",
+      "prompt": "She ordered a ginger snap cookie with her tea.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw20-sf1": {
+      "index": 15623,
+      "corrected_label": "The token 'yellow', including inside 'yellowed', with weaker response to other colors",
+      "kind": "sf",
+      "prompt": "The photograph had yellowed after decades in the sunny window.",
+      "ok": true,
+      "max_activation": 37.5
+    },
+    "rw20-sf2": {
+      "index": 15623,
+      "corrected_label": "The token 'yellow', including inside 'yellowed', with weaker response to other colors",
+      "kind": "sf",
+      "prompt": "She tied a yellow ribbon around the gift box.",
+      "ok": true,
+      "max_activation": 36.5
+    },
+    "rw20-nm1": {
+      "index": 15623,
+      "corrected_label": "The token 'yellow', including inside 'yellowed', with weaker response to other colors",
+      "kind": "nm",
+      "prompt": "The photograph had faded after decades in the sunny window.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw20-nm2": {
+      "index": 15623,
+      "corrected_label": "The token 'yellow', including inside 'yellowed', with weaker response to other colors",
+      "kind": "nm",
+      "prompt": "She tied a satin ribbon around the gift box.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw21-sf1": {
+      "index": 16358,
+      "corrected_label": "'Plan to' intention statements and 'the purpose of' phrasing",
+      "kind": "sf",
+      "prompt": "We plan to repaint the fence before the winter rains arrive.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw21-sf2": {
+      "index": 16358,
+      "corrected_label": "'Plan to' intention statements and 'the purpose of' phrasing",
+      "kind": "sf",
+      "prompt": "The purpose of the meeting is to assign the new shifts.",
+      "ok": true,
+      "max_activation": 9.9375
+    },
+    "rw21-nm1": {
+      "index": 16358,
+      "corrected_label": "'Plan to' intention statements and 'the purpose of' phrasing",
+      "kind": "nm",
+      "prompt": "She intends to repaint the fence before the winter rains arrive.",
+      "ok": true,
+      "max_activation": 0
+    },
+    "rw21-nm2": {
+      "index": 16358,
+      "corrected_label": "'Plan to' intention statements and 'the purpose of' phrasing",
+      "kind": "nm",
+      "prompt": "The workshop teaches new hires how to run the register.",
+      "ok": true,
+      "max_activation": 0
+    }
+  },
+  "updated_at": "2026-11-12T20:27:36.895200-05:00"
+}

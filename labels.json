@@ -1,0 +1,2045 @@
+{
+ "12:3473": {
+  "label": "active verbs associated with physical actions and transitions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:12984": {
+  "label": "occurrences of the word \"with.\"",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8317": {
+  "label": "elements related to legal proceedings and jury deliberations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3387": {
+  "label": "references to study design, funding, and ethical considerations in research",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:6295": {
+  "label": "descriptions of physical spaces and their layout",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:13468": {
+  "label": "references to monsters or monstrous entities",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:12076": {
+  "label": "the presence of binary or boolean representations and specific symbols",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14567": {
+  "label": "statistical terms and measures related to research findings",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4116": {
+  "label": "key terms related to genetic traits and population genetics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:15741": {
+  "label": "mentions of sponsorship and sponsors in various contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:9939": {
+  "label": "themes related to personal struggles and emotional conflicts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:16078": {
+  "label": "keywords associated with actions or conditions related to intentionality and decision-making",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1906": {
+  "label": "commands and processes related to executing scripts or programs in a programming context",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14547": {
+  "label": "patterns related to numerical data and structured lists",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:12503": {
+  "label": "code statements that manipulate arrays or data structures",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4013": {
+  "label": "topics related to training and preparation processes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7165": {
+  "label": "instances of automated code generation references",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:5830": {
+  "label": "terms related to software packages and their management",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2899": {
+  "label": "references to academic papers or proceedings, particularly focusing on citation formats and publication details",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:13052": {
+  "label": "terms related to gender norms and their implications for family planning",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7808": {
+  "label": "mentions and interactions on social media platforms, particularly Twitter",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8936": {
+  "label": "elements related to data representation and measurement in scientific contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3420": {
+  "label": "special characters and symbols used in programming or mathematical contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:15873": {
+  "label": "elements of code and programming constructs",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3816": {
+  "label": "academic institutions and their departments",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8127": {
+  "label": "specific terms and concepts related to complex systems and interactions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7091": {
+  "label": "emotions and challenges related to difficult situations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7199": {
+  "label": "phrases referring to the concept of time, particularly contextual references and instances related to timing in events",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:416": {
+  "label": "commands or functions related to logging or alerting in programming contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8553": {
+  "label": "specific programming constructs related to animation and image processing in game development",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:5015": {
+  "label": "phrases specifically related to conditions and their descriptions in various contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:15744": {
+  "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1508": {
+  "label": "chemical compounds related to lipids",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8692": {
+  "label": "terms related to the implementation process in various contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11314": {
+  "label": "links and references to external sources",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14189": {
+  "label": "technical terms and definitions related to mathematical concepts and computational processes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14167": {
+  "label": "references to supplies and equipment items",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4117": {
+  "label": "phrases indicating emotional engagement or personal reflections",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11027": {
+  "label": "phrases related to professional advancement and workplace changes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1963": {
+  "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:5620": {
+  "label": "phrases related to health, disease mechanisms, and environmental policies",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11998": {
+  "label": "code snippets related to programming logic and control structures",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:13804": {
+  "label": "keywords related to financial and legal concepts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14968": {
+  "label": "specific dates and times related to events",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:15465": {
+  "label": "actions involving slipping or losing balance",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8903": {
+  "label": "code snippets related to AJAX requests and operations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:270": {
+  "label": "comments and documentation within code",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1797": {
+  "label": "terms related to affordability and financial accessibility",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10243": {
+  "label": "phrases related to capital and financial expenditures",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:16163": {
+  "label": "sections and headings in structured scientific documents",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:5390": {
+  "label": "specific scientific terms related to biology and medicine",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:15886": {
+  "label": "terms related to light, rays, and optics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:13957": {
+  "label": "terms related to sales and business transactions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3120": {
+  "label": "phrases expressing preferences for sharing or communication",
+  "n_explanations": 2,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:6793": {
+  "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:6196": {
+  "label": "elements related to electromechanical systems",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4871": {
+  "label": "locations and geographical descriptors",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:825": {
+  "label": "references to necessity and requirements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:896": {
+  "label": "structured data and elements related to programming or model definitions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:6785": {
+  "label": "details about individuals' educational backgrounds and professional history",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:12314": {
+  "label": "proper nouns, particularly place names and related identifiers",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14530": {
+  "label": "mathematical formulas and symbols",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10356": {
+  "label": "instances of significant numerical values or statistics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:15792": {
+  "label": "mentions of specific names or terms related to financial or transactional contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10820": {
+  "label": "structured data and programming constructs",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4584": {
+  "label": "phrases related to statistical measurements and observed data frequencies",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2819": {
+  "label": "specific numerical values or symbols associated with various metrics or measurements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7088": {
+  "label": "phrases and terms related to time duration and measurements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1109": {
+  "label": "terms related to technical and mechanical failures or issues",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3344": {
+  "label": "words related to leaves and their conditions or characteristics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10844": {
+  "label": "instances of the word \"indicate\" and its derivatives related to signaling or specifying information",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10816": {
+  "label": "terms related to buffers in programming or data handling",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:9211": {
+  "label": "phrases that indicate comparisons or similarities",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:13961": {
+  "label": "numerical values and sequences, indicating a focus on data or time-related information",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:12878": {
+  "label": "code-related actions and concepts, particularly those related to database operations and backup processes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1283": {
+  "label": "references to social justice issues and systemic injustices",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:5545": {
+  "label": "syntax elements related to control structures in programming",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:9884": {
+  "label": "concepts related to agriculture and food production",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:6811": {
+  "label": "functions related to file and database operations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4330": {
+  "label": "instances of the word \"however.\"",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3791": {
+  "label": "statements and quotations attributed to speakers or sources",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4636": {
+  "label": "specific measurements and conditions relating to medical and scientific contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3627": {
+  "label": "elements related to programming language constructs and types",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11798": {
+  "label": "elements related to repository design patterns and abstract class definitions in programming",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14752": {
+  "label": "legal and governmental terms related to authority and judgment",
+  "n_explanations": 2,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10703": {
+  "label": "the document structure or format indicators, such as the beginning of sections or new topics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2128": {
+  "label": "statistical data including numerical values, percentages, and measurements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10438": {
+  "label": "biological processes and medical terminology related to diagnostics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14956": {
+  "label": "legal terms and references to court proceedings",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:64": {
+  "label": "comparative phrases and expressions indicating similarity or equality",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2053": {
+  "label": "items or objects that are made from specified materials or through particular processes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:9151": {
+  "label": "references to federal government entities and their roles",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:8841": {
+  "label": "terms related to experimental and avant-garde artistic movements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3990": {
+  "label": "terms related to providing assistance or services",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:9955": {
+  "label": "references to government agencies or structures indicating political or organizational influence",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7776": {
+  "label": "scientific terminology related to protein interactions and complex formations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7553": {
+  "label": "terms related to mathematical concepts, specifically probability and distinctions in various contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7819": {
+  "label": "programming and function-related keywords, particularly in the context of data manipulation",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14816": {
+  "label": "references to specific medical conditions and treatments",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10735": {
+  "label": "mathematical symbols and notations related to matrices and estimators",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:692": {
+  "label": "references to binary and its variations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7066": {
+  "label": "code snippets or functions involving substring and array operations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11425": {
+  "label": "mathematical expressions and notation",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11473": {
+  "label": "references to significant events or milestones in sports",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2357": {
+  "label": "quotation marks and dialogue in the text",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14140": {
+  "label": "expressions of authenticity and genuine feelings",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:13087": {
+  "label": "terms related to payment processing and financial transactions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:4621": {
+  "label": "information related to academic or scientific credentials and accomplishments",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10691": {
+  "label": "references to news and news-related content",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1795": {
+  "label": "patterns associated with numeric sequences or well-defined data points",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:9222": {
+  "label": "the start of the document",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:1070": {
+  "label": "XML or HTML tag elements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:6928": {
+  "label": "clauses and terms related to the rights and responsibilities of users in regards to personal information and withdrawals",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2132": {
+  "label": "technical programming concepts and related terms",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:7727": {
+  "label": "mathematical terms and concepts related to groups and surfaces",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:2137": {
+  "label": "numbers and numerical data",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:3883": {
+  "label": "technical XML and schema definitions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:14302": {
+  "label": "references to educational institutions, specifically universities and their admissions processes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:11155": {
+  "label": "issues related to personal privacy and digital surveillance",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "12:10905": {
+  "label": "Python function and class definitions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:15620": {
+  "label": "references to personal pronouns and expressions of personal thoughts or feelings",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:5661": {
+  "label": "elements related to blog navigation and interactions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:4689": {
+  "label": "HTML and web development elements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:3292": {
+  "label": "names and quotation marks",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:2547": {
+  "label": "references to various ethnic groups and nationalities",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:4758": {
+  "label": "file paths and related error messages in programming contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:791": {
+  "label": "technical terms and code-related concepts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:8148": {
+  "label": "references to scientific kits and assays related to molecular biology",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11089": {
+  "label": "phrases discussing actions or activities related to considerations or decisions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10141": {
+  "label": "CSS display properties and their values",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:14786": {
+  "label": "terms related to the evaluation of outcomes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11563": {
+  "label": "mentions of familial relationships and titles, particularly those related to great and uncle",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:4687": {
+  "label": "keywords related to paths and resources in a programming context",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:13771": {
+  "label": "actions related to submission",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:1065": {
+  "label": "performance metrics related to software compilation or testing",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:16247": {
+  "label": "phrases indicating presence and support",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:7358": {
+  "label": "terms related to optical alignment and associated technical concepts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:7633": {
+  "label": "terms related to semi-structured data or formats",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:1417": {
+  "label": "references to previous content or sources in the text",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:4160": {
+  "label": "mathematical expressions and symbols",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:2783": {
+  "label": "phrases that express questions or inquiries about personal opinions and perceptions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11231": {
+  "label": "references to collections or data structures in programming contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:13783": {
+  "label": "elements of diversity and inclusion in both practical and theoretical contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:14452": {
+  "label": "references to specific retailers, particularly in relation to purchasing or shopping experiences",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10006": {
+  "label": "time-related phrases or events",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11236": {
+  "label": "instances of object-oriented programming methods and attributes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:14758": {
+  "label": "code-related terms and constructs, especially those involving data structures and methods",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:1541": {
+  "label": "numeric values and symbols related to data structures or programming syntax",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:2570": {
+  "label": "punctuation marks, especially commas",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:15755": {
+  "label": "phrases that emphasize the absence of universal solutions or answer patterns",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:4649": {
+  "label": "numerical data and related comparative phrases",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:635": {
+  "label": "specific locations or geographic references, particularly towns and counties within New Jersey",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:7011": {
+  "label": "semicolon-separated import statements in programming code",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:8615": {
+  "label": "terms related to environmental initiatives and compliance in regulatory contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:16152": {
+  "label": "terms related to genetics and optical properties in scientific contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:9442": {
+  "label": "references to caps or cap structures in scientific or technical contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11722": {
+  "label": "numeric values and operations related to time",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11452": {
+  "label": "key phrases related to historical context and facts",
+  "n_explanations": 2,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10507": {
+  "label": "occurrences of code structure or syntax elements commonly used in programming languages",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:4846": {
+  "label": "references to licensing information and URLs associated with software or documents",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:1399": {
+  "label": "the beginning of a sentence or statement",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:15645": {
+  "label": "symbols and special characters",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10079": {
+  "label": "references to document sections and metadata markers",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:5255": {
+  "label": "numerical and evaluative results related to data or processes",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:1275": {
+  "label": "terms related to disorder and chaos",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:3634": {
+  "label": "declarations of data types and method signatures in code",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:15997": {
+  "label": "the word \"since\" and related temporal conjunctions",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:12157": {
+  "label": "themes of power, control, and rulership in various contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:6626": {
+  "label": "mathematical operations and their evaluations",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:14984": {
+  "label": "phrases that indicate intentions or desires, particularly involving the word \"to\"",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:15600": {
+  "label": "references to vector mathematics and related concepts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:13760": {
+  "label": "words and phrases related to traffic laws and driving incidents",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:13931": {
+  "label": "references to data handling structures and their interactions within programming contexts",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:11218": {
+  "label": "terms related to transnational processes or movements",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10991": {
+  "label": "terms related to changes and differences in health metrics",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10023": {
+  "label": "phrases related to travel times and distances",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:12135": {
+  "label": "structural or organizational patterns in text",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:9163": {
+  "label": "occurrences of specific programming-related commands and structures",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:10375": {
+  "label": "references to academic institutions and their associated departments or researchers",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "6:8697": {
+  "label": "references to distances and measurements in miles and kilometers",
+  "n_explanations": 1,
+  "explanation_types": [
+   "oai_token-act-pair"
+  ],
+  "error": null
+ },
+ "18:5397": {
+  "label": "references to health issues, particularly those related to UV exposure and its impact on skin and eyesight",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:1922": {
+  "label": "statements about the necessity of support and contributions for success in programs or projects",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:11259": {
+  "label": "elements related to comedy and comedians",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:11711": {
+  "label": "error-handling statements and expressions in the context of programming",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:8767": {
+  "label": "punctuation marks, particularly periods",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:7935": {
+  "label": "references to international football or soccer activities",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:3567": {
+  "label": "declarative verbs that imply decision-making or agreement",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:13353": {
+  "label": "programming constructs and configurations related to game development using Phaser",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:15775": {
+  "label": "key information related to mobile application development",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:14571": {
+  "label": "references to Google's libraries and frameworks",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:3432": {
+  "label": "timestamps related to data entries or logs",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:6630": {
+  "label": "collector's items and their characteristics",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:7593": {
+  "label": "references to software projects and their attributes",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:13540": {
+  "label": "terms related to Christianity and Islam",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:14996": {
+  "label": "phrases indicating the initiation or recommendation of actions or processes",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:1765": {
+  "label": "expressions related to personal responsibility and the concept of choice",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:15986": {
+  "label": "phrases indicating finality or significant concluding moments",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:1963": {
+  "label": "special symbols and formatting used in code or markup languages",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:4857": {
+  "label": "terms related to cybersecurity vulnerabilities and threats",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:4319": {
+  "label": "conjunctions that express contrast or exception",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:5378": {
+  "label": "statements related to eligibility and inclusion criteria in studies",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:15475": {
+  "label": "references to multi-drug resistance in medical and scientific contexts",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:248": {
+  "label": "phrases that indicate conditional or situational contexts, particularly related to the term \"upon.\"",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:15031": {
+  "label": "terms related to \"monocyte\" and \"monotonous\" attributes in various contexts",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:11048": {
+  "label": "mathematical notation and symbols related to inequalities and integrals",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:5188": {
+  "label": "conjunctions and punctuation commonly used in lists or enumerations",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:15842": {
+  "label": "interactive elements and calls to action within the text",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:348": {
+  "label": "technical terms related to semiconductor manufacturing and the properties of materials",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:428": {
+  "label": "conditional statements and references to actions or choices",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:14479": {
+  "label": "code that involves manipulating scroll position and elements in a graphical user interface",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:2758": {
+  "label": "financial figures and monetary amounts related to significant events or transactions",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:16032": {
+  "label": "phrases or sections of code",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:3108": {
+  "label": "assignments and initializations in code",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:14737": {
+  "label": "the presence of JSON or structured data format indicators",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:955": {
+  "label": "technical specifications and descriptions related to inventions, particularly involving methods and devices",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:4475": {
+  "label": "structured XML or JSON data elements, including keys and values",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:10702": {
+  "label": "phrases indicating intentions, purposes, or designations related to actions or interventions",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:12235": {
+  "label": "mechanical or technical terms related to construction and installation processes",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:12239": {
+  "label": "technical language related to medical studies and procedures",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:8013": {
+  "label": "discussions about challenges and hurdles faced by individuals or groups",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:717": {
+  "label": "products and their associated details or descriptions",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:5787": {
+  "label": "terms related to medical treatments and their effects on health",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:7848": {
+  "label": "phrases related to memories and thoughts that linger in one's mind",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:3866": {
+  "label": "subscript and superscript notations typically associated with scientific or mathematical expressions",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:5004": {
+  "label": "phrases that express uncertainty or speculation",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:1623": {
+  "label": "concepts related to the idea of home and belonging",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:11240": {
+  "label": "programming constructs related to data structures and algorithms, particularly sets and their operations",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:7368": {
+  "label": "informal conversational cues and transitions",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:9301": {
+  "label": "references to \"Hell\" and related terms",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:12172": {
+  "label": "references to scientific research and technological advancements",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:7512": {
+  "label": "names and titles of prominent persons in positions of authority or influence",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:10492": {
+  "label": "questions and potential issues with processes or functionalities in programming",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:13747": {
+  "label": "references to numerical values, statistical data, and measurements",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:12333": {
+  "label": "mathematical theorems and conditions",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:5766": {
+  "label": "file manipulation and path-related operations",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:6624": {
+  "label": "configurations or settings related to a system or application",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:15917": {
+  "label": "elements related to judicial proceedings and legal arguments",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:5733": {
+  "label": "elements related to programming functions and logical evaluations",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:7034": {
+  "label": "details related to an athlete's career, including games played, goals scored, and uniform references",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ },
+ "18:6169": {
+  "label": "phrases related to increases or improvements in various contexts",
+  "n_explanations": 3,
+  "explanation_types": [
+   "oai_token-act-pair",
+   "np_acts-logits-general",
+   "np_acts-logits-general"
+  ],
+  "error": null
+ }
+}

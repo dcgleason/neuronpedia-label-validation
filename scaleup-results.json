@@ -1,0 +1,5766 @@
+{
+  "started_at": "2026-11-12T20:28:28.330273-05:00",
+  "results": {
+    "s001-sf1": {
+      "test": 1,
+      "layer": 12,
+      "index": 3473,
+      "label": "active verbs associated with physical actions and transitions",
+      "ok": true,
+      "max_activation": 9.25,
+      "prompt": "She jumped over the fence and ran across the field."
+    },
+    "s001-sf2": {
+      "test": 1,
+      "layer": 12,
+      "index": 3473,
+      "label": "active verbs associated with physical actions and transitions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He lifted the heavy box and carried it up the stairs."
+    },
+    "s001-nm1": {
+      "test": 1,
+      "layer": 12,
+      "index": 3473,
+      "label": "active verbs associated with physical actions and transitions",
+      "ok": true,
+      "max_activation": 6.875,
+      "prompt": "She thought about the fence and dreamed about the field."
+    },
+    "s001-nm2": {
+      "test": 1,
+      "layer": 12,
+      "index": 3473,
+      "label": "active verbs associated with physical actions and transitions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He noticed the heavy box and left it by the stairs."
+    },
+    "s002-sf1": {
+      "test": 2,
+      "layer": 12,
+      "index": 12984,
+      "label": "occurrences of the word \"with.\"",
+      "ok": true,
+      "max_activation": 38.5,
+      "prompt": "She went to the market with her sister on Saturday."
+    },
+    "s002-sf2": {
+      "test": 2,
+      "layer": 12,
+      "index": 12984,
+      "label": "occurrences of the word \"with.\"",
+      "ok": true,
+      "max_activation": 34.25,
+      "prompt": "He fixed the bike with a wrench from the garage."
+    },
+    "s002-nm1": {
+      "test": 2,
+      "layer": 12,
+      "index": 12984,
+      "label": "occurrences of the word \"with.\"",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She went to the market alongside her sister on Saturday."
+    },
+    "s002-nm2": {
+      "test": 2,
+      "layer": 12,
+      "index": 12984,
+      "label": "occurrences of the word \"with.\"",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He fixed the bike using a wrench from the garage."
+    },
+    "s003-sf1": {
+      "test": 3,
+      "layer": 12,
+      "index": 8317,
+      "label": "elements related to legal proceedings and jury deliberations",
+      "ok": true,
+      "max_activation": 3.890625,
+      "prompt": "The jury deliberated for six hours before reaching a verdict."
+    },
+    "s003-sf2": {
+      "test": 3,
+      "layer": 12,
+      "index": 8317,
+      "label": "elements related to legal proceedings and jury deliberations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The defendant testified that he was home on the night in question."
+    },
+    "s003-nm1": {
+      "test": 3,
+      "layer": 12,
+      "index": 8317,
+      "label": "elements related to legal proceedings and jury deliberations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The committee deliberated for six hours before reaching a decision."
+    },
+    "s003-nm2": {
+      "test": 3,
+      "layer": 12,
+      "index": 8317,
+      "label": "elements related to legal proceedings and jury deliberations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The manager explained that he was home on the night in question."
+    },
+    "s004-sf1": {
+      "test": 4,
+      "layer": 12,
+      "index": 3387,
+      "label": "references to study design, funding, and ethical considerations in research",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The study randomly assigned participants and the protocol was approved by the ethics board."
+    },
+    "s004-sf2": {
+      "test": 4,
+      "layer": 12,
+      "index": 3387,
+      "label": "references to study design, funding, and ethical considerations in research",
+      "ok": true,
+      "max_activation": 4.0625,
+      "prompt": "Funding for the trial came from a federal grant disclosed in the paper."
+    },
+    "s004-nm1": {
+      "test": 4,
+      "layer": 12,
+      "index": 3387,
+      "label": "references to study design, funding, and ethical considerations in research",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The class randomly assigned seats and the seating chart was approved by the head teacher."
+    },
+    "s004-nm2": {
+      "test": 4,
+      "layer": 12,
+      "index": 3387,
+      "label": "references to study design, funding, and ethical considerations in research",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Money for the trip came from a school bake sale mentioned in the newsletter."
+    },
+    "s005-sf1": {
+      "test": 5,
+      "layer": 12,
+      "index": 6295,
+      "label": "descriptions of physical spaces and their layout",
+      "ok": true,
+      "max_activation": 14.6875,
+      "prompt": "The kitchen sits at the back of the house, next to a small pantry."
+    },
+    "s005-sf2": {
+      "test": 5,
+      "layer": 12,
+      "index": 6295,
+      "label": "descriptions of physical spaces and their layout",
+      "ok": true,
+      "max_activation": 11.0625,
+      "prompt": "A long hallway connects the lobby to three offices on the left."
+    },
+    "s005-nm1": {
+      "test": 5,
+      "layer": 12,
+      "index": 6295,
+      "label": "descriptions of physical spaces and their layout",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The soup sits at the back of the stove, next to a small kettle."
+    },
+    "s005-nm2": {
+      "test": 5,
+      "layer": 12,
+      "index": 6295,
+      "label": "descriptions of physical spaces and their layout",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A long afternoon connects the meeting to three calls on the schedule."
+    },
+    "s006-sf1": {
+      "test": 6,
+      "layer": 12,
+      "index": 13468,
+      "label": "references to monsters or monstrous entities",
+      "ok": true,
+      "max_activation": 18.5,
+      "prompt": "A giant monster with three heads guarded the cave entrance."
+    },
+    "s006-sf2": {
+      "test": 6,
+      "layer": 12,
+      "index": 13468,
+      "label": "references to monsters or monstrous entities",
+      "ok": true,
+      "max_activation": 23.625,
+      "prompt": "The children told stories about a monster hiding in the forest."
+    },
+    "s006-nm1": {
+      "test": 6,
+      "layer": 12,
+      "index": 13468,
+      "label": "references to monsters or monstrous entities",
+      "ok": true,
+      "max_activation": 7.34375,
+      "prompt": "A giant statue with three heads guarded the cave entrance."
+    },
+    "s006-nm2": {
+      "test": 6,
+      "layer": 12,
+      "index": 13468,
+      "label": "references to monsters or monstrous entities",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The children told stories about a merchant hiding in the forest."
+    },
+    "s007-sf1": {
+      "test": 7,
+      "layer": 12,
+      "index": 12076,
+      "label": "the presence of binary or boolean representations and specific symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The field accepts only true or false, stored as 1 or 0."
+    },
+    "s007-sf2": {
+      "test": 7,
+      "layer": 12,
+      "index": 12076,
+      "label": "the presence of binary or boolean representations and specific symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He set the boolean flag to true before running the check."
+    },
+    "s007-nm1": {
+      "test": 7,
+      "layer": 12,
+      "index": 12076,
+      "label": "the presence of binary or boolean representations and specific symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The form asks only for a name or address, stored as text in a file."
+    },
+    "s007-nm2": {
+      "test": 7,
+      "layer": 12,
+      "index": 12076,
+      "label": "the presence of binary or boolean representations and specific symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He set the oven dial to high before checking the roast."
+    },
+    "s008-sf1": {
+      "test": 8,
+      "layer": 12,
+      "index": 14567,
+      "label": "statistical terms and measures related to research findings",
+      "ok": true,
+      "max_activation": 8.8125,
+      "prompt": "The difference was statistically significant, with a p-value below 0.05."
+    },
+    "s008-sf2": {
+      "test": 8,
+      "layer": 12,
+      "index": 14567,
+      "label": "statistical terms and measures related to research findings",
+      "ok": true,
+      "max_activation": 3.84375,
+      "prompt": "The mean score rose by two points, and the standard deviation shrank."
+    },
+    "s008-nm1": {
+      "test": 8,
+      "layer": 12,
+      "index": 14567,
+      "label": "statistical terms and measures related to research findings",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The difference was easy to notice, with a clear change in every photo."
+    },
+    "s008-nm2": {
+      "test": 8,
+      "layer": 12,
+      "index": 14567,
+      "label": "statistical terms and measures related to research findings",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The final score rose by two points, and the losing margin shrank."
+    },
+    "s009-sf1": {
+      "test": 9,
+      "layer": 12,
+      "index": 4116,
+      "label": "key terms related to genetic traits and population genetics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The trait is inherited through a recessive allele passed from both parents."
+    },
+    "s009-sf2": {
+      "test": 9,
+      "layer": 12,
+      "index": 4116,
+      "label": "key terms related to genetic traits and population genetics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Allele frequencies in the population shifted over several generations."
+    },
+    "s009-nm1": {
+      "test": 9,
+      "layer": 12,
+      "index": 4116,
+      "label": "key terms related to genetic traits and population genetics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The recipe is handed down through a family notebook passed from both grandparents."
+    },
+    "s009-nm2": {
+      "test": 9,
+      "layer": 12,
+      "index": 4116,
+      "label": "key terms related to genetic traits and population genetics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Song styles in the village shifted over several generations."
+    },
+    "s010-sf1": {
+      "test": 10,
+      "layer": 12,
+      "index": 15741,
+      "label": "mentions of sponsorship and sponsors in various contexts",
+      "ok": true,
+      "max_activation": 32,
+      "prompt": "The race was sponsored by a local bank, whose logo covered the banners."
+    },
+    "s010-sf2": {
+      "test": 10,
+      "layer": 12,
+      "index": 15741,
+      "label": "mentions of sponsorship and sponsors in various contexts",
+      "ok": true,
+      "max_activation": 39.75,
+      "prompt": "Our sponsor donated the uniforms for this season."
+    },
+    "s010-nm1": {
+      "test": 10,
+      "layer": 12,
+      "index": 15741,
+      "label": "mentions of sponsorship and sponsors in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The race was organized by a local bank, whose name covered the banners."
+    },
+    "s010-nm2": {
+      "test": 10,
+      "layer": 12,
+      "index": 15741,
+      "label": "mentions of sponsorship and sponsors in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Our neighbor donated the uniforms for this season."
+    },
+    "s011-sf1": {
+      "test": 11,
+      "layer": 12,
+      "index": 9939,
+      "label": "themes related to personal struggles and emotional conflicts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She lay awake worrying that she had disappointed everyone she loved."
+    },
+    "s011-sf2": {
+      "test": 11,
+      "layer": 12,
+      "index": 9939,
+      "label": "themes related to personal struggles and emotional conflicts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He felt torn between staying for his family and leaving for good."
+    },
+    "s011-nm1": {
+      "test": 11,
+      "layer": 12,
+      "index": 9939,
+      "label": "themes related to personal struggles and emotional conflicts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She lay awake planning the route she would drive on Saturday morning."
+    },
+    "s011-nm2": {
+      "test": 11,
+      "layer": 12,
+      "index": 9939,
+      "label": "themes related to personal struggles and emotional conflicts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He felt pleased about staying for his family and cooking for everyone."
+    },
+    "s012-sf1": {
+      "test": 12,
+      "layer": 12,
+      "index": 16078,
+      "label": "keywords associated with actions or conditions related to intentionality and decision-making",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He decided to apply after weighing the risks for several weeks."
+    },
+    "s012-sf2": {
+      "test": 12,
+      "layer": 12,
+      "index": 16078,
+      "label": "keywords associated with actions or conditions related to intentionality and decision-making",
+      "ok": true,
+      "max_activation": 5.6875,
+      "prompt": "She deliberately chose the harder option because she believed it was right."
+    },
+    "s012-nm1": {
+      "test": 12,
+      "layer": 12,
+      "index": 16078,
+      "label": "keywords associated with actions or conditions related to intentionality and decision-making",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He stumbled into applying after seeing the notice posted for several weeks."
+    },
+    "s012-nm2": {
+      "test": 12,
+      "layer": 12,
+      "index": 16078,
+      "label": "keywords associated with actions or conditions related to intentionality and decision-making",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She accidentally took the harder option because the signs were hard to read."
+    },
+    "s013-sf1": {
+      "test": 13,
+      "layer": 12,
+      "index": 1906,
+      "label": "commands and processes related to executing scripts or programs in a programming context",
+      "ok": true,
+      "max_activation": 22,
+      "prompt": "Run the script to generate the report before the morning meeting."
+    },
+    "s013-sf2": {
+      "test": 13,
+      "layer": 12,
+      "index": 1906,
+      "label": "commands and processes related to executing scripts or programs in a programming context",
+      "ok": true,
+      "max_activation": 19.25,
+      "prompt": "He executed the program from the terminal and watched the output appear."
+    },
+    "s013-nm1": {
+      "test": 13,
+      "layer": 12,
+      "index": 1906,
+      "label": "commands and processes related to executing scripts or programs in a programming context",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Read the memo to generate questions before the morning meeting."
+    },
+    "s013-nm2": {
+      "test": 13,
+      "layer": 12,
+      "index": 1906,
+      "label": "commands and processes related to executing scripts or programs in a programming context",
+      "ok": true,
+      "max_activation": 3.453125,
+      "prompt": "He opened the document in the editor and watched the pages appear."
+    },
+    "s014-sf1": {
+      "test": 14,
+      "layer": 12,
+      "index": 14547,
+      "label": "patterns related to numerical data and structured lists",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The table lists three columns: name, date, and total for each sale."
+    },
+    "s014-sf2": {
+      "test": 14,
+      "layer": 12,
+      "index": 14547,
+      "label": "patterns related to numerical data and structured lists",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Sales were 120 in January, 145 in February, and 160 in March."
+    },
+    "s014-nm1": {
+      "test": 14,
+      "layer": 12,
+      "index": 14547,
+      "label": "patterns related to numerical data and structured lists",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The story names three characters: a baker, a sailor, and a tailor in town."
+    },
+    "s014-nm2": {
+      "test": 14,
+      "layer": 12,
+      "index": 14547,
+      "label": "patterns related to numerical data and structured lists",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Sales were strong in January, stronger in February, and strongest in March."
+    },
+    "s015-sf1": {
+      "test": 15,
+      "layer": 12,
+      "index": 12503,
+      "label": "code statements that manipulate arrays or data structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The code adds each new score to the array and sorts it."
+    },
+    "s015-sf2": {
+      "test": 15,
+      "layer": 12,
+      "index": 12503,
+      "label": "code statements that manipulate arrays or data structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She removed the last item from the list and stored it in a variable."
+    },
+    "s015-nm1": {
+      "test": 15,
+      "layer": 12,
+      "index": 12503,
+      "label": "code statements that manipulate arrays or data structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The clerk adds each new letter to the tray and sorts it."
+    },
+    "s015-nm2": {
+      "test": 15,
+      "layer": 12,
+      "index": 12503,
+      "label": "code statements that manipulate arrays or data structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She removed the last cup from the shelf and stored it in a cabinet."
+    },
+    "s016-sf1": {
+      "test": 16,
+      "layer": 12,
+      "index": 4013,
+      "label": "topics related to training and preparation processes",
+      "ok": true,
+      "max_activation": 5,
+      "prompt": "New pilots train for months in simulators before flying real routes."
+    },
+    "s016-sf2": {
+      "test": 16,
+      "layer": 12,
+      "index": 4013,
+      "label": "topics related to training and preparation processes",
+      "ok": true,
+      "max_activation": 3.640625,
+      "prompt": "The team prepared for the exam with weekly drills and practice tests."
+    },
+    "s016-nm1": {
+      "test": 16,
+      "layer": 12,
+      "index": 4013,
+      "label": "topics related to training and preparation processes",
+      "ok": true,
+      "max_activation": 3.609375,
+      "prompt": "New pilots relax for months at resorts before flying real routes."
+    },
+    "s016-nm2": {
+      "test": 16,
+      "layer": 12,
+      "index": 4013,
+      "label": "topics related to training and preparation processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The team rested before the trip with weekly naps and long lunches."
+    },
+    "s017-sf1": {
+      "test": 17,
+      "layer": 12,
+      "index": 7165,
+      "label": "instances of automated code generation references",
+      "ok": true,
+      "max_activation": 10.1875,
+      "prompt": "The tool automatically generates boilerplate code from a short description."
+    },
+    "s017-sf2": {
+      "test": 17,
+      "layer": 12,
+      "index": 7165,
+      "label": "instances of automated code generation references",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He used an AI assistant to write the function for him."
+    },
+    "s017-nm1": {
+      "test": 17,
+      "layer": 12,
+      "index": 7165,
+      "label": "instances of automated code generation references",
+      "ok": true,
+      "max_activation": 10.0625,
+      "prompt": "The tool automatically generates boilerplate text from a short description."
+    },
+    "s017-nm2": {
+      "test": 17,
+      "layer": 12,
+      "index": 7165,
+      "label": "instances of automated code generation references",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He used a paper notebook to write the grocery list for him."
+    },
+    "s018-sf1": {
+      "test": 18,
+      "layer": 12,
+      "index": 5830,
+      "label": "terms related to software packages and their management",
+      "ok": true,
+      "max_activation": 30,
+      "prompt": "She installed the software package and removed the outdated version."
+    },
+    "s018-sf2": {
+      "test": 18,
+      "layer": 12,
+      "index": 5830,
+      "label": "terms related to software packages and their management",
+      "ok": true,
+      "max_activation": 43,
+      "prompt": "The package manager keeps track of every library the project needs."
+    },
+    "s018-nm1": {
+      "test": 18,
+      "layer": 12,
+      "index": 5830,
+      "label": "terms related to software packages and their management",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She installed the kitchen cabinet and removed the outdated counter."
+    },
+    "s018-nm2": {
+      "test": 18,
+      "layer": 12,
+      "index": 5830,
+      "label": "terms related to software packages and their management",
+      "ok": true,
+      "max_activation": 8.8125,
+      "prompt": "The shipping manager keeps track of every parcel the company sends."
+    },
+    "s019-sf1": {
+      "test": 19,
+      "layer": 12,
+      "index": 2899,
+      "label": "references to academic papers or proceedings, particularly focusing on citation formats and publication details",
+      "ok": true,
+      "max_activation": 16.75,
+      "prompt": "The paper appeared in the Proceedings of the National Academy, volume 12, pages 40 to 55."
+    },
+    "s019-sf2": {
+      "test": 19,
+      "layer": 12,
+      "index": 2899,
+      "label": "references to academic papers or proceedings, particularly focusing on citation formats and publication details",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Smith and Lee (2019) reported the result in a peer-reviewed journal article."
+    },
+    "s019-nm1": {
+      "test": 19,
+      "layer": 12,
+      "index": 2899,
+      "label": "references to academic papers or proceedings, particularly focusing on citation formats and publication details",
+      "ok": true,
+      "max_activation": 7.0625,
+      "prompt": "The story appeared in the town newsletter, issue 12, pages 40 to 55."
+    },
+    "s019-nm2": {
+      "test": 19,
+      "layer": 12,
+      "index": 2899,
+      "label": "references to academic papers or proceedings, particularly focusing on citation formats and publication details",
+      "ok": true,
+      "max_activation": 3.40625,
+      "prompt": "Smith and Lee reported the result at a neighborhood meeting last spring."
+    },
+    "s020-sf1": {
+      "test": 20,
+      "layer": 12,
+      "index": 13052,
+      "label": "terms related to gender norms and their implications for family planning",
+      "ok": true,
+      "max_activation": 28.375,
+      "prompt": "Traditional norms expect mothers to leave work after having a baby."
+    },
+    "s020-sf2": {
+      "test": 20,
+      "layer": 12,
+      "index": 13052,
+      "label": "terms related to gender norms and their implications for family planning",
+      "ok": true,
+      "max_activation": 19.125,
+      "prompt": "Family planning decisions are shaped by expectations about men's and women's roles."
+    },
+    "s020-nm1": {
+      "test": 20,
+      "layer": 12,
+      "index": 13052,
+      "label": "terms related to gender norms and their implications for family planning",
+      "ok": true,
+      "max_activation": 28.375,
+      "prompt": "Traditional norms expect travelers to leave tips after having a meal."
+    },
+    "s020-nm2": {
+      "test": 20,
+      "layer": 12,
+      "index": 13052,
+      "label": "terms related to gender norms and their implications for family planning",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Travel planning decisions are shaped by expectations about prices and seasonal weather."
+    },
+    "s021-sf1": {
+      "test": 21,
+      "layer": 12,
+      "index": 7808,
+      "label": "mentions and interactions on social media platforms, particularly Twitter",
+      "ok": true,
+      "max_activation": 8.0625,
+      "prompt": "She posted the photo on Twitter and it got three hundred retweets."
+    },
+    "s021-sf2": {
+      "test": 21,
+      "layer": 12,
+      "index": 7808,
+      "label": "mentions and interactions on social media platforms, particularly Twitter",
+      "ok": true,
+      "max_activation": 15.6875,
+      "prompt": "He replied to her tweet and tagged two friends in the thread."
+    },
+    "s021-nm1": {
+      "test": 21,
+      "layer": 12,
+      "index": 7808,
+      "label": "mentions and interactions on social media platforms, particularly Twitter",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She posted the photo on Instagram and it got three hundred likes."
+    },
+    "s021-nm2": {
+      "test": 21,
+      "layer": 12,
+      "index": 7808,
+      "label": "mentions and interactions on social media platforms, particularly Twitter",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He replied to her email and copied two friends in the thread."
+    },
+    "s022-sf1": {
+      "test": 22,
+      "layer": 12,
+      "index": 8936,
+      "label": "elements related to data representation and measurement in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The temperature was recorded in degrees Celsius at five-minute intervals."
+    },
+    "s022-sf2": {
+      "test": 22,
+      "layer": 12,
+      "index": 8936,
+      "label": "elements related to data representation and measurement in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They measured the sample's weight in grams using a calibrated scale."
+    },
+    "s022-nm1": {
+      "test": 22,
+      "layer": 12,
+      "index": 8936,
+      "label": "elements related to data representation and measurement in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The soup was served in large bowls at five-minute intervals throughout lunch."
+    },
+    "s022-nm2": {
+      "test": 22,
+      "layer": 12,
+      "index": 8936,
+      "label": "elements related to data representation and measurement in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They judged the cake's flavor at the fair using a simple scorecard."
+    },
+    "s023-sf1": {
+      "test": 23,
+      "layer": 12,
+      "index": 3420,
+      "label": "special characters and symbols used in programming or mathematical contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He typed the formula a + b * c into the calculator app."
+    },
+    "s023-sf2": {
+      "test": 23,
+      "layer": 12,
+      "index": 3420,
+      "label": "special characters and symbols used in programming or mathematical contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The code checks if a != b before printing the result %."
+    },
+    "s023-nm1": {
+      "test": 23,
+      "layer": 12,
+      "index": 3420,
+      "label": "special characters and symbols used in programming or mathematical contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He typed the words alpha and beta into the search box slowly."
+    },
+    "s023-nm2": {
+      "test": 23,
+      "layer": 12,
+      "index": 3420,
+      "label": "special characters and symbols used in programming or mathematical contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The recipe checks if the soup tastes right before serving the meal."
+    },
+    "s024-sf1": {
+      "test": 24,
+      "layer": 12,
+      "index": 15873,
+      "label": "elements of code and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function returns a value after the loop finishes each pass."
+    },
+    "s024-sf2": {
+      "test": 24,
+      "layer": 12,
+      "index": 15873,
+      "label": "elements of code and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She declared a variable and assigned it inside the class."
+    },
+    "s024-nm1": {
+      "test": 24,
+      "layer": 12,
+      "index": 15873,
+      "label": "elements of code and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The waiter returns a menu after the guests finish each course."
+    },
+    "s024-nm2": {
+      "test": 24,
+      "layer": 12,
+      "index": 15873,
+      "label": "elements of code and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She opened a notebook and wrote inside the cover."
+    },
+    "s025-sf1": {
+      "test": 25,
+      "layer": 12,
+      "index": 3816,
+      "label": "academic institutions and their departments",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The university's chemistry department hired two new professors this year."
+    },
+    "s025-sf2": {
+      "test": 25,
+      "layer": 12,
+      "index": 3816,
+      "label": "academic institutions and their departments",
+      "ok": true,
+      "max_activation": 5.1875,
+      "prompt": "He teaches history at Oxford University in England."
+    },
+    "s025-nm1": {
+      "test": 25,
+      "layer": 12,
+      "index": 3816,
+      "label": "academic institutions and their departments",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The company's marketing department hired two new designers this year."
+    },
+    "s025-nm2": {
+      "test": 25,
+      "layer": 12,
+      "index": 3816,
+      "label": "academic institutions and their departments",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He teaches history at a private studio in England."
+    },
+    "s026-sf1": {
+      "test": 26,
+      "layer": 12,
+      "index": 8127,
+      "label": "specific terms and concepts related to complex systems and interactions",
+      "ok": true,
+      "max_activation": 5.5,
+      "prompt": "The ecosystem's species interact in complex feedback loops that resist prediction."
+    },
+    "s026-sf2": {
+      "test": 26,
+      "layer": 12,
+      "index": 8127,
+      "label": "specific terms and concepts related to complex systems and interactions",
+      "ok": true,
+      "max_activation": 3.671875,
+      "prompt": "Emergent behavior in the network arises from many interacting agents."
+    },
+    "s026-nm1": {
+      "test": 26,
+      "layer": 12,
+      "index": 8127,
+      "label": "specific terms and concepts related to complex systems and interactions",
+      "ok": true,
+      "max_activation": 4.53125,
+      "prompt": "The garden's flowers bloom in simple rows that follow the season."
+    },
+    "s026-nm2": {
+      "test": 26,
+      "layer": 12,
+      "index": 8127,
+      "label": "specific terms and concepts related to complex systems and interactions",
+      "ok": true,
+      "max_activation": 6.625,
+      "prompt": "Quiet behavior in the library arises from many reading patrons."
+    },
+    "s027-sf1": {
+      "test": 27,
+      "layer": 12,
+      "index": 7091,
+      "label": "emotions and challenges related to difficult situations",
+      "ok": true,
+      "max_activation": 4.59375,
+      "prompt": "She felt overwhelmed and hopeless as the bills kept piling up."
+    },
+    "s027-sf2": {
+      "test": 27,
+      "layer": 12,
+      "index": 7091,
+      "label": "emotions and challenges related to difficult situations",
+      "ok": true,
+      "max_activation": 4.90625,
+      "prompt": "Losing his job left him anxious about how to feed his family."
+    },
+    "s027-nm1": {
+      "test": 27,
+      "layer": 12,
+      "index": 7091,
+      "label": "emotions and challenges related to difficult situations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She felt calm and hopeful as the letters kept arriving each morning."
+    },
+    "s027-nm2": {
+      "test": 27,
+      "layer": 12,
+      "index": 7091,
+      "label": "emotions and challenges related to difficult situations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Keeping his job left him relaxed about how to feed his family."
+    },
+    "s028-sf1": {
+      "test": 28,
+      "layer": 12,
+      "index": 7199,
+      "label": "phrases referring to the concept of time, particularly contextual references and instances related to timing in events",
+      "ok": true,
+      "max_activation": 4.09375,
+      "prompt": "Dinner will be ready in about twenty minutes, just in time for guests."
+    },
+    "s028-sf2": {
+      "test": 28,
+      "layer": 12,
+      "index": 7199,
+      "label": "phrases referring to the concept of time, particularly contextual references and instances related to timing in events",
+      "ok": true,
+      "max_activation": 6.21875,
+      "prompt": "At that moment, he realized the deadline was only hours away."
+    },
+    "s028-nm1": {
+      "test": 28,
+      "layer": 12,
+      "index": 7199,
+      "label": "phrases referring to the concept of time, particularly contextual references and instances related to timing in events",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Dinner will be ready in a large blue pot, just right for guests."
+    },
+    "s028-nm2": {
+      "test": 28,
+      "layer": 12,
+      "index": 7199,
+      "label": "phrases referring to the concept of time, particularly contextual references and instances related to timing in events",
+      "ok": true,
+      "max_activation": 6.21875,
+      "prompt": "At that place, he realized the doorway was only steps away."
+    },
+    "s029-sf1": {
+      "test": 29,
+      "layer": 12,
+      "index": 416,
+      "label": "commands or functions related to logging or alerting in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The system logs an error message whenever the connection drops."
+    },
+    "s029-sf2": {
+      "test": 29,
+      "layer": 12,
+      "index": 416,
+      "label": "commands or functions related to logging or alerting in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She set an alert to notify the team when disk space runs low."
+    },
+    "s029-nm1": {
+      "test": 29,
+      "layer": 12,
+      "index": 416,
+      "label": "commands or functions related to logging or alerting in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The system prints a receipt whenever the customer pays at checkout."
+    },
+    "s029-nm2": {
+      "test": 29,
+      "layer": 12,
+      "index": 416,
+      "label": "commands or functions related to logging or alerting in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She set a reminder to notify the team when lunch break runs long."
+    },
+    "s030-sf1": {
+      "test": 30,
+      "layer": 12,
+      "index": 8553,
+      "label": "specific programming constructs related to animation and image processing in game development",
+      "ok": true,
+      "max_activation": 25.75,
+      "prompt": "The sprite moves across the screen as each animation frame renders."
+    },
+    "s030-sf2": {
+      "test": 30,
+      "layer": 12,
+      "index": 8553,
+      "label": "specific programming constructs related to animation and image processing in game development",
+      "ok": true,
+      "max_activation": 8.875,
+      "prompt": "The game blurs the background image to create a depth effect."
+    },
+    "s030-nm1": {
+      "test": 30,
+      "layer": 12,
+      "index": 8553,
+      "label": "specific programming constructs related to animation and image processing in game development",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The dancer moves across the stage as each musical number plays."
+    },
+    "s030-nm2": {
+      "test": 30,
+      "layer": 12,
+      "index": 8553,
+      "label": "specific programming constructs related to animation and image processing in game development",
+      "ok": true,
+      "max_activation": 6.71875,
+      "prompt": "The photo blurs the background image to create a depth effect."
+    },
+    "s031-sf1": {
+      "test": 31,
+      "layer": 12,
+      "index": 5015,
+      "label": "phrases specifically related to conditions and their descriptions in various contexts",
+      "ok": true,
+      "max_activation": 32,
+      "prompt": "Patients with the condition often report fatigue and a persistent cough."
+    },
+    "s031-sf2": {
+      "test": 31,
+      "layer": 12,
+      "index": 5015,
+      "label": "phrases specifically related to conditions and their descriptions in various contexts",
+      "ok": true,
+      "max_activation": 45.5,
+      "prompt": "The condition worsens in cold weather and improves with rest."
+    },
+    "s031-nm1": {
+      "test": 31,
+      "layer": 12,
+      "index": 5015,
+      "label": "phrases specifically related to conditions and their descriptions in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Guests at the hotel often report comfort and a restful night."
+    },
+    "s031-nm2": {
+      "test": 31,
+      "layer": 12,
+      "index": 5015,
+      "label": "phrases specifically related to conditions and their descriptions in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The garden flourishes in cold weather and improves with rain."
+    },
+    "s032-sf1": {
+      "test": 32,
+      "layer": 12,
+      "index": 15744,
+      "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The heart pumps blood through arteries to the rest of the body."
+    },
+    "s032-sf2": {
+      "test": 32,
+      "layer": 12,
+      "index": 15744,
+      "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Muscles in the leg contract to bend the knee joint."
+    },
+    "s032-nm1": {
+      "test": 32,
+      "layer": 12,
+      "index": 15744,
+      "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The pump moves water through pipes to the rest of the house."
+    },
+    "s032-nm2": {
+      "test": 32,
+      "layer": 12,
+      "index": 15744,
+      "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Ropes on the sail tighten to bend the wooden mast."
+    },
+    "s033-sf1": {
+      "test": 33,
+      "layer": 12,
+      "index": 1508,
+      "label": "chemical compounds related to lipids",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Cholesterol and triglycerides are lipids carried in the bloodstream."
+    },
+    "s033-sf2": {
+      "test": 33,
+      "layer": 12,
+      "index": 1508,
+      "label": "chemical compounds related to lipids",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Fatty acids form the building blocks of many lipid molecules."
+    },
+    "s033-nm1": {
+      "test": 33,
+      "layer": 12,
+      "index": 1508,
+      "label": "chemical compounds related to lipids",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Vitamins and minerals are nutrients carried in the bloodstream."
+    },
+    "s033-nm2": {
+      "test": 33,
+      "layer": 12,
+      "index": 1508,
+      "label": "chemical compounds related to lipids",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Amino acids form the building blocks of many protein molecules."
+    },
+    "s034-sf1": {
+      "test": 34,
+      "layer": 12,
+      "index": 8692,
+      "label": "terms related to the implementation process in various contexts",
+      "ok": true,
+      "max_activation": 51,
+      "prompt": "The implementation of the new policy began with a pilot in two offices."
+    },
+    "s034-sf2": {
+      "test": 34,
+      "layer": 12,
+      "index": 8692,
+      "label": "terms related to the implementation process in various contexts",
+      "ok": true,
+      "max_activation": 47.5,
+      "prompt": "They implemented the software rollout in phases across the company."
+    },
+    "s034-nm1": {
+      "test": 34,
+      "layer": 12,
+      "index": 8692,
+      "label": "terms related to the implementation process in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The announcement of the new policy began with a memo in two offices."
+    },
+    "s034-nm2": {
+      "test": 34,
+      "layer": 12,
+      "index": 8692,
+      "label": "terms related to the implementation process in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They discussed the software purchase in meetings across the company."
+    },
+    "s035-sf1": {
+      "test": 35,
+      "layer": 12,
+      "index": 11314,
+      "label": "links and references to external sources",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Read more at the link below, which points to the full report online."
+    },
+    "s035-sf2": {
+      "test": 35,
+      "layer": 12,
+      "index": 11314,
+      "label": "links and references to external sources",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "According to the source cited at the end, the figures come from 2020 census data."
+    },
+    "s035-nm1": {
+      "test": 35,
+      "layer": 12,
+      "index": 11314,
+      "label": "links and references to external sources",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Read more in the chapter below, which covers the full topic in detail."
+    },
+    "s035-nm2": {
+      "test": 35,
+      "layer": 12,
+      "index": 11314,
+      "label": "links and references to external sources",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "According to the summary printed at the start, the figures come from our own survey."
+    },
+    "s036-sf1": {
+      "test": 36,
+      "layer": 12,
+      "index": 14189,
+      "label": "technical terms and definitions related to mathematical concepts and computational processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A derivative measures the rate of change of a function at a point."
+    },
+    "s036-sf2": {
+      "test": 36,
+      "layer": 12,
+      "index": 14189,
+      "label": "technical terms and definitions related to mathematical concepts and computational processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The algorithm's complexity describes how its running time grows with input size."
+    },
+    "s036-nm1": {
+      "test": 36,
+      "layer": 12,
+      "index": 14189,
+      "label": "technical terms and definitions related to mathematical concepts and computational processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A thermometer measures the outdoor temperature of a garden at noon."
+    },
+    "s036-nm2": {
+      "test": 36,
+      "layer": 12,
+      "index": 14189,
+      "label": "technical terms and definitions related to mathematical concepts and computational processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The recipe's difficulty describes how its cooking time grows with batch size."
+    },
+    "s037-sf1": {
+      "test": 37,
+      "layer": 12,
+      "index": 14167,
+      "label": "references to supplies and equipment items",
+      "ok": true,
+      "max_activation": 10.6875,
+      "prompt": "The kit includes gloves, goggles, and a spare set of batteries."
+    },
+    "s037-sf2": {
+      "test": 37,
+      "layer": 12,
+      "index": 14167,
+      "label": "references to supplies and equipment items",
+      "ok": true,
+      "max_activation": 23.25,
+      "prompt": "Workers loaded the truck with ladders, drills, and safety helmets."
+    },
+    "s037-nm1": {
+      "test": 37,
+      "layer": 12,
+      "index": 14167,
+      "label": "references to supplies and equipment items",
+      "ok": true,
+      "max_activation": 3.140625,
+      "prompt": "The letter includes greetings, news, and a warm set of wishes."
+    },
+    "s037-nm2": {
+      "test": 37,
+      "layer": 12,
+      "index": 14167,
+      "label": "references to supplies and equipment items",
+      "ok": true,
+      "max_activation": 23.75,
+      "prompt": "Workers loaded the truck with sandwiches, drinks, and picnic blankets."
+    },
+    "s038-sf1": {
+      "test": 38,
+      "layer": 12,
+      "index": 4117,
+      "label": "phrases indicating emotional engagement or personal reflections",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "I still think about that summer and how much it changed me."
+    },
+    "s038-sf2": {
+      "test": 38,
+      "layer": 12,
+      "index": 4117,
+      "label": "phrases indicating emotional engagement or personal reflections",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Reading her letter, he felt a lump rise in his throat."
+    },
+    "s038-nm1": {
+      "test": 38,
+      "layer": 12,
+      "index": 4117,
+      "label": "phrases indicating emotional engagement or personal reflections",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "I still think about that summer and how much it rained there."
+    },
+    "s038-nm2": {
+      "test": 38,
+      "layer": 12,
+      "index": 4117,
+      "label": "phrases indicating emotional engagement or personal reflections",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Reading her letter, he noted the date written at the top."
+    },
+    "s039-sf1": {
+      "test": 39,
+      "layer": 12,
+      "index": 11027,
+      "label": "phrases related to professional advancement and workplace changes",
+      "ok": true,
+      "max_activation": 3.4375,
+      "prompt": "She was promoted to manager after leading the project for a year."
+    },
+    "s039-sf2": {
+      "test": 39,
+      "layer": 12,
+      "index": 11027,
+      "label": "phrases related to professional advancement and workplace changes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He left the firm to take a senior role at a larger company."
+    },
+    "s039-nm1": {
+      "test": 39,
+      "layer": 12,
+      "index": 11027,
+      "label": "phrases related to professional advancement and workplace changes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She was praised by clients after leading the project for a year."
+    },
+    "s039-nm2": {
+      "test": 39,
+      "layer": 12,
+      "index": 11027,
+      "label": "phrases related to professional advancement and workplace changes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He visited the firm to take a guided tour of a larger company."
+    },
+    "s040-sf1": {
+      "test": 40,
+      "layer": 12,
+      "index": 1963,
+      "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The new iPhone from Apple features a brighter screen and faster chip."
+    },
+    "s040-sf2": {
+      "test": 40,
+      "layer": 12,
+      "index": 1963,
+      "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Samsung released a laptop with a longer battery life this spring."
+    },
+    "s040-nm1": {
+      "test": 40,
+      "layer": 12,
+      "index": 1963,
+      "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The new cookbook from the chef features a brighter cover and shorter chapters."
+    },
+    "s040-nm2": {
+      "test": 40,
+      "layer": 12,
+      "index": 1963,
+      "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A local farm released a basket with a longer handle this spring."
+    },
+    "s041-sf1": {
+      "test": 41,
+      "layer": 12,
+      "index": 5620,
+      "label": "phrases related to health, disease mechanisms, and environmental policies",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The virus spreads when infected droplets reach the lungs and trigger inflammation."
+    },
+    "s041-sf2": {
+      "test": 41,
+      "layer": 12,
+      "index": 5620,
+      "label": "phrases related to health, disease mechanisms, and environmental policies",
+      "ok": true,
+      "max_activation": 7.0625,
+      "prompt": "The new policy limits factory emissions to protect public health in nearby towns."
+    },
+    "s041-nm1": {
+      "test": 41,
+      "layer": 12,
+      "index": 5620,
+      "label": "phrases related to health, disease mechanisms, and environmental policies",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The rumor spreads when excited fans repeat the story and trigger a celebration."
+    },
+    "s041-nm2": {
+      "test": 41,
+      "layer": 12,
+      "index": 5620,
+      "label": "phrases related to health, disease mechanisms, and environmental policies",
+      "ok": true,
+      "max_activation": 5.125,
+      "prompt": "The new policy limits factory overtime to protect worker morale in nearby towns."
+    },
+    "s042-sf1": {
+      "test": 42,
+      "layer": 12,
+      "index": 11998,
+      "label": "code snippets related to programming logic and control structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program uses an if statement to check the password before granting access."
+    },
+    "s042-sf2": {
+      "test": 42,
+      "layer": 12,
+      "index": 11998,
+      "label": "code snippets related to programming logic and control structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A while loop repeats the calculation until the total reaches one hundred."
+    },
+    "s042-nm1": {
+      "test": 42,
+      "layer": 12,
+      "index": 11998,
+      "label": "code snippets related to programming logic and control structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program uses a login screen to check the password before granting access."
+    },
+    "s042-nm2": {
+      "test": 42,
+      "layer": 12,
+      "index": 11998,
+      "label": "code snippets related to programming logic and control structures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A printed table repeats the calculation until the total reaches one hundred."
+    },
+    "s043-sf1": {
+      "test": 43,
+      "layer": 12,
+      "index": 13804,
+      "label": "keywords related to financial and legal concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The contract requires the borrower to repay the loan with interest by June."
+    },
+    "s043-sf2": {
+      "test": 43,
+      "layer": 12,
+      "index": 13804,
+      "label": "keywords related to financial and legal concepts",
+      "ok": true,
+      "max_activation": 3.53125,
+      "prompt": "The court ruled that the company was liable for damages under the agreement."
+    },
+    "s043-nm1": {
+      "test": 43,
+      "layer": 12,
+      "index": 13804,
+      "label": "keywords related to financial and legal concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The recipe requires the cook to repay the favour with a cake by June."
+    },
+    "s043-nm2": {
+      "test": 43,
+      "layer": 12,
+      "index": 13804,
+      "label": "keywords related to financial and legal concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The teacher ruled that the student was responsible for homework under the schedule."
+    },
+    "s044-sf1": {
+      "test": 44,
+      "layer": 12,
+      "index": 14968,
+      "label": "specific dates and times related to events",
+      "ok": true,
+      "max_activation": 6.03125,
+      "prompt": "The concert starts on Friday, March 14 at 7:30 in the evening."
+    },
+    "s044-sf2": {
+      "test": 44,
+      "layer": 12,
+      "index": 14968,
+      "label": "specific dates and times related to events",
+      "ok": true,
+      "max_activation": 11.125,
+      "prompt": "Her flight leaves on December 2, 2026, at six o'clock in the morning."
+    },
+    "s044-nm1": {
+      "test": 44,
+      "layer": 12,
+      "index": 14968,
+      "label": "specific dates and times related to events",
+      "ok": true,
+      "max_activation": 5.96875,
+      "prompt": "The concert starts on Friday evening after dinner in the main hall."
+    },
+    "s044-nm2": {
+      "test": 44,
+      "layer": 12,
+      "index": 14968,
+      "label": "specific dates and times related to events",
+      "ok": true,
+      "max_activation": 8.375,
+      "prompt": "Her flight leaves in early December, sometime in the morning."
+    },
+    "s045-sf1": {
+      "test": 45,
+      "layer": 12,
+      "index": 15465,
+      "label": "actions involving slipping or losing balance",
+      "ok": true,
+      "max_activation": 24,
+      "prompt": "He slipped on the icy path and grabbed the railing to steady himself."
+    },
+    "s045-sf2": {
+      "test": 45,
+      "layer": 12,
+      "index": 15465,
+      "label": "actions involving slipping or losing balance",
+      "ok": true,
+      "max_activation": 32.5,
+      "prompt": "The toddler lost her balance on the step and fell onto the grass."
+    },
+    "s045-nm1": {
+      "test": 45,
+      "layer": 12,
+      "index": 15465,
+      "label": "actions involving slipping or losing balance",
+      "ok": true,
+      "max_activation": 26,
+      "prompt": "He walked on the icy path and grabbed the railing to steady himself."
+    },
+    "s045-nm2": {
+      "test": 45,
+      "layer": 12,
+      "index": 15465,
+      "label": "actions involving slipping or losing balance",
+      "ok": true,
+      "max_activation": 22.5,
+      "prompt": "The toddler stepped carefully on the step and climbed onto the grass."
+    },
+    "s046-sf1": {
+      "test": 46,
+      "layer": 12,
+      "index": 8903,
+      "label": "code snippets related to AJAX requests and operations",
+      "ok": true,
+      "max_activation": 37.5,
+      "prompt": "The page uses an AJAX request to load new messages without refreshing."
+    },
+    "s046-sf2": {
+      "test": 46,
+      "layer": 12,
+      "index": 8903,
+      "label": "code snippets related to AJAX requests and operations",
+      "ok": true,
+      "max_activation": 34.75,
+      "prompt": "When the user clicks save, AJAX sends the form data to the server."
+    },
+    "s046-nm1": {
+      "test": 46,
+      "layer": 12,
+      "index": 8903,
+      "label": "code snippets related to AJAX requests and operations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The page uses a full reload to load new messages after refreshing."
+    },
+    "s046-nm2": {
+      "test": 46,
+      "layer": 12,
+      "index": 8903,
+      "label": "code snippets related to AJAX requests and operations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "When the user clicks save, email sends the form data to the server."
+    },
+    "s047-sf1": {
+      "test": 47,
+      "layer": 12,
+      "index": 270,
+      "label": "comments and documentation within code",
+      "ok": true,
+      "max_activation": 10.125,
+      "prompt": "He added a comment above the function explaining why the date is converted."
+    },
+    "s047-sf2": {
+      "test": 47,
+      "layer": 12,
+      "index": 270,
+      "label": "comments and documentation within code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The documentation for the library describes what each setting changes."
+    },
+    "s047-nm1": {
+      "test": 47,
+      "layer": 12,
+      "index": 270,
+      "label": "comments and documentation within code",
+      "ok": true,
+      "max_activation": 5.03125,
+      "prompt": "He added a statement above the function explaining why the date is converted."
+    },
+    "s047-nm2": {
+      "test": 47,
+      "layer": 12,
+      "index": 270,
+      "label": "comments and documentation within code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The catalogue for the library describes what each setting changes."
+    },
+    "s048-sf1": {
+      "test": 48,
+      "layer": 12,
+      "index": 1797,
+      "label": "terms related to affordability and financial accessibility",
+      "ok": true,
+      "max_activation": 21.75,
+      "prompt": "The new apartments are affordable for families earning a modest income."
+    },
+    "s048-sf2": {
+      "test": 48,
+      "layer": 12,
+      "index": 1797,
+      "label": "terms related to affordability and financial accessibility",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Lower fees make the bank account accessible to people with little money."
+    },
+    "s048-nm1": {
+      "test": 48,
+      "layer": 12,
+      "index": 1797,
+      "label": "terms related to affordability and financial accessibility",
+      "ok": true,
+      "max_activation": 3.625,
+      "prompt": "The new apartments are comfortable for families earning a modest income."
+    },
+    "s048-nm2": {
+      "test": 48,
+      "layer": 12,
+      "index": 1797,
+      "label": "terms related to affordability and financial accessibility",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Lower steps make the bank building accessible to people with little strength."
+    },
+    "s049-sf1": {
+      "test": 49,
+      "layer": 12,
+      "index": 10243,
+      "label": "phrases related to capital and financial expenditures",
+      "ok": true,
+      "max_activation": 50,
+      "prompt": "The company spent capital on new machinery for the factory this year."
+    },
+    "s049-sf2": {
+      "test": 49,
+      "layer": 12,
+      "index": 10243,
+      "label": "phrases related to capital and financial expenditures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Their expenditure on equipment rose after they opened a second office."
+    },
+    "s049-nm1": {
+      "test": 49,
+      "layer": 12,
+      "index": 10243,
+      "label": "phrases related to capital and financial expenditures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The company spent effort on new training for the factory this year."
+    },
+    "s049-nm2": {
+      "test": 49,
+      "layer": 12,
+      "index": 10243,
+      "label": "phrases related to capital and financial expenditures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Their spending on lunches rose after they opened a second office."
+    },
+    "s050-sf1": {
+      "test": 50,
+      "layer": 12,
+      "index": 16163,
+      "label": "sections and headings in structured scientific documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Under the heading Results, the authors reported a clear rise in temperature."
+    },
+    "s050-sf2": {
+      "test": 50,
+      "layer": 12,
+      "index": 16163,
+      "label": "sections and headings in structured scientific documents",
+      "ok": true,
+      "max_activation": 8.4375,
+      "prompt": "The Methods section explains how the samples were collected and measured."
+    },
+    "s050-nm1": {
+      "test": 50,
+      "layer": 12,
+      "index": 16163,
+      "label": "sections and headings in structured scientific documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Under the opening paragraph, the authors reported a clear rise in temperature."
+    },
+    "s050-nm2": {
+      "test": 50,
+      "layer": 12,
+      "index": 16163,
+      "label": "sections and headings in structured scientific documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The laboratory textbook explains how the samples were collected and measured."
+    },
+    "s051-sf1": {
+      "test": 51,
+      "layer": 12,
+      "index": 5390,
+      "label": "specific scientific terms related to biology and medicine",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The enzyme breaks down proteins inside the cell during digestion."
+    },
+    "s051-sf2": {
+      "test": 51,
+      "layer": 12,
+      "index": 5390,
+      "label": "specific scientific terms related to biology and medicine",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Doctors found bacteria in the sample and prescribed an antibiotic."
+    },
+    "s051-nm1": {
+      "test": 51,
+      "layer": 12,
+      "index": 5390,
+      "label": "specific scientific terms related to biology and medicine",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The machine breaks down boxes inside the warehouse during sorting."
+    },
+    "s051-nm2": {
+      "test": 51,
+      "layer": 12,
+      "index": 5390,
+      "label": "specific scientific terms related to biology and medicine",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Cooks found herbs in the sample and prescribed a new recipe."
+    },
+    "s052-sf1": {
+      "test": 52,
+      "layer": 12,
+      "index": 15886,
+      "label": "terms related to light, rays, and optics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The lens focuses the light into a narrow beam on the wall."
+    },
+    "s052-sf2": {
+      "test": 52,
+      "layer": 12,
+      "index": 15886,
+      "label": "terms related to light, rays, and optics",
+      "ok": true,
+      "max_activation": 20,
+      "prompt": "Sunlight rays bend as they pass through the curved glass."
+    },
+    "s052-nm1": {
+      "test": 52,
+      "layer": 12,
+      "index": 15886,
+      "label": "terms related to light, rays, and optics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The bracket holds the camera in a narrow case on the wall."
+    },
+    "s052-nm2": {
+      "test": 52,
+      "layer": 12,
+      "index": 15886,
+      "label": "terms related to light, rays, and optics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The seedlings bend as they grow toward the curved glass."
+    },
+    "s053-sf1": {
+      "test": 53,
+      "layer": 12,
+      "index": 13957,
+      "label": "terms related to sales and business transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The customer paid the invoice after the seller shipped the order."
+    },
+    "s053-sf2": {
+      "test": 53,
+      "layer": 12,
+      "index": 13957,
+      "label": "terms related to sales and business transactions",
+      "ok": true,
+      "max_activation": 33.25,
+      "prompt": "Sales rose when the shop lowered the price for regular buyers."
+    },
+    "s053-nm1": {
+      "test": 53,
+      "layer": 12,
+      "index": 13957,
+      "label": "terms related to sales and business transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The customer carried the parcel after the landlord handed over the keys."
+    },
+    "s053-nm2": {
+      "test": 53,
+      "layer": 12,
+      "index": 13957,
+      "label": "terms related to sales and business transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Crowds rose when the shop lowered the music for regular visitors."
+    },
+    "s054-sf1": {
+      "test": 54,
+      "layer": 12,
+      "index": 3120,
+      "label": "phrases expressing preferences for sharing or communication",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "I would rather share the news by email than wait until Monday."
+    },
+    "s054-sf2": {
+      "test": 54,
+      "layer": 12,
+      "index": 3120,
+      "label": "phrases expressing preferences for sharing or communication",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She prefers to talk things over in person instead of by text."
+    },
+    "s054-nm1": {
+      "test": 54,
+      "layer": 12,
+      "index": 3120,
+      "label": "phrases expressing preferences for sharing or communication",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "I would rather send the news by email than wait until Monday."
+    },
+    "s054-nm2": {
+      "test": 54,
+      "layer": 12,
+      "index": 3120,
+      "label": "phrases expressing preferences for sharing or communication",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She manages to talk things over in person instead of by text."
+    },
+    "s055-sf1": {
+      "test": 55,
+      "layer": 12,
+      "index": 6793,
+      "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function sorts the list and returns the smallest value first."
+    },
+    "s055-sf2": {
+      "test": 55,
+      "layer": 12,
+      "index": 6793,
+      "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "This function checks each item in the array before updating the counter."
+    },
+    "s055-nm1": {
+      "test": 55,
+      "layer": 12,
+      "index": 6793,
+      "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The clerk sorts the list and returns the smallest value first."
+    },
+    "s055-nm2": {
+      "test": 55,
+      "layer": 12,
+      "index": 6793,
+      "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "This worker checks each item in the pile before updating the counter."
+    },
+    "s056-sf1": {
+      "test": 56,
+      "layer": 12,
+      "index": 6196,
+      "label": "elements related to electromechanical systems",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The electric motor drives the gear that opens the automatic door."
+    },
+    "s056-sf2": {
+      "test": 56,
+      "layer": 12,
+      "index": 6196,
+      "label": "elements related to electromechanical systems",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A relay switches the current to the solenoid when the button is pressed."
+    },
+    "s056-nm1": {
+      "test": 56,
+      "layer": 12,
+      "index": 6196,
+      "label": "elements related to electromechanical systems",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The electric light brightens the room that opens the automatic door."
+    },
+    "s056-nm2": {
+      "test": 56,
+      "layer": 12,
+      "index": 6196,
+      "label": "elements related to electromechanical systems",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "A worker flips the sign to the entrance when the bell rings."
+    },
+    "s057-sf1": {
+      "test": 57,
+      "layer": 12,
+      "index": 4871,
+      "label": "locations and geographical descriptors",
+      "ok": true,
+      "max_activation": 23.125,
+      "prompt": "The village sits in a valley between the mountains and the river."
+    },
+    "s057-sf2": {
+      "test": 57,
+      "layer": 12,
+      "index": 4871,
+      "label": "locations and geographical descriptors",
+      "ok": true,
+      "max_activation": 17.25,
+      "prompt": "Their house is on the north coast, a few miles from the harbour."
+    },
+    "s057-nm1": {
+      "test": 57,
+      "layer": 12,
+      "index": 4871,
+      "label": "locations and geographical descriptors",
+      "ok": true,
+      "max_activation": 22.375,
+      "prompt": "The cottage sits in a painting between the frame and the signature."
+    },
+    "s057-nm2": {
+      "test": 57,
+      "layer": 12,
+      "index": 4871,
+      "label": "locations and geographical descriptors",
+      "ok": true,
+      "max_activation": 11.3125,
+      "prompt": "Their house is on the old photo, a few inches from the corner."
+    },
+    "s058-sf1": {
+      "test": 58,
+      "layer": 12,
+      "index": 825,
+      "label": "references to necessity and requirements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Passengers must show a ticket before they board the train."
+    },
+    "s058-sf2": {
+      "test": 58,
+      "layer": 12,
+      "index": 825,
+      "label": "references to necessity and requirements",
+      "ok": true,
+      "max_activation": 16.5,
+      "prompt": "You need a licence before you can drive this truck legally."
+    },
+    "s058-nm1": {
+      "test": 58,
+      "layer": 12,
+      "index": 825,
+      "label": "references to necessity and requirements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Passengers can show a ticket before they board the train."
+    },
+    "s058-nm2": {
+      "test": 58,
+      "layer": 12,
+      "index": 825,
+      "label": "references to necessity and requirements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "You have a licence before you can drive this truck legally."
+    },
+    "s059-sf1": {
+      "test": 59,
+      "layer": 12,
+      "index": 896,
+      "label": "structured data and elements related to programming or model definitions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The model defines each field, its type, and whether it is required."
+    },
+    "s059-sf2": {
+      "test": 59,
+      "layer": 12,
+      "index": 896,
+      "label": "structured data and elements related to programming or model definitions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The data is stored as a table with rows for every customer."
+    },
+    "s059-nm1": {
+      "test": 59,
+      "layer": 12,
+      "index": 896,
+      "label": "structured data and elements related to programming or model definitions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The essay defines each term, its origin, and whether it is required."
+    },
+    "s059-nm2": {
+      "test": 59,
+      "layer": 12,
+      "index": 896,
+      "label": "structured data and elements related to programming or model definitions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The data is stored as a pile with boxes for every customer."
+    },
+    "s060-sf1": {
+      "test": 60,
+      "layer": 12,
+      "index": 6785,
+      "label": "details about individuals' educational backgrounds and professional history",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She earned a degree in history before working as a school administrator."
+    },
+    "s060-sf2": {
+      "test": 60,
+      "layer": 12,
+      "index": 6785,
+      "label": "details about individuals' educational backgrounds and professional history",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He studied engineering at university and then spent ten years in banking."
+    },
+    "s060-nm1": {
+      "test": 60,
+      "layer": 12,
+      "index": 6785,
+      "label": "details about individuals' educational backgrounds and professional history",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She earned a badge in history before helping at the school fair."
+    },
+    "s060-nm2": {
+      "test": 60,
+      "layer": 12,
+      "index": 6785,
+      "label": "details about individuals' educational backgrounds and professional history",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He tended the garden at weekends and then spent ten summers in the shed."
+    },
+    "s061-sf1": {
+      "test": 61,
+      "layer": 12,
+      "index": 12314,
+      "label": "proper nouns, particularly place names and related identifiers",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They flew from Chicago to Denver before driving into the mountains."
+    },
+    "s061-sf2": {
+      "test": 61,
+      "layer": 12,
+      "index": 12314,
+      "label": "proper nouns, particularly place names and related identifiers",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The River Thames flows through London past the old bridges."
+    },
+    "s061-nm1": {
+      "test": 61,
+      "layer": 12,
+      "index": 12314,
+      "label": "proper nouns, particularly place names and related identifiers",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They flew from one city to another before driving into the mountains."
+    },
+    "s061-nm2": {
+      "test": 61,
+      "layer": 12,
+      "index": 12314,
+      "label": "proper nouns, particularly place names and related identifiers",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The wide river flows through the painting past the old bridges."
+    },
+    "s062-sf1": {
+      "test": 62,
+      "layer": 12,
+      "index": 14530,
+      "label": "mathematical formulas and symbols",
+      "ok": true,
+      "max_activation": 5.71875,
+      "prompt": "The formula for the area is length multiplied by width, written as A = l × w."
+    },
+    "s062-sf2": {
+      "test": 62,
+      "layer": 12,
+      "index": 14530,
+      "label": "mathematical formulas and symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He solved the equation x + 5 = 12 by subtracting five."
+    },
+    "s062-nm1": {
+      "test": 62,
+      "layer": 12,
+      "index": 14530,
+      "label": "mathematical formulas and symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The recipe for the cake is described in words, written out in a sentence."
+    },
+    "s062-nm2": {
+      "test": 62,
+      "layer": 12,
+      "index": 14530,
+      "label": "mathematical formulas and symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He solved the puzzle about five and twelve by subtracting five."
+    },
+    "s063-sf1": {
+      "test": 63,
+      "layer": 12,
+      "index": 10356,
+      "label": "instances of significant numerical values or statistics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Unemployment fell to 4.2 percent, the lowest rate in five years."
+    },
+    "s063-sf2": {
+      "test": 63,
+      "layer": 12,
+      "index": 10356,
+      "label": "instances of significant numerical values or statistics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The survey found that 68 percent of voters supported the proposal."
+    },
+    "s063-nm1": {
+      "test": 63,
+      "layer": 12,
+      "index": 10356,
+      "label": "instances of significant numerical values or statistics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Unemployment fell slightly, the lowest level in recent memory."
+    },
+    "s063-nm2": {
+      "test": 63,
+      "layer": 12,
+      "index": 10356,
+      "label": "instances of significant numerical values or statistics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The survey found that most voters supported the proposal."
+    },
+    "s064-sf1": {
+      "test": 64,
+      "layer": 12,
+      "index": 15792,
+      "label": "mentions of specific names or terms related to financial or transactional contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She transferred the payment to Marcus through her checking account."
+    },
+    "s064-sf2": {
+      "test": 64,
+      "layer": 12,
+      "index": 15792,
+      "label": "mentions of specific names or terms related to financial or transactional contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The invoice lists Greenfield Supplies as the vendor for the delivery."
+    },
+    "s064-nm1": {
+      "test": 64,
+      "layer": 12,
+      "index": 15792,
+      "label": "mentions of specific names or terms related to financial or transactional contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She transferred the parcel to Marcus through her checking account."
+    },
+    "s064-nm2": {
+      "test": 64,
+      "layer": 12,
+      "index": 15792,
+      "label": "mentions of specific names or terms related to financial or transactional contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The invoice lists Greenfield Supplies as the driver for the delivery."
+    },
+    "s065-sf1": {
+      "test": 65,
+      "layer": 12,
+      "index": 10820,
+      "label": "structured data and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program stores the names in an array and loops through each entry."
+    },
+    "s065-sf2": {
+      "test": 65,
+      "layer": 12,
+      "index": 10820,
+      "label": "structured data and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Each record in the database has a key that links it to a customer."
+    },
+    "s065-nm1": {
+      "test": 65,
+      "layer": 12,
+      "index": 10820,
+      "label": "structured data and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program stores the names in a drawer and loops through each entry."
+    },
+    "s065-nm2": {
+      "test": 65,
+      "layer": 12,
+      "index": 10820,
+      "label": "structured data and programming constructs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Each letter in the drawer has a stamp that links it to a customer."
+    },
+    "s066-sf1": {
+      "test": 66,
+      "layer": 12,
+      "index": 4584,
+      "label": "phrases related to statistical measurements and observed data frequencies",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The average score rose, and the most frequent result was seven."
+    },
+    "s066-sf2": {
+      "test": 66,
+      "layer": 12,
+      "index": 4584,
+      "label": "phrases related to statistical measurements and observed data frequencies",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Researchers measured the frequency of errors across a thousand trials."
+    },
+    "s066-nm1": {
+      "test": 66,
+      "layer": 12,
+      "index": 4584,
+      "label": "phrases related to statistical measurements and observed data frequencies",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The overall mood rose, and the common result was praise."
+    },
+    "s066-nm2": {
+      "test": 66,
+      "layer": 12,
+      "index": 4584,
+      "label": "phrases related to statistical measurements and observed data frequencies",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Researchers listened to the loudness of voices across the crowded hall."
+    },
+    "s067-sf1": {
+      "test": 67,
+      "layer": 12,
+      "index": 2819,
+      "label": "specific numerical values or symbols associated with various metrics or measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The temperature reached 37.5 degrees during the afternoon heat."
+    },
+    "s067-sf2": {
+      "test": 67,
+      "layer": 12,
+      "index": 2819,
+      "label": "specific numerical values or symbols associated with various metrics or measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "His score of 92 out of 100 placed him near the top."
+    },
+    "s067-nm1": {
+      "test": 67,
+      "layer": 12,
+      "index": 2819,
+      "label": "specific numerical values or symbols associated with various metrics or measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The temperature felt warm during the afternoon heat."
+    },
+    "s067-nm2": {
+      "test": 67,
+      "layer": 12,
+      "index": 2819,
+      "label": "specific numerical values or symbols associated with various metrics or measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "His score placed him near the top."
+    },
+    "s068-sf1": {
+      "test": 68,
+      "layer": 12,
+      "index": 7088,
+      "label": "phrases and terms related to time duration and measurements",
+      "ok": true,
+      "max_activation": 34,
+      "prompt": "The train journey lasted three hours and twenty minutes."
+    },
+    "s068-sf2": {
+      "test": 68,
+      "layer": 12,
+      "index": 7088,
+      "label": "phrases and terms related to time duration and measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She waited for two weeks before the letter finally arrived."
+    },
+    "s068-nm1": {
+      "test": 68,
+      "layer": 12,
+      "index": 7088,
+      "label": "phrases and terms related to time duration and measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The train journey covered three towns and twenty villages."
+    },
+    "s068-nm2": {
+      "test": 68,
+      "layer": 12,
+      "index": 7088,
+      "label": "phrases and terms related to time duration and measurements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She waited for two friends before the letter finally arrived."
+    },
+    "s069-sf1": {
+      "test": 69,
+      "layer": 12,
+      "index": 1109,
+      "label": "terms related to technical and mechanical failures or issues",
+      "ok": true,
+      "max_activation": 9.25,
+      "prompt": "The pump failed overnight and the motor overheated by morning."
+    },
+    "s069-sf2": {
+      "test": 69,
+      "layer": 12,
+      "index": 1109,
+      "label": "terms related to technical and mechanical failures or issues",
+      "ok": true,
+      "max_activation": 8.6875,
+      "prompt": "A cracked pipe caused the machine to break down during the shift."
+    },
+    "s069-nm1": {
+      "test": 69,
+      "layer": 12,
+      "index": 1109,
+      "label": "terms related to technical and mechanical failures or issues",
+      "ok": true,
+      "max_activation": 9,
+      "prompt": "The pump worked overnight and the motor ran cool by morning."
+    },
+    "s069-nm2": {
+      "test": 69,
+      "layer": 12,
+      "index": 1109,
+      "label": "terms related to technical and mechanical failures or issues",
+      "ok": true,
+      "max_activation": 8.5625,
+      "prompt": "A new pipe caused the machine to start up during the shift."
+    },
+    "s070-sf1": {
+      "test": 70,
+      "layer": 12,
+      "index": 3344,
+      "label": "words related to leaves and their conditions or characteristics",
+      "ok": true,
+      "max_activation": 18.375,
+      "prompt": "The leaves turned yellow and curled at the edges in the dry heat."
+    },
+    "s070-sf2": {
+      "test": 70,
+      "layer": 12,
+      "index": 3344,
+      "label": "words related to leaves and their conditions or characteristics",
+      "ok": true,
+      "max_activation": 15.125,
+      "prompt": "Fresh green leaves covered the branches after the spring rain."
+    },
+    "s070-nm1": {
+      "test": 70,
+      "layer": 12,
+      "index": 3344,
+      "label": "words related to leaves and their conditions or characteristics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The pages turned yellow and curled at the edges in the dry heat."
+    },
+    "s070-nm2": {
+      "test": 70,
+      "layer": 12,
+      "index": 3344,
+      "label": "words related to leaves and their conditions or characteristics",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Fresh green flags covered the branches after the spring rain."
+    },
+    "s071-sf1": {
+      "test": 71,
+      "layer": 12,
+      "index": 10844,
+      "label": "instances of the word \"indicate\" and its derivatives related to signaling or specifying information",
+      "ok": true,
+      "max_activation": 35.25,
+      "prompt": "The results indicate that the treatment worked better than expected."
+    },
+    "s071-sf2": {
+      "test": 71,
+      "layer": 12,
+      "index": 10844,
+      "label": "instances of the word \"indicate\" and its derivatives related to signaling or specifying information",
+      "ok": true,
+      "max_activation": 31.5,
+      "prompt": "A red light indicates that the machine is still running."
+    },
+    "s071-nm1": {
+      "test": 71,
+      "layer": 12,
+      "index": 10844,
+      "label": "instances of the word \"indicate\" and its derivatives related to signaling or specifying information",
+      "ok": true,
+      "max_activation": 7.625,
+      "prompt": "The results suggest that the treatment worked better than expected."
+    },
+    "s071-nm2": {
+      "test": 71,
+      "layer": 12,
+      "index": 10844,
+      "label": "instances of the word \"indicate\" and its derivatives related to signaling or specifying information",
+      "ok": true,
+      "max_activation": 5.75,
+      "prompt": "A red light shows that the machine is still running."
+    },
+    "s072-sf1": {
+      "test": 72,
+      "layer": 12,
+      "index": 10816,
+      "label": "terms related to buffers in programming or data handling",
+      "ok": true,
+      "max_activation": 42.5,
+      "prompt": "The video paused while the buffer filled with the next few seconds."
+    },
+    "s072-sf2": {
+      "test": 72,
+      "layer": 12,
+      "index": 10816,
+      "label": "terms related to buffers in programming or data handling",
+      "ok": true,
+      "max_activation": 45.5,
+      "prompt": "The program copies incoming data into a buffer before processing it."
+    },
+    "s072-nm1": {
+      "test": 72,
+      "layer": 12,
+      "index": 10816,
+      "label": "terms related to buffers in programming or data handling",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The video paused while the screen filled with the next few seconds."
+    },
+    "s072-nm2": {
+      "test": 72,
+      "layer": 12,
+      "index": 10816,
+      "label": "terms related to buffers in programming or data handling",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program copies incoming data into a folder before processing it."
+    },
+    "s073-sf1": {
+      "test": 73,
+      "layer": 12,
+      "index": 9211,
+      "label": "phrases that indicate comparisons or similarities",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The new phone is similar to the old one but slightly lighter."
+    },
+    "s073-sf2": {
+      "test": 73,
+      "layer": 12,
+      "index": 9211,
+      "label": "phrases that indicate comparisons or similarities",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Her voice sounded like her sister's on the recording."
+    },
+    "s073-nm1": {
+      "test": 73,
+      "layer": 12,
+      "index": 9211,
+      "label": "phrases that indicate comparisons or similarities",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The new phone is sitting beside the old one but slightly lighter."
+    },
+    "s073-nm2": {
+      "test": 73,
+      "layer": 12,
+      "index": 9211,
+      "label": "phrases that indicate comparisons or similarities",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Her voice sounded clear on her sister's recording."
+    },
+    "s074-sf1": {
+      "test": 74,
+      "layer": 12,
+      "index": 13961,
+      "label": "numerical values and sequences, indicating a focus on data or time-related information",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The readings were 12, 18, 25, and 31 over the four days."
+    },
+    "s074-sf2": {
+      "test": 74,
+      "layer": 12,
+      "index": 13961,
+      "label": "numerical values and sequences, indicating a focus on data or time-related information",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He counted down from ten to one before opening the door."
+    },
+    "s074-nm1": {
+      "test": 74,
+      "layer": 12,
+      "index": 13961,
+      "label": "numerical values and sequences, indicating a focus on data or time-related information",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The readings were low, steady, rising, and high over the four days."
+    },
+    "s074-nm2": {
+      "test": 74,
+      "layer": 12,
+      "index": 13961,
+      "label": "numerical values and sequences, indicating a focus on data or time-related information",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He counted down in his head before opening the door."
+    },
+    "s075-sf1": {
+      "test": 75,
+      "layer": 12,
+      "index": 12878,
+      "label": "code-related actions and concepts, particularly those related to database operations and backup processes",
+      "ok": true,
+      "max_activation": 13.25,
+      "prompt": "The script queries the database and backs up every table each night."
+    },
+    "s075-sf2": {
+      "test": 75,
+      "layer": 12,
+      "index": 12878,
+      "label": "code-related actions and concepts, particularly those related to database operations and backup processes",
+      "ok": true,
+      "max_activation": 7.53125,
+      "prompt": "She restored the database from the backup after the update failed."
+    },
+    "s075-nm1": {
+      "test": 75,
+      "layer": 12,
+      "index": 12878,
+      "label": "code-related actions and concepts, particularly those related to database operations and backup processes",
+      "ok": true,
+      "max_activation": 11.125,
+      "prompt": "The script queries the helpdesk and backs up every chair each night."
+    },
+    "s075-nm2": {
+      "test": 75,
+      "layer": 12,
+      "index": 12878,
+      "label": "code-related actions and concepts, particularly those related to database operations and backup processes",
+      "ok": true,
+      "max_activation": 5.71875,
+      "prompt": "She restored the furniture from the storage after the update failed."
+    },
+    "s076-sf1": {
+      "test": 76,
+      "layer": 12,
+      "index": 1283,
+      "label": "references to social justice issues and systemic injustices",
+      "ok": true,
+      "max_activation": 4.0625,
+      "prompt": "The report describes how discriminatory housing policies shut out Black families."
+    },
+    "s076-sf2": {
+      "test": 76,
+      "layer": 12,
+      "index": 1283,
+      "label": "references to social justice issues and systemic injustices",
+      "ok": true,
+      "max_activation": 3.1875,
+      "prompt": "Activists demanded equal access to voting after the new restrictions passed."
+    },
+    "s076-nm1": {
+      "test": 76,
+      "layer": 12,
+      "index": 1283,
+      "label": "references to social justice issues and systemic injustices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The report describes how restrictive housing policies shut out young families."
+    },
+    "s076-nm2": {
+      "test": 76,
+      "layer": 12,
+      "index": 1283,
+      "label": "references to social justice issues and systemic injustices",
+      "ok": true,
+      "max_activation": 3.1875,
+      "prompt": "Activists demanded equal access to parking after the new restrictions passed."
+    },
+    "s077-sf1": {
+      "test": 77,
+      "layer": 12,
+      "index": 5545,
+      "label": "syntax elements related to control structures in programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the code, an if-else statement chooses which message to display."
+    },
+    "s077-sf2": {
+      "test": 77,
+      "layer": 12,
+      "index": 5545,
+      "label": "syntax elements related to control structures in programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The for loop in the program repeats the check for every name."
+    },
+    "s077-nm1": {
+      "test": 77,
+      "layer": 12,
+      "index": 5545,
+      "label": "syntax elements related to control structures in programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the code, a print statement chooses which message to display."
+    },
+    "s077-nm2": {
+      "test": 77,
+      "layer": 12,
+      "index": 5545,
+      "label": "syntax elements related to control structures in programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The menu in the program repeats the check for every name."
+    },
+    "s078-sf1": {
+      "test": 78,
+      "layer": 12,
+      "index": 9884,
+      "label": "concepts related to agriculture and food production",
+      "ok": true,
+      "max_activation": 8.6875,
+      "prompt": "Farmers planted wheat in the spring and harvested it in late summer."
+    },
+    "s078-sf2": {
+      "test": 78,
+      "layer": 12,
+      "index": 9884,
+      "label": "concepts related to agriculture and food production",
+      "ok": true,
+      "max_activation": 9.5,
+      "prompt": "The dairy cows produce milk that is collected every morning."
+    },
+    "s078-nm1": {
+      "test": 78,
+      "layer": 12,
+      "index": 9884,
+      "label": "concepts related to agriculture and food production",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Farmers planted flags in the spring and harvested praise in late summer."
+    },
+    "s078-nm2": {
+      "test": 78,
+      "layer": 12,
+      "index": 9884,
+      "label": "concepts related to agriculture and food production",
+      "ok": true,
+      "max_activation": 4.5,
+      "prompt": "The dairy trucks produce noise that is collected every morning."
+    },
+    "s079-sf1": {
+      "test": 79,
+      "layer": 12,
+      "index": 6811,
+      "label": "functions related to file and database operations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function opens the file, reads each line, and closes it afterwards."
+    },
+    "s079-sf2": {
+      "test": 79,
+      "layer": 12,
+      "index": 6811,
+      "label": "functions related to file and database operations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "This function saves the new record into the database table."
+    },
+    "s079-nm1": {
+      "test": 79,
+      "layer": 12,
+      "index": 6811,
+      "label": "functions related to file and database operations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function opens the window, reads each line, and closes it afterwards."
+    },
+    "s079-nm2": {
+      "test": 79,
+      "layer": 12,
+      "index": 6811,
+      "label": "functions related to file and database operations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "This function saves the new record into the shopping basket."
+    },
+    "s080-sf1": {
+      "test": 80,
+      "layer": 12,
+      "index": 4330,
+      "label": "instances of the word \"however.\"",
+      "ok": true,
+      "max_activation": 12,
+      "prompt": "She wanted to stay longer; the last train left early, however."
+    },
+    "s080-sf2": {
+      "test": 80,
+      "layer": 12,
+      "index": 4330,
+      "label": "instances of the word \"however.\"",
+      "ok": true,
+      "max_activation": 8.5,
+      "prompt": "He promised to finish today; his workload prevented it, however."
+    },
+    "s080-nm1": {
+      "test": 80,
+      "layer": 12,
+      "index": 4330,
+      "label": "instances of the word \"however.\"",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She wanted to stay longer; the last train left early, though."
+    },
+    "s080-nm2": {
+      "test": 80,
+      "layer": 12,
+      "index": 4330,
+      "label": "instances of the word \"however.\"",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He promised to finish today; his workload prevented it, though."
+    },
+    "s081-sf1": {
+      "test": 81,
+      "layer": 6,
+      "index": 15620,
+      "label": "references to personal pronouns and expressions of personal thoughts or feelings",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "I feel nervous because I have a big presentation tomorrow."
+    },
+    "s081-sf2": {
+      "test": 81,
+      "layer": 6,
+      "index": 15620,
+      "label": "references to personal pronouns and expressions of personal thoughts or feelings",
+      "ok": true,
+      "max_activation": 15.0625,
+      "prompt": "She told me she thinks her brother will enjoy the trip."
+    },
+    "s081-nm1": {
+      "test": 81,
+      "layer": 6,
+      "index": 15620,
+      "label": "references to personal pronouns and expressions of personal thoughts or feelings",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The schedule looks tight because the project has a big presentation tomorrow."
+    },
+    "s081-nm2": {
+      "test": 81,
+      "layer": 6,
+      "index": 15620,
+      "label": "references to personal pronouns and expressions of personal thoughts or feelings",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The guide said the group expects the visitors will enjoy the trip."
+    },
+    "s082-sf1": {
+      "test": 82,
+      "layer": 6,
+      "index": 5661,
+      "label": "elements related to blog navigation and interactions",
+      "ok": true,
+      "max_activation": 10.5625,
+      "prompt": "Click the Next Post link at the bottom to keep reading the blog."
+    },
+    "s082-sf2": {
+      "test": 82,
+      "layer": 6,
+      "index": 5661,
+      "label": "elements related to blog navigation and interactions",
+      "ok": true,
+      "max_activation": 15.9375,
+      "prompt": "She used the sidebar menu to find older posts and leave a comment."
+    },
+    "s082-nm1": {
+      "test": 82,
+      "layer": 6,
+      "index": 5661,
+      "label": "elements related to blog navigation and interactions",
+      "ok": true,
+      "max_activation": 9.9375,
+      "prompt": "Click the Next Chapter link at the bottom to keep reading the book."
+    },
+    "s082-nm2": {
+      "test": 82,
+      "layer": 6,
+      "index": 5661,
+      "label": "elements related to blog navigation and interactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She used the library catalogue to find older books and leave a request."
+    },
+    "s083-sf1": {
+      "test": 83,
+      "layer": 6,
+      "index": 4689,
+      "label": "HTML and web development elements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He added a heading tag to the HTML page so the title stood out."
+    },
+    "s083-sf2": {
+      "test": 83,
+      "layer": 6,
+      "index": 4689,
+      "label": "HTML and web development elements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She linked the stylesheet to the webpage to change its colors."
+    },
+    "s083-nm1": {
+      "test": 83,
+      "layer": 6,
+      "index": 4689,
+      "label": "HTML and web development elements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He added a heading style to the printed page so the title stood out."
+    },
+    "s083-nm2": {
+      "test": 83,
+      "layer": 6,
+      "index": 4689,
+      "label": "HTML and web development elements",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She linked the paint swatches to the mood board to change its colors."
+    },
+    "s084-sf1": {
+      "test": 84,
+      "layer": 6,
+      "index": 3292,
+      "label": "names and quotation marks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "\"Maria,\" he said, \"please meet my friend James at the station.\""
+    },
+    "s084-sf2": {
+      "test": 84,
+      "layer": 6,
+      "index": 3292,
+      "label": "names and quotation marks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The sign read \"Eleanor Park\" above the gate where Thomas waited."
+    },
+    "s084-nm1": {
+      "test": 84,
+      "layer": 6,
+      "index": 3292,
+      "label": "names and quotation marks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Maria, he said, please meet my friend James at the station."
+    },
+    "s084-nm2": {
+      "test": 84,
+      "layer": 6,
+      "index": 3292,
+      "label": "names and quotation marks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The sign read Eleanor Park above the gate where Thomas waited."
+    },
+    "s085-sf1": {
+      "test": 85,
+      "layer": 6,
+      "index": 2547,
+      "label": "references to various ethnic groups and nationalities",
+      "ok": true,
+      "max_activation": 4.4375,
+      "prompt": "The festival featured Mexican dancers and Korean musicians performing together."
+    },
+    "s085-sf2": {
+      "test": 85,
+      "layer": 6,
+      "index": 2547,
+      "label": "references to various ethnic groups and nationalities",
+      "ok": true,
+      "max_activation": 5.125,
+      "prompt": "Her Italian grandmother taught her a recipe from their hometown in Sicily."
+    },
+    "s085-nm1": {
+      "test": 85,
+      "layer": 6,
+      "index": 2547,
+      "label": "references to various ethnic groups and nationalities",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The festival featured local dancers and regional musicians performing together."
+    },
+    "s085-nm2": {
+      "test": 85,
+      "layer": 6,
+      "index": 2547,
+      "label": "references to various ethnic groups and nationalities",
+      "ok": true,
+      "max_activation": 2.5625,
+      "prompt": "Her elderly grandmother taught her a recipe from their hometown by the coast."
+    },
+    "s086-sf1": {
+      "test": 86,
+      "layer": 6,
+      "index": 4758,
+      "label": "file paths and related error messages in programming contexts",
+      "ok": true,
+      "max_activation": 4.875,
+      "prompt": "The program could not find the file at /home/user/documents/report.txt and showed an error."
+    },
+    "s086-sf2": {
+      "test": 86,
+      "layer": 6,
+      "index": 4758,
+      "label": "file paths and related error messages in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He fixed the broken path to the config file after the program reported it missing."
+    },
+    "s086-nm1": {
+      "test": 86,
+      "layer": 6,
+      "index": 4758,
+      "label": "file paths and related error messages in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The clerk could not find the file in the third drawer of the cabinet and showed the manager."
+    },
+    "s086-nm2": {
+      "test": 86,
+      "layer": 6,
+      "index": 4758,
+      "label": "file paths and related error messages in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He fixed the broken label on the storage box after the clerk reported it missing."
+    },
+    "s087-sf1": {
+      "test": 87,
+      "layer": 6,
+      "index": 791,
+      "label": "technical terms and code-related concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The developer fixed a bug in the software after checking the error log."
+    },
+    "s087-sf2": {
+      "test": 87,
+      "layer": 6,
+      "index": 791,
+      "label": "technical terms and code-related concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She updated the database so the application would run faster."
+    },
+    "s087-nm1": {
+      "test": 87,
+      "layer": 6,
+      "index": 791,
+      "label": "technical terms and code-related concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The gardener fixed a leak in the hose after checking the water pressure."
+    },
+    "s087-nm2": {
+      "test": 87,
+      "layer": 6,
+      "index": 791,
+      "label": "technical terms and code-related concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She updated the address book so the office would work faster."
+    },
+    "s088-sf1": {
+      "test": 88,
+      "layer": 6,
+      "index": 8148,
+      "label": "references to scientific kits and assays related to molecular biology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She opened the PCR kit to test the DNA sample for the gene."
+    },
+    "s088-sf2": {
+      "test": 88,
+      "layer": 6,
+      "index": 8148,
+      "label": "references to scientific kits and assays related to molecular biology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The lab ran an ELISA assay to measure antibodies in the sample."
+    },
+    "s088-nm1": {
+      "test": 88,
+      "layer": 6,
+      "index": 8148,
+      "label": "references to scientific kits and assays related to molecular biology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She opened the chemistry kit to test the water sample for minerals."
+    },
+    "s088-nm2": {
+      "test": 88,
+      "layer": 6,
+      "index": 8148,
+      "label": "references to scientific kits and assays related to molecular biology",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The clinic ran a blood pressure test to measure circulation in the patient."
+    },
+    "s089-sf1": {
+      "test": 89,
+      "layer": 6,
+      "index": 11089,
+      "label": "phrases discussing actions or activities related to considerations or decisions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Before deciding, she considered all the options for the move."
+    },
+    "s089-sf2": {
+      "test": 89,
+      "layer": 6,
+      "index": 11089,
+      "label": "phrases discussing actions or activities related to considerations or decisions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They weighed the costs before making a final decision on the house."
+    },
+    "s089-nm1": {
+      "test": 89,
+      "layer": 6,
+      "index": 11089,
+      "label": "phrases discussing actions or activities related to considerations or decisions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Before leaving, she gathered all the bags for the move."
+    },
+    "s089-nm2": {
+      "test": 89,
+      "layer": 6,
+      "index": 11089,
+      "label": "phrases discussing actions or activities related to considerations or decisions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They counted the boxes before making a final delivery to the house."
+    },
+    "s090-sf1": {
+      "test": 90,
+      "layer": 6,
+      "index": 10141,
+      "label": "CSS display properties and their values",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She set the element to display flex so the items would sit in a row."
+    },
+    "s090-sf2": {
+      "test": 90,
+      "layer": 6,
+      "index": 10141,
+      "label": "CSS display properties and their values",
+      "ok": true,
+      "max_activation": 2.125,
+      "prompt": "He changed the box to display block so it started on a new line."
+    },
+    "s090-nm1": {
+      "test": 90,
+      "layer": 6,
+      "index": 10141,
+      "label": "CSS display properties and their values",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She set the element to color red so the items would stand out clearly."
+    },
+    "s090-nm2": {
+      "test": 90,
+      "layer": 6,
+      "index": 10141,
+      "label": "CSS display properties and their values",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He changed the box to position absolute so it moved to a new spot."
+    },
+    "s091-sf1": {
+      "test": 91,
+      "layer": 6,
+      "index": 14786,
+      "label": "terms related to the evaluation of outcomes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The results showed the new method worked better than the old one."
+    },
+    "s091-sf2": {
+      "test": 91,
+      "layer": 6,
+      "index": 14786,
+      "label": "terms related to the evaluation of outcomes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Teachers assessed student progress at the end of the term."
+    },
+    "s091-nm1": {
+      "test": 91,
+      "layer": 6,
+      "index": 14786,
+      "label": "terms related to the evaluation of outcomes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The photos showed the new garden looked fuller than the old one."
+    },
+    "s091-nm2": {
+      "test": 91,
+      "layer": 6,
+      "index": 14786,
+      "label": "terms related to the evaluation of outcomes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Teachers counted student books at the end of the term."
+    },
+    "s092-sf1": {
+      "test": 92,
+      "layer": 6,
+      "index": 11563,
+      "label": "mentions of familial relationships and titles, particularly those related to great and uncle",
+      "ok": true,
+      "max_activation": 36.75,
+      "prompt": "My great-uncle Harold visited us at the lake house last summer."
+    },
+    "s092-sf2": {
+      "test": 92,
+      "layer": 6,
+      "index": 11563,
+      "label": "mentions of familial relationships and titles, particularly those related to great and uncle",
+      "ok": true,
+      "max_activation": 31,
+      "prompt": "She called her great-uncle to wish him a happy birthday."
+    },
+    "s092-nm1": {
+      "test": 92,
+      "layer": 6,
+      "index": 11563,
+      "label": "mentions of familial relationships and titles, particularly those related to great and uncle",
+      "ok": true,
+      "max_activation": 12,
+      "prompt": "My great friend Harold visited us at the lake house last summer."
+    },
+    "s092-nm2": {
+      "test": 92,
+      "layer": 6,
+      "index": 11563,
+      "label": "mentions of familial relationships and titles, particularly those related to great and uncle",
+      "ok": true,
+      "max_activation": 18.75,
+      "prompt": "She called her cousin to wish him a happy birthday."
+    },
+    "s093-sf1": {
+      "test": 93,
+      "layer": 6,
+      "index": 4687,
+      "label": "keywords related to paths and resources in a programming context",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program loaded the image from the file path in the resources folder."
+    },
+    "s093-sf2": {
+      "test": 93,
+      "layer": 6,
+      "index": 4687,
+      "label": "keywords related to paths and resources in a programming context",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He set the path variable so the app could find the data files."
+    },
+    "s093-nm1": {
+      "test": 93,
+      "layer": 6,
+      "index": 4687,
+      "label": "keywords related to paths and resources in a programming context",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The cook loaded the ingredients from the shopping list in the kitchen cupboard."
+    },
+    "s093-nm2": {
+      "test": 93,
+      "layer": 6,
+      "index": 4687,
+      "label": "keywords related to paths and resources in a programming context",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He set the meeting time so the team could find the data room."
+    },
+    "s094-sf1": {
+      "test": 94,
+      "layer": 6,
+      "index": 13771,
+      "label": "actions related to submission",
+      "ok": true,
+      "max_activation": 44.75,
+      "prompt": "She submitted her application before the deadline on Friday."
+    },
+    "s094-sf2": {
+      "test": 94,
+      "layer": 6,
+      "index": 13771,
+      "label": "actions related to submission",
+      "ok": true,
+      "max_activation": 37,
+      "prompt": "He clicked submit to send his exam answers to the teacher."
+    },
+    "s094-nm1": {
+      "test": 94,
+      "layer": 6,
+      "index": 13771,
+      "label": "actions related to submission",
+      "ok": true,
+      "max_activation": 4.75,
+      "prompt": "She delivered her package before the deadline on Friday."
+    },
+    "s094-nm2": {
+      "test": 94,
+      "layer": 6,
+      "index": 13771,
+      "label": "actions related to submission",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He clicked save to keep his exam answers on the laptop."
+    },
+    "s095-sf1": {
+      "test": 95,
+      "layer": 6,
+      "index": 1065,
+      "label": "performance metrics related to software compilation or testing",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The build took twelve seconds and passed all ninety tests."
+    },
+    "s095-sf2": {
+      "test": 95,
+      "layer": 6,
+      "index": 1065,
+      "label": "performance metrics related to software compilation or testing",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Their compiler reported fewer errors and a faster runtime this week."
+    },
+    "s095-nm1": {
+      "test": 95,
+      "layer": 6,
+      "index": 1065,
+      "label": "performance metrics related to software compilation or testing",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The cake took twelve minutes and pleased all ninety guests."
+    },
+    "s095-nm2": {
+      "test": 95,
+      "layer": 6,
+      "index": 1065,
+      "label": "performance metrics related to software compilation or testing",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Their kitchen reported fewer complaints and a faster service this week."
+    },
+    "s096-sf1": {
+      "test": 96,
+      "layer": 6,
+      "index": 16247,
+      "label": "phrases indicating presence and support",
+      "ok": true,
+      "max_activation": 28.25,
+      "prompt": "She was there for her friend throughout the difficult week."
+    },
+    "s096-sf2": {
+      "test": 96,
+      "layer": 6,
+      "index": 16247,
+      "label": "phrases indicating presence and support",
+      "ok": true,
+      "max_activation": 3.65625,
+      "prompt": "The nurse stayed by his side and offered support during recovery."
+    },
+    "s096-nm1": {
+      "test": 96,
+      "layer": 6,
+      "index": 16247,
+      "label": "phrases indicating presence and support",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She was away from her friend throughout the difficult week."
+    },
+    "s096-nm2": {
+      "test": 96,
+      "layer": 6,
+      "index": 16247,
+      "label": "phrases indicating presence and support",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The nurse stepped from his side and offered instructions during recovery."
+    },
+    "s097-sf1": {
+      "test": 97,
+      "layer": 6,
+      "index": 7358,
+      "label": "terms related to optical alignment and associated technical concepts",
+      "ok": true,
+      "max_activation": 7.9375,
+      "prompt": "The technician aligned the laser beam with the mirror using optical alignment tools."
+    },
+    "s097-sf2": {
+      "test": 97,
+      "layer": 6,
+      "index": 7358,
+      "label": "terms related to optical alignment and associated technical concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They adjusted the telescope lens until the stars came into sharp focus."
+    },
+    "s097-nm1": {
+      "test": 97,
+      "layer": 6,
+      "index": 7358,
+      "label": "terms related to optical alignment and associated technical concepts",
+      "ok": true,
+      "max_activation": 6.8125,
+      "prompt": "The technician aligned the car wheels with the axle using wheel alignment tools."
+    },
+    "s097-nm2": {
+      "test": 97,
+      "layer": 6,
+      "index": 7358,
+      "label": "terms related to optical alignment and associated technical concepts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "They adjusted the garden gate until the latch came into firm contact."
+    },
+    "s098-sf1": {
+      "test": 98,
+      "layer": 6,
+      "index": 7633,
+      "label": "terms related to semi-structured data or formats",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He stored the data in JSON format with keys and values for each record."
+    },
+    "s098-sf2": {
+      "test": 98,
+      "layer": 6,
+      "index": 7633,
+      "label": "terms related to semi-structured data or formats",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She converted the spreadsheet into XML so other programs could read the tags."
+    },
+    "s098-nm1": {
+      "test": 98,
+      "layer": 6,
+      "index": 7633,
+      "label": "terms related to semi-structured data or formats",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He stored the data in a plain paragraph with sentences and descriptions for each record."
+    },
+    "s098-nm2": {
+      "test": 98,
+      "layer": 6,
+      "index": 7633,
+      "label": "terms related to semi-structured data or formats",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She converted the spreadsheet into a printed table so other people could read the rows."
+    },
+    "s099-sf1": {
+      "test": 99,
+      "layer": 6,
+      "index": 1417,
+      "label": "references to previous content or sources in the text",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "As mentioned earlier, the plan had already been approved last month."
+    },
+    "s099-sf2": {
+      "test": 99,
+      "layer": 6,
+      "index": 1417,
+      "label": "references to previous content or sources in the text",
+      "ok": true,
+      "max_activation": 2.03125,
+      "prompt": "According to the previous chapter, the hero had already left town."
+    },
+    "s099-nm1": {
+      "test": 99,
+      "layer": 6,
+      "index": 1417,
+      "label": "references to previous content or sources in the text",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "As scheduled tomorrow, the plan would be presented next week."
+    },
+    "s099-nm2": {
+      "test": 99,
+      "layer": 6,
+      "index": 1417,
+      "label": "references to previous content or sources in the text",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the following chapter, the hero would soon leave town."
+    },
+    "s100-sf1": {
+      "test": 100,
+      "layer": 6,
+      "index": 4160,
+      "label": "mathematical expressions and symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The teacher wrote x + 3 = 7 on the board for the class."
+    },
+    "s100-sf2": {
+      "test": 100,
+      "layer": 6,
+      "index": 4160,
+      "label": "mathematical expressions and symbols",
+      "ok": true,
+      "max_activation": 30.875,
+      "prompt": "Using A = pi r squared, she calculated an area of 314 square units."
+    },
+    "s100-nm1": {
+      "test": 100,
+      "layer": 6,
+      "index": 4160,
+      "label": "mathematical expressions and symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The teacher wrote a simple addition problem on the board for the class."
+    },
+    "s100-nm2": {
+      "test": 100,
+      "layer": 6,
+      "index": 4160,
+      "label": "mathematical expressions and symbols",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Using the family recipe, she calculated a total of many servings for dinner."
+    },
+    "s101-sf1": {
+      "test": 101,
+      "layer": 6,
+      "index": 2783,
+      "label": "phrases that express questions or inquiries about personal opinions and perceptions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "What do you think about the new park in town?"
+    },
+    "s101-sf2": {
+      "test": 101,
+      "layer": 6,
+      "index": 2783,
+      "label": "phrases that express questions or inquiries about personal opinions and perceptions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "How did the movie feel to you compared with the book?"
+    },
+    "s101-nm1": {
+      "test": 101,
+      "layer": 6,
+      "index": 2783,
+      "label": "phrases that express questions or inquiries about personal opinions and perceptions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "What is the height of the new tower in town?"
+    },
+    "s101-nm2": {
+      "test": 101,
+      "layer": 6,
+      "index": 2783,
+      "label": "phrases that express questions or inquiries about personal opinions and perceptions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "How did the movie differ in plot compared with the book?"
+    },
+    "s102-sf1": {
+      "test": 102,
+      "layer": 6,
+      "index": 11231,
+      "label": "references to collections or data structures in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She stored the names in a list so the program could sort them alphabetically."
+    },
+    "s102-sf2": {
+      "test": 102,
+      "layer": 6,
+      "index": 11231,
+      "label": "references to collections or data structures in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the program, he used a dictionary data structure to map each key to a value."
+    },
+    "s102-nm1": {
+      "test": 102,
+      "layer": 6,
+      "index": 11231,
+      "label": "references to collections or data structures in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She stored the names in a notebook so the class could sort them alphabetically."
+    },
+    "s102-nm2": {
+      "test": 102,
+      "layer": 6,
+      "index": 11231,
+      "label": "references to collections or data structures in programming contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the library, he used a dictionary reference book to check each word's meaning."
+    },
+    "s103-sf1": {
+      "test": 103,
+      "layer": 6,
+      "index": 13783,
+      "label": "elements of diversity and inclusion in both practical and theoretical contexts",
+      "ok": true,
+      "max_activation": 2.96875,
+      "prompt": "The school introduced inclusive practices so students from diverse backgrounds could participate fully."
+    },
+    "s103-sf2": {
+      "test": 103,
+      "layer": 6,
+      "index": 13783,
+      "label": "elements of diversity and inclusion in both practical and theoretical contexts",
+      "ok": true,
+      "max_activation": 2.625,
+      "prompt": "The report discussed diversity in theory and ways to make hiring more inclusive."
+    },
+    "s103-nm1": {
+      "test": 103,
+      "layer": 6,
+      "index": 13783,
+      "label": "elements of diversity and inclusion in both practical and theoretical contexts",
+      "ok": true,
+      "max_activation": 2.5625,
+      "prompt": "The school introduced new lunch menus so students from local neighborhoods could eat together."
+    },
+    "s103-nm2": {
+      "test": 103,
+      "layer": 6,
+      "index": 13783,
+      "label": "elements of diversity and inclusion in both practical and theoretical contexts",
+      "ok": true,
+      "max_activation": 3.0625,
+      "prompt": "The report discussed variety in theory and ways to make seating more spacious."
+    },
+    "s104-sf1": {
+      "test": 104,
+      "layer": 6,
+      "index": 14452,
+      "label": "references to specific retailers, particularly in relation to purchasing or shopping experiences",
+      "ok": true,
+      "max_activation": 26.25,
+      "prompt": "She bought a jacket at Target and returned it the next day."
+    },
+    "s104-sf2": {
+      "test": 104,
+      "layer": 6,
+      "index": 14452,
+      "label": "references to specific retailers, particularly in relation to purchasing or shopping experiences",
+      "ok": true,
+      "max_activation": 7.9375,
+      "prompt": "He ordered headphones from Amazon because they were on sale."
+    },
+    "s104-nm1": {
+      "test": 104,
+      "layer": 6,
+      "index": 14452,
+      "label": "references to specific retailers, particularly in relation to purchasing or shopping experiences",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She bought a jacket at the market and returned it the next day."
+    },
+    "s104-nm2": {
+      "test": 104,
+      "layer": 6,
+      "index": 14452,
+      "label": "references to specific retailers, particularly in relation to purchasing or shopping experiences",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He ordered headphones from the manufacturer because they were on sale."
+    },
+    "s105-sf1": {
+      "test": 105,
+      "layer": 6,
+      "index": 10006,
+      "label": "time-related phrases or events",
+      "ok": true,
+      "max_activation": 2.171875,
+      "prompt": "We will leave early in the morning to catch the train."
+    },
+    "s105-sf2": {
+      "test": 105,
+      "layer": 6,
+      "index": 10006,
+      "label": "time-related phrases or events",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She waited an hour before the doctor called her name."
+    },
+    "s105-nm1": {
+      "test": 105,
+      "layer": 6,
+      "index": 10006,
+      "label": "time-related phrases or events",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "We will leave quietly through the garden to catch the train."
+    },
+    "s105-nm2": {
+      "test": 105,
+      "layer": 6,
+      "index": 10006,
+      "label": "time-related phrases or events",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She waited in silence before the doctor called her name."
+    },
+    "s106-sf1": {
+      "test": 106,
+      "layer": 6,
+      "index": 11236,
+      "label": "instances of object-oriented programming methods and attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the program, the Car object has a color attribute and a start method."
+    },
+    "s106-sf2": {
+      "test": 106,
+      "layer": 6,
+      "index": 11236,
+      "label": "instances of object-oriented programming methods and attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The student class stores a name and prints a report card when called."
+    },
+    "s106-nm1": {
+      "test": 106,
+      "layer": 6,
+      "index": 11236,
+      "label": "instances of object-oriented programming methods and attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "In the garage, the car itself has a color paint job and a start button."
+    },
+    "s106-nm2": {
+      "test": 106,
+      "layer": 6,
+      "index": 11236,
+      "label": "instances of object-oriented programming methods and attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The school office stores a name and prints a report card when asked."
+    },
+    "s107-sf1": {
+      "test": 107,
+      "layer": 6,
+      "index": 14758,
+      "label": "code-related terms and constructs, especially those involving data structures and methods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function returns an array after sorting the values in the program."
+    },
+    "s107-sf2": {
+      "test": 107,
+      "layer": 6,
+      "index": 14758,
+      "label": "code-related terms and constructs, especially those involving data structures and methods",
+      "ok": true,
+      "max_activation": 2.609375,
+      "prompt": "She called the method to update the linked list in the program."
+    },
+    "s107-nm1": {
+      "test": 107,
+      "layer": 6,
+      "index": 14758,
+      "label": "code-related terms and constructs, especially those involving data structures and methods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The librarian returns a book after sorting the shelves in the library."
+    },
+    "s107-nm2": {
+      "test": 107,
+      "layer": 6,
+      "index": 14758,
+      "label": "code-related terms and constructs, especially those involving data structures and methods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She called the office to update the mailing list in the directory."
+    },
+    "s108-sf1": {
+      "test": 108,
+      "layer": 6,
+      "index": 1541,
+      "label": "numeric values and symbols related to data structures or programming syntax",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The array index started at 0 and the next value was 1."
+    },
+    "s108-sf2": {
+      "test": 108,
+      "layer": 6,
+      "index": 1541,
+      "label": "numeric values and symbols related to data structures or programming syntax",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He entered 42 into the variable and ended the line with a semicolon."
+    },
+    "s108-nm1": {
+      "test": 108,
+      "layer": 6,
+      "index": 1541,
+      "label": "numeric values and symbols related to data structures or programming syntax",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The shelf label started at A and the next letter was B."
+    },
+    "s108-nm2": {
+      "test": 108,
+      "layer": 6,
+      "index": 1541,
+      "label": "numeric values and symbols related to data structures or programming syntax",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He entered a name into the form and ended the line with a period."
+    },
+    "s109-sf1": {
+      "test": 109,
+      "layer": 6,
+      "index": 2570,
+      "label": "punctuation marks, especially commas",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She packed apples, oranges, bread, and cheese for the picnic."
+    },
+    "s109-sf2": {
+      "test": 109,
+      "layer": 6,
+      "index": 2570,
+      "label": "punctuation marks, especially commas",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "On Tuesday, after the meeting, he drove home, cooked dinner, and called his sister."
+    },
+    "s109-nm1": {
+      "test": 109,
+      "layer": 6,
+      "index": 2570,
+      "label": "punctuation marks, especially commas",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She packed apples and oranges and bread and cheese for the picnic."
+    },
+    "s109-nm2": {
+      "test": 109,
+      "layer": 6,
+      "index": 2570,
+      "label": "punctuation marks, especially commas",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "On Tuesday after the meeting he drove home and cooked dinner and called his sister."
+    },
+    "s110-sf1": {
+      "test": 110,
+      "layer": 6,
+      "index": 15755,
+      "label": "phrases that emphasize the absence of universal solutions or answer patterns",
+      "ok": true,
+      "max_activation": 43.25,
+      "prompt": "There is no single answer that works for every family."
+    },
+    "s110-sf2": {
+      "test": 110,
+      "layer": 6,
+      "index": 15755,
+      "label": "phrases that emphasize the absence of universal solutions or answer patterns",
+      "ok": true,
+      "max_activation": 27.75,
+      "prompt": "No one-size-fits-all solution exists for learning a language."
+    },
+    "s110-nm1": {
+      "test": 110,
+      "layer": 6,
+      "index": 15755,
+      "label": "phrases that emphasize the absence of universal solutions or answer patterns",
+      "ok": true,
+      "max_activation": 12.9375,
+      "prompt": "There is a single answer that works for every family."
+    },
+    "s110-nm2": {
+      "test": 110,
+      "layer": 6,
+      "index": 15755,
+      "label": "phrases that emphasize the absence of universal solutions or answer patterns",
+      "ok": true,
+      "max_activation": 12.5,
+      "prompt": "A one-size-fits-all solution exists for learning a language."
+    },
+    "s111-sf1": {
+      "test": 111,
+      "layer": 6,
+      "index": 4649,
+      "label": "numerical data and related comparative phrases",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Sales rose to 500 units, which was more than last month."
+    },
+    "s111-sf2": {
+      "test": 111,
+      "layer": 6,
+      "index": 4649,
+      "label": "numerical data and related comparative phrases",
+      "ok": true,
+      "max_activation": 3.5625,
+      "prompt": "The taller building has 40 floors, ten more than the shorter one."
+    },
+    "s111-nm1": {
+      "test": 111,
+      "layer": 6,
+      "index": 4649,
+      "label": "numerical data and related comparative phrases",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Sales stayed at a steady level, which was similar to last month."
+    },
+    "s111-nm2": {
+      "test": 111,
+      "layer": 6,
+      "index": 4649,
+      "label": "numerical data and related comparative phrases",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The nearby building has many windows facing the quiet street outside."
+    },
+    "s112-sf1": {
+      "test": 112,
+      "layer": 6,
+      "index": 635,
+      "label": "specific locations or geographic references, particularly towns and counties within New Jersey",
+      "ok": true,
+      "max_activation": 21.75,
+      "prompt": "They drove through Princeton in Mercer County on their way home."
+    },
+    "s112-sf2": {
+      "test": 112,
+      "layer": 6,
+      "index": 635,
+      "label": "specific locations or geographic references, particularly towns and counties within New Jersey",
+      "ok": true,
+      "max_activation": 33.5,
+      "prompt": "She grew up in Morristown, a town in northern New Jersey."
+    },
+    "s112-nm1": {
+      "test": 112,
+      "layer": 6,
+      "index": 635,
+      "label": "specific locations or geographic references, particularly towns and counties within New Jersey",
+      "ok": true,
+      "max_activation": 8.0625,
+      "prompt": "They drove through Doylestown in Bucks County on their way home."
+    },
+    "s112-nm2": {
+      "test": 112,
+      "layer": 6,
+      "index": 635,
+      "label": "specific locations or geographic references, particularly towns and counties within New Jersey",
+      "ok": true,
+      "max_activation": 2.0625,
+      "prompt": "She grew up in Bethlehem, a town in eastern Pennsylvania."
+    },
+    "s113-sf1": {
+      "test": 113,
+      "layer": 6,
+      "index": 7011,
+      "label": "semicolon-separated import statements in programming code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The Java program began with import statements for the math and file libraries, each ending with a semicolon."
+    },
+    "s113-sf2": {
+      "test": 113,
+      "layer": 6,
+      "index": 7011,
+      "label": "semicolon-separated import statements in programming code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He added another import statement after the first one and separated the statements with semicolons so the compiler would accept them."
+    },
+    "s113-nm1": {
+      "test": 113,
+      "layer": 6,
+      "index": 7011,
+      "label": "semicolon-separated import statements in programming code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The Python program began with import statements for the math and file libraries, each on its own line without a semicolon."
+    },
+    "s113-nm2": {
+      "test": 113,
+      "layer": 6,
+      "index": 7011,
+      "label": "semicolon-separated import statements in programming code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He added another import statement after the first one and separated the statements with new lines so the reader could follow them."
+    },
+    "s114-sf1": {
+      "test": 114,
+      "layer": 6,
+      "index": 8615,
+      "label": "terms related to environmental initiatives and compliance in regulatory contexts",
+      "ok": true,
+      "max_activation": 4.8125,
+      "prompt": "The company launched a recycling initiative to comply with new environmental regulations."
+    },
+    "s114-sf2": {
+      "test": 114,
+      "layer": 6,
+      "index": 8615,
+      "label": "terms related to environmental initiatives and compliance in regulatory contexts",
+      "ok": true,
+      "max_activation": 6.25,
+      "prompt": "The factory reduced its emissions to meet state pollution standards."
+    },
+    "s114-nm1": {
+      "test": 114,
+      "layer": 6,
+      "index": 8615,
+      "label": "terms related to environmental initiatives and compliance in regulatory contexts",
+      "ok": true,
+      "max_activation": 2.875,
+      "prompt": "The company launched a recycling drive to prepare for the neighborhood cleanup day."
+    },
+    "s114-nm2": {
+      "test": 114,
+      "layer": 6,
+      "index": 8615,
+      "label": "terms related to environmental initiatives and compliance in regulatory contexts",
+      "ok": true,
+      "max_activation": 4.5625,
+      "prompt": "The factory reduced its noise to meet neighborhood quiet expectations."
+    },
+    "s115-sf1": {
+      "test": 115,
+      "layer": 6,
+      "index": 16152,
+      "label": "terms related to genetics and optical properties in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Her DNA test showed a gene linked to eye color."
+    },
+    "s115-sf2": {
+      "test": 115,
+      "layer": 6,
+      "index": 16152,
+      "label": "terms related to genetics and optical properties in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The prism split white light into a spectrum of colors."
+    },
+    "s115-nm1": {
+      "test": 115,
+      "layer": 6,
+      "index": 16152,
+      "label": "terms related to genetics and optical properties in scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Her blood test showed a vitamin linked to energy levels."
+    },
+    "s115-nm2": {
+      "test": 115,
+      "layer": 6,
+      "index": 16152,
+      "label": "terms related to genetics and optical properties in scientific contexts",
+      "ok": true,
+      "max_activation": 2.609375,
+      "prompt": "The sieve split coarse flour into a pile of fine powder."
+    },
+    "s116-sf1": {
+      "test": 116,
+      "layer": 6,
+      "index": 9442,
+      "label": "references to caps or cap structures in scientific or technical contexts",
+      "ok": true,
+      "max_activation": 34,
+      "prompt": "The protein formed a cap structure at the end of the molecule."
+    },
+    "s116-sf2": {
+      "test": 116,
+      "layer": 6,
+      "index": 9442,
+      "label": "references to caps or cap structures in scientific or technical contexts",
+      "ok": true,
+      "max_activation": 33.5,
+      "prompt": "He tightened the cap on the sample tube before shaking it."
+    },
+    "s116-nm1": {
+      "test": 116,
+      "layer": 6,
+      "index": 9442,
+      "label": "references to caps or cap structures in scientific or technical contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The protein formed a loop structure at the end of the molecule."
+    },
+    "s116-nm2": {
+      "test": 116,
+      "layer": 6,
+      "index": 9442,
+      "label": "references to caps or cap structures in scientific or technical contexts",
+      "ok": true,
+      "max_activation": 6.3125,
+      "prompt": "He tightened the lid on the sample jar before shaking it."
+    },
+    "s117-sf1": {
+      "test": 117,
+      "layer": 6,
+      "index": 11722,
+      "label": "numeric values and operations related to time",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The train ride lasted two hours and forty minutes."
+    },
+    "s117-sf2": {
+      "test": 117,
+      "layer": 6,
+      "index": 11722,
+      "label": "numeric values and operations related to time",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She set the timer for 30 seconds before checking the oven."
+    },
+    "s117-nm1": {
+      "test": 117,
+      "layer": 6,
+      "index": 11722,
+      "label": "numeric values and operations related to time",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The train ride passed two towns and forty fields."
+    },
+    "s117-nm2": {
+      "test": 117,
+      "layer": 6,
+      "index": 11722,
+      "label": "numeric values and operations related to time",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She set the marker for 30 pages before checking the book."
+    },
+    "s118-sf1": {
+      "test": 118,
+      "layer": 6,
+      "index": 11452,
+      "label": "key phrases related to historical context and facts",
+      "ok": true,
+      "max_activation": 11.4375,
+      "prompt": "The museum exhibit explained the historical context behind the signing of the Constitution in 1787."
+    },
+    "s118-sf2": {
+      "test": 118,
+      "layer": 6,
+      "index": 11452,
+      "label": "key phrases related to historical context and facts",
+      "ok": true,
+      "max_activation": 27,
+      "prompt": "In 1969, the first moon landing became a major event in world history."
+    },
+    "s118-nm1": {
+      "test": 118,
+      "layer": 6,
+      "index": 11452,
+      "label": "key phrases related to historical context and facts",
+      "ok": true,
+      "max_activation": 11.4375,
+      "prompt": "The museum exhibit explained the design choices behind the painting of the landscape in the gallery."
+    },
+    "s118-nm2": {
+      "test": 118,
+      "layer": 6,
+      "index": 11452,
+      "label": "key phrases related to historical context and facts",
+      "ok": true,
+      "max_activation": 24.375,
+      "prompt": "In the novel, the first moon voyage became a major event in the story."
+    },
+    "s119-sf1": {
+      "test": 119,
+      "layer": 6,
+      "index": 10507,
+      "label": "occurrences of code structure or syntax elements commonly used in programming languages",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program used a loop to repeat the instructions until the condition changed."
+    },
+    "s119-sf2": {
+      "test": 119,
+      "layer": 6,
+      "index": 10507,
+      "label": "occurrences of code structure or syntax elements commonly used in programming languages",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She added brackets around the block of code so the function would run correctly."
+    },
+    "s119-nm1": {
+      "test": 119,
+      "layer": 6,
+      "index": 10507,
+      "label": "occurrences of code structure or syntax elements commonly used in programming languages",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The assembly line used a cycle to repeat the steps until the product changed."
+    },
+    "s119-nm2": {
+      "test": 119,
+      "layer": 6,
+      "index": 10507,
+      "label": "occurrences of code structure or syntax elements commonly used in programming languages",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She added brackets around the block of text so the paragraph would stand out clearly."
+    },
+    "s120-sf1": {
+      "test": 120,
+      "layer": 6,
+      "index": 4846,
+      "label": "references to licensing information and URLs associated with software or documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He downloaded the software under a Creative Commons license from the project website."
+    },
+    "s120-sf2": {
+      "test": 120,
+      "layer": 6,
+      "index": 4846,
+      "label": "references to licensing information and URLs associated with software or documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The document included licensing information and a link to the source website."
+    },
+    "s120-nm1": {
+      "test": 120,
+      "layer": 6,
+      "index": 4846,
+      "label": "references to licensing information and URLs associated with software or documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He downloaded the software as a free trial from the project website."
+    },
+    "s120-nm2": {
+      "test": 120,
+      "layer": 6,
+      "index": 4846,
+      "label": "references to licensing information and URLs associated with software or documents",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The document included cooking information and a link to the source website."
+    },
+    "s121-sf1": {
+      "test": 121,
+      "layer": 18,
+      "index": 5397,
+      "label": "references to health issues, particularly those related to UV exposure and its impact on skin and eyesight",
+      "ok": true,
+      "max_activation": 101.5,
+      "prompt": "Prolonged UV exposure can cause sunburn and increase the risk of skin cancer over time."
+    },
+    "s121-sf2": {
+      "test": 121,
+      "layer": 18,
+      "index": 5397,
+      "label": "references to health issues, particularly those related to UV exposure and its impact on skin and eyesight",
+      "ok": true,
+      "max_activation": 77.5,
+      "prompt": "Doctors warn that ultraviolet light can damage your eyes and contribute to cataracts."
+    },
+    "s121-nm1": {
+      "test": 121,
+      "layer": 18,
+      "index": 5397,
+      "label": "references to health issues, particularly those related to UV exposure and its impact on skin and eyesight",
+      "ok": true,
+      "max_activation": 12.25,
+      "prompt": "Prolonged cold exposure can cause frostbite and increase the risk of hypothermia over time."
+    },
+    "s121-nm2": {
+      "test": 121,
+      "layer": 18,
+      "index": 5397,
+      "label": "references to health issues, particularly those related to UV exposure and its impact on skin and eyesight",
+      "ok": true,
+      "max_activation": 6.28125,
+      "prompt": "Doctors warn that loud noise can damage your hearing and contribute to tinnitus."
+    },
+    "s122-sf1": {
+      "test": 122,
+      "layer": 18,
+      "index": 1922,
+      "label": "statements about the necessity of support and contributions for success in programs or projects",
+      "ok": true,
+      "max_activation": 17,
+      "prompt": "This program can only succeed with continued support and contributions from our partners."
+    },
+    "s122-sf2": {
+      "test": 122,
+      "layer": 18,
+      "index": 1922,
+      "label": "statements about the necessity of support and contributions for success in programs or projects",
+      "ok": true,
+      "max_activation": 11.25,
+      "prompt": "The project needs funding and volunteer help if it is going to succeed."
+    },
+    "s122-nm1": {
+      "test": 122,
+      "layer": 18,
+      "index": 1922,
+      "label": "statements about the necessity of support and contributions for success in programs or projects",
+      "ok": true,
+      "max_activation": 12.375,
+      "prompt": "This program can only expand with continued planning and scheduling from our partners."
+    },
+    "s122-nm2": {
+      "test": 122,
+      "layer": 18,
+      "index": 1922,
+      "label": "statements about the necessity of support and contributions for success in programs or projects",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The project needs paint and new signage if it is going to reopen."
+    },
+    "s123-sf1": {
+      "test": 123,
+      "layer": 18,
+      "index": 11259,
+      "label": "elements related to comedy and comedians",
+      "ok": true,
+      "max_activation": 44.75,
+      "prompt": "The comedian opened his set with a joke about airport security."
+    },
+    "s123-sf2": {
+      "test": 123,
+      "layer": 18,
+      "index": 11259,
+      "label": "elements related to comedy and comedians",
+      "ok": true,
+      "max_activation": 74.5,
+      "prompt": "Her stand-up routine had the whole audience laughing for an hour."
+    },
+    "s123-nm1": {
+      "test": 123,
+      "layer": 18,
+      "index": 11259,
+      "label": "elements related to comedy and comedians",
+      "ok": true,
+      "max_activation": 6.25,
+      "prompt": "The singer opened his set with a song about airport security."
+    },
+    "s123-nm2": {
+      "test": 123,
+      "layer": 18,
+      "index": 11259,
+      "label": "elements related to comedy and comedians",
+      "ok": true,
+      "max_activation": 6.1875,
+      "prompt": "Her dramatic monologue had the whole audience silent for an hour."
+    },
+    "s124-sf1": {
+      "test": 124,
+      "layer": 18,
+      "index": 11711,
+      "label": "error-handling statements and expressions in the context of programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Wrap the file read in a try block and catch the exception if it fails."
+    },
+    "s124-sf2": {
+      "test": 124,
+      "layer": 18,
+      "index": 11711,
+      "label": "error-handling statements and expressions in the context of programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function throws an error when the input is null and logs the failure."
+    },
+    "s124-nm1": {
+      "test": 124,
+      "layer": 18,
+      "index": 11711,
+      "label": "error-handling statements and expressions in the context of programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Wrap the file read in a loop and repeat the operation if it pauses."
+    },
+    "s124-nm2": {
+      "test": 124,
+      "layer": 18,
+      "index": 11711,
+      "label": "error-handling statements and expressions in the context of programming",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The function returns a value when the input is null and saves the result."
+    },
+    "s125-sf1": {
+      "test": 125,
+      "layer": 18,
+      "index": 8767,
+      "label": "punctuation marks, particularly periods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Dr. Patel arrived at 3 p.m. and reviewed the chart."
+    },
+    "s125-sf2": {
+      "test": 125,
+      "layer": 18,
+      "index": 8767,
+      "label": "punctuation marks, particularly periods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The package came from the U.S. office, e.g. the branch in Ohio."
+    },
+    "s125-nm1": {
+      "test": 125,
+      "layer": 18,
+      "index": 8767,
+      "label": "punctuation marks, particularly periods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Doctor Patel arrived at three in the afternoon and reviewed the chart."
+    },
+    "s125-nm2": {
+      "test": 125,
+      "layer": 18,
+      "index": 8767,
+      "label": "punctuation marks, particularly periods",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The package came from the American office, for example the branch in Ohio."
+    },
+    "s126-sf1": {
+      "test": 126,
+      "layer": 18,
+      "index": 7935,
+      "label": "references to international football or soccer activities",
+      "ok": true,
+      "max_activation": 49.75,
+      "prompt": "France scored a late goal to win the World Cup semifinal match."
+    },
+    "s126-sf2": {
+      "test": 126,
+      "layer": 18,
+      "index": 7935,
+      "label": "references to international football or soccer activities",
+      "ok": true,
+      "max_activation": 59,
+      "prompt": "The national soccer team qualified for the international tournament next summer."
+    },
+    "s126-nm1": {
+      "test": 126,
+      "layer": 18,
+      "index": 7935,
+      "label": "references to international football or soccer activities",
+      "ok": true,
+      "max_activation": 34.25,
+      "prompt": "France scored a late point to win the regional basketball semifinal game."
+    },
+    "s126-nm2": {
+      "test": 126,
+      "layer": 18,
+      "index": 7935,
+      "label": "references to international football or soccer activities",
+      "ok": true,
+      "max_activation": 55.5,
+      "prompt": "The national rugby team qualified for the international tournament next summer."
+    },
+    "s127-sf1": {
+      "test": 127,
+      "layer": 18,
+      "index": 3567,
+      "label": "declarative verbs that imply decision-making or agreement",
+      "ok": true,
+      "max_activation": 49.5,
+      "prompt": "The committee decided to approve the budget and agreed to the plan."
+    },
+    "s127-sf2": {
+      "test": 127,
+      "layer": 18,
+      "index": 3567,
+      "label": "declarative verbs that imply decision-making or agreement",
+      "ok": true,
+      "max_activation": 50.5,
+      "prompt": "She chose to accept the offer after they settled on the terms."
+    },
+    "s127-nm1": {
+      "test": 127,
+      "layer": 18,
+      "index": 3567,
+      "label": "declarative verbs that imply decision-making or agreement",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The committee met to discuss the budget and listened to the plan."
+    },
+    "s127-nm2": {
+      "test": 127,
+      "layer": 18,
+      "index": 3567,
+      "label": "declarative verbs that imply decision-making or agreement",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She waited to hear the offer after they talked about the terms."
+    },
+    "s128-sf1": {
+      "test": 128,
+      "layer": 18,
+      "index": 13353,
+      "label": "programming constructs and configurations related to game development using Phaser",
+      "ok": true,
+      "max_activation": 64.5,
+      "prompt": "In Phaser, you create a scene and add sprites to the game world."
+    },
+    "s128-sf2": {
+      "test": 128,
+      "layer": 18,
+      "index": 13353,
+      "label": "programming constructs and configurations related to game development using Phaser",
+      "ok": true,
+      "max_activation": 37.25,
+      "prompt": "She configured the Phaser physics engine so the player character could jump."
+    },
+    "s128-nm1": {
+      "test": 128,
+      "layer": 18,
+      "index": 13353,
+      "label": "programming constructs and configurations related to game development using Phaser",
+      "ok": true,
+      "max_activation": 27.125,
+      "prompt": "In Unity, you create a scene and add sprites to the game world."
+    },
+    "s128-nm2": {
+      "test": 128,
+      "layer": 18,
+      "index": 13353,
+      "label": "programming constructs and configurations related to game development using Phaser",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She configured the spreadsheet macros so the sales figures could update."
+    },
+    "s129-sf1": {
+      "test": 129,
+      "layer": 18,
+      "index": 15775,
+      "label": "key information related to mobile application development",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Building a mobile app for Android requires testing on many screen sizes."
+    },
+    "s129-sf2": {
+      "test": 129,
+      "layer": 18,
+      "index": 15775,
+      "label": "key information related to mobile application development",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The iOS app sends push notifications when a new message arrives."
+    },
+    "s129-nm1": {
+      "test": 129,
+      "layer": 18,
+      "index": 15775,
+      "label": "key information related to mobile application development",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Building a desktop program for Windows requires testing on many screen sizes."
+    },
+    "s129-nm2": {
+      "test": 129,
+      "layer": 18,
+      "index": 15775,
+      "label": "key information related to mobile application development",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The web page sends email alerts when a new message arrives."
+    },
+    "s130-sf1": {
+      "test": 130,
+      "layer": 18,
+      "index": 14571,
+      "label": "references to Google's libraries and frameworks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The team built the model in TensorFlow, a machine learning library from Google."
+    },
+    "s130-sf2": {
+      "test": 130,
+      "layer": 18,
+      "index": 14571,
+      "label": "references to Google's libraries and frameworks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She used Angular, the Google framework, to build the web interface."
+    },
+    "s130-nm1": {
+      "test": 130,
+      "layer": 18,
+      "index": 14571,
+      "label": "references to Google's libraries and frameworks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The team built the model in PyTorch, a machine learning library from Meta."
+    },
+    "s130-nm2": {
+      "test": 130,
+      "layer": 18,
+      "index": 14571,
+      "label": "references to Google's libraries and frameworks",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She used Vue, the community framework, to build the web interface."
+    },
+    "s131-sf1": {
+      "test": 131,
+      "layer": 18,
+      "index": 3432,
+      "label": "timestamps related to data entries or logs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The log entry was recorded at 2024-06-18 09:14:22 and marked as complete."
+    },
+    "s131-sf2": {
+      "test": 131,
+      "layer": 18,
+      "index": 3432,
+      "label": "timestamps related to data entries or logs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Each row in the database carries a timestamp of 15:42:07 from that morning."
+    },
+    "s131-nm1": {
+      "test": 131,
+      "layer": 18,
+      "index": 3432,
+      "label": "timestamps related to data entries or logs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The log entry was recorded on a Tuesday in June and marked as complete."
+    },
+    "s131-nm2": {
+      "test": 131,
+      "layer": 18,
+      "index": 3432,
+      "label": "timestamps related to data entries or logs",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Each row in the database carries a note about the weather from that morning."
+    },
+    "s132-sf1": {
+      "test": 132,
+      "layer": 18,
+      "index": 6630,
+      "label": "collector's items and their characteristics",
+      "ok": true,
+      "max_activation": 58.25,
+      "prompt": "The rare coin is a valuable collector's item in mint condition."
+    },
+    "s132-sf2": {
+      "test": 132,
+      "layer": 18,
+      "index": 6630,
+      "label": "collector's items and their characteristics",
+      "ok": true,
+      "max_activation": 49,
+      "prompt": "He keeps his vintage baseball cards in protective sleeves because they are collectible."
+    },
+    "s132-nm1": {
+      "test": 132,
+      "layer": 18,
+      "index": 6630,
+      "label": "collector's items and their characteristics",
+      "ok": true,
+      "max_activation": 20.5,
+      "prompt": "The common coin is an ordinary pocket item in worn condition."
+    },
+    "s132-nm2": {
+      "test": 132,
+      "layer": 18,
+      "index": 6630,
+      "label": "collector's items and their characteristics",
+      "ok": true,
+      "max_activation": 7.0625,
+      "prompt": "He keeps his everyday grocery receipts in a kitchen drawer because they are recent."
+    },
+    "s133-sf1": {
+      "test": 133,
+      "layer": 18,
+      "index": 7593,
+      "label": "references to software projects and their attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The open-source software project released version two with a faster interface."
+    },
+    "s133-sf2": {
+      "test": 133,
+      "layer": 18,
+      "index": 7593,
+      "label": "references to software projects and their attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Their software project has fifty contributors and a public issue tracker."
+    },
+    "s133-nm1": {
+      "test": 133,
+      "layer": 18,
+      "index": 7593,
+      "label": "references to software projects and their attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The community garden project planted row two with a faster growing variety."
+    },
+    "s133-nm2": {
+      "test": 133,
+      "layer": 18,
+      "index": 7593,
+      "label": "references to software projects and their attributes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Their neighborhood project has fifty volunteers and a public sign-up sheet."
+    },
+    "s134-sf1": {
+      "test": 134,
+      "layer": 18,
+      "index": 13540,
+      "label": "terms related to Christianity and Islam",
+      "ok": true,
+      "max_activation": 6.9375,
+      "prompt": "The church congregation prayed together before the Easter service on Sunday."
+    },
+    "s134-sf2": {
+      "test": 134,
+      "layer": 18,
+      "index": 13540,
+      "label": "terms related to Christianity and Islam",
+      "ok": true,
+      "max_activation": 9.25,
+      "prompt": "During Ramadan, the mosque community fasted from dawn until sunset."
+    },
+    "s134-nm1": {
+      "test": 134,
+      "layer": 18,
+      "index": 13540,
+      "label": "terms related to Christianity and Islam",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The school assembly gathered together before the holiday concert on Sunday."
+    },
+    "s134-nm2": {
+      "test": 134,
+      "layer": 18,
+      "index": 13540,
+      "label": "terms related to Christianity and Islam",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "During the summer, the camp community swam from dawn until sunset."
+    },
+    "s135-sf1": {
+      "test": 135,
+      "layer": 18,
+      "index": 14996,
+      "label": "phrases indicating the initiation or recommendation of actions or processes",
+      "ok": true,
+      "max_activation": 18.625,
+      "prompt": "To get started, we recommend beginning the application process this week."
+    },
+    "s135-sf2": {
+      "test": 135,
+      "layer": 18,
+      "index": 14996,
+      "label": "phrases indicating the initiation or recommendation of actions or processes",
+      "ok": true,
+      "max_activation": 15,
+      "prompt": "You should start by creating an account and then follow the steps."
+    },
+    "s135-nm1": {
+      "test": 135,
+      "layer": 18,
+      "index": 14996,
+      "label": "phrases indicating the initiation or recommendation of actions or processes",
+      "ok": true,
+      "max_activation": 10.0625,
+      "prompt": "To get oriented, we described the completed application process this week."
+    },
+    "s135-nm2": {
+      "test": 135,
+      "layer": 18,
+      "index": 14996,
+      "label": "phrases indicating the initiation or recommendation of actions or processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "You can look at an existing account and then review the records."
+    },
+    "s136-sf1": {
+      "test": 136,
+      "layer": 18,
+      "index": 1765,
+      "label": "expressions related to personal responsibility and the concept of choice",
+      "ok": true,
+      "max_activation": 11,
+      "prompt": "It was my choice, and I take full responsibility for the outcome."
+    },
+    "s136-sf2": {
+      "test": 136,
+      "layer": 18,
+      "index": 1765,
+      "label": "expressions related to personal responsibility and the concept of choice",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She decided for herself and accepted responsibility for her own actions."
+    },
+    "s136-nm1": {
+      "test": 136,
+      "layer": 18,
+      "index": 1765,
+      "label": "expressions related to personal responsibility and the concept of choice",
+      "ok": true,
+      "max_activation": 11,
+      "prompt": "It was my assignment, and I took careful notes on the outcome."
+    },
+    "s136-nm2": {
+      "test": 136,
+      "layer": 18,
+      "index": 1765,
+      "label": "expressions related to personal responsibility and the concept of choice",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She waited for instructions and followed directions from her own manager."
+    },
+    "s137-sf1": {
+      "test": 137,
+      "layer": 18,
+      "index": 15986,
+      "label": "phrases indicating finality or significant concluding moments",
+      "ok": true,
+      "max_activation": 19.75,
+      "prompt": "And with that final word, the ceremony came to an end."
+    },
+    "s137-sf2": {
+      "test": 137,
+      "layer": 18,
+      "index": 15986,
+      "label": "phrases indicating finality or significant concluding moments",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "At last, the long journey was finally over for them."
+    },
+    "s137-nm1": {
+      "test": 137,
+      "layer": 18,
+      "index": 15986,
+      "label": "phrases indicating finality or significant concluding moments",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "And with that opening word, the ceremony was just getting started."
+    },
+    "s137-nm2": {
+      "test": 137,
+      "layer": 18,
+      "index": 15986,
+      "label": "phrases indicating finality or significant concluding moments",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "At first, the long journey was only beginning for them."
+    },
+    "s138-sf1": {
+      "test": 138,
+      "layer": 18,
+      "index": 1963,
+      "label": "special symbols and formatting used in code or markup languages",
+      "ok": true,
+      "max_activation": 14.1875,
+      "prompt": "She wrapped the heading in <h1> tags so it would stand out on the page."
+    },
+    "s138-sf2": {
+      "test": 138,
+      "layer": 18,
+      "index": 1963,
+      "label": "special symbols and formatting used in code or markup languages",
+      "ok": true,
+      "max_activation": 25.25,
+      "prompt": "Use **bold** markers and a # symbol to format the heading in Markdown."
+    },
+    "s138-nm1": {
+      "test": 138,
+      "layer": 18,
+      "index": 1963,
+      "label": "special symbols and formatting used in code or markup languages",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She wrapped the heading in large letters so it would stand out on the page."
+    },
+    "s138-nm2": {
+      "test": 138,
+      "layer": 18,
+      "index": 1963,
+      "label": "special symbols and formatting used in code or markup languages",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Use bigger type and a bright color to format the heading in the document."
+    },
+    "s139-sf1": {
+      "test": 139,
+      "layer": 18,
+      "index": 4857,
+      "label": "terms related to cybersecurity vulnerabilities and threats",
+      "ok": true,
+      "max_activation": 103,
+      "prompt": "The phishing attack exploited a vulnerability to steal employee passwords."
+    },
+    "s139-sf2": {
+      "test": 139,
+      "layer": 18,
+      "index": 4857,
+      "label": "terms related to cybersecurity vulnerabilities and threats",
+      "ok": true,
+      "max_activation": 88,
+      "prompt": "Malware infected the network after hackers breached the firewall."
+    },
+    "s139-nm1": {
+      "test": 139,
+      "layer": 18,
+      "index": 4857,
+      "label": "terms related to cybersecurity vulnerabilities and threats",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The marketing campaign used a survey to collect employee feedback."
+    },
+    "s139-nm2": {
+      "test": 139,
+      "layer": 18,
+      "index": 4857,
+      "label": "terms related to cybersecurity vulnerabilities and threats",
+      "ok": true,
+      "max_activation": 19.375,
+      "prompt": "A power outage disrupted the network after a storm damaged the building."
+    },
+    "s140-sf1": {
+      "test": 140,
+      "layer": 18,
+      "index": 4319,
+      "label": "conjunctions that express contrast or exception",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She wanted to go outside, but it started raining hard."
+    },
+    "s140-sf2": {
+      "test": 140,
+      "layer": 18,
+      "index": 4319,
+      "label": "conjunctions that express contrast or exception",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Everyone was invited except Tom, who had to work late."
+    },
+    "s140-nm1": {
+      "test": 140,
+      "layer": 18,
+      "index": 4319,
+      "label": "conjunctions that express contrast or exception",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She wanted to go outside, and it started raining hard."
+    },
+    "s140-nm2": {
+      "test": 140,
+      "layer": 18,
+      "index": 4319,
+      "label": "conjunctions that express contrast or exception",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Everyone was invited including Tom, who had to work late."
+    },
+    "s141-sf1": {
+      "test": 141,
+      "layer": 18,
+      "index": 5378,
+      "label": "statements related to eligibility and inclusion criteria in studies",
+      "ok": true,
+      "max_activation": 37.5,
+      "prompt": "Participants were eligible for the study if they were over eighteen years old."
+    },
+    "s141-sf2": {
+      "test": 141,
+      "layer": 18,
+      "index": 5378,
+      "label": "statements related to eligibility and inclusion criteria in studies",
+      "ok": true,
+      "max_activation": 35.5,
+      "prompt": "The inclusion criteria required patients to have a confirmed diagnosis before enrollment."
+    },
+    "s141-nm1": {
+      "test": 141,
+      "layer": 18,
+      "index": 5378,
+      "label": "statements related to eligibility and inclusion criteria in studies",
+      "ok": true,
+      "max_activation": 10.875,
+      "prompt": "Participants were scheduled for the meeting if they were over eighteen years old."
+    },
+    "s141-nm2": {
+      "test": 141,
+      "layer": 18,
+      "index": 5378,
+      "label": "statements related to eligibility and inclusion criteria in studies",
+      "ok": true,
+      "max_activation": 7.96875,
+      "prompt": "The attendance rules required guests to have a confirmed ticket before entry."
+    },
+    "s142-sf1": {
+      "test": 142,
+      "layer": 18,
+      "index": 15475,
+      "label": "references to multi-drug resistance in medical and scientific contexts",
+      "ok": true,
+      "max_activation": 121,
+      "prompt": "The bacteria developed multi-drug resistance, so the usual antibiotics stopped working."
+    },
+    "s142-sf2": {
+      "test": 142,
+      "layer": 18,
+      "index": 15475,
+      "label": "references to multi-drug resistance in medical and scientific contexts",
+      "ok": true,
+      "max_activation": 148,
+      "prompt": "Researchers studied multidrug-resistant tuberculosis strains that resist several standard treatments."
+    },
+    "s142-nm1": {
+      "test": 142,
+      "layer": 18,
+      "index": 15475,
+      "label": "references to multi-drug resistance in medical and scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The bacteria developed a thicker coating, so the usual cleaning stopped working."
+    },
+    "s142-nm2": {
+      "test": 142,
+      "layer": 18,
+      "index": 15475,
+      "label": "references to multi-drug resistance in medical and scientific contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Researchers studied heat-resistant cooking pans that withstand several standard temperatures."
+    },
+    "s143-sf1": {
+      "test": 143,
+      "layer": 18,
+      "index": 248,
+      "label": "phrases that indicate conditional or situational contexts, particularly related to the term \"upon.\"",
+      "ok": true,
+      "max_activation": 65,
+      "prompt": "Upon arriving home, she immediately checked the mail."
+    },
+    "s143-sf2": {
+      "test": 143,
+      "layer": 18,
+      "index": 248,
+      "label": "phrases that indicate conditional or situational contexts, particularly related to the term \"upon.\"",
+      "ok": true,
+      "max_activation": 73,
+      "prompt": "Payment will be made upon completion of the work."
+    },
+    "s143-nm1": {
+      "test": 143,
+      "layer": 18,
+      "index": 248,
+      "label": "phrases that indicate conditional or situational contexts, particularly related to the term \"upon.\"",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "After arriving home, she immediately checked the mail."
+    },
+    "s143-nm2": {
+      "test": 143,
+      "layer": 18,
+      "index": 248,
+      "label": "phrases that indicate conditional or situational contexts, particularly related to the term \"upon.\"",
+      "ok": true,
+      "max_activation": 10.5,
+      "prompt": "Payment will be made after completion of the work."
+    },
+    "s144-sf1": {
+      "test": 144,
+      "layer": 18,
+      "index": 15031,
+      "label": "terms related to \"monocyte\" and \"monotonous\" attributes in various contexts",
+      "ok": true,
+      "max_activation": 119,
+      "prompt": "The blood test showed a high monocyte count, suggesting an infection."
+    },
+    "s144-sf2": {
+      "test": 144,
+      "layer": 18,
+      "index": 15031,
+      "label": "terms related to \"monocyte\" and \"monotonous\" attributes in various contexts",
+      "ok": true,
+      "max_activation": 14.625,
+      "prompt": "His monotonous voice made the long lecture hard to follow."
+    },
+    "s144-nm1": {
+      "test": 144,
+      "layer": 18,
+      "index": 15031,
+      "label": "terms related to \"monocyte\" and \"monotonous\" attributes in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The blood test showed a high platelet count, suggesting an infection."
+    },
+    "s144-nm2": {
+      "test": 144,
+      "layer": 18,
+      "index": 15031,
+      "label": "terms related to \"monocyte\" and \"monotonous\" attributes in various contexts",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "His cheerful voice made the long lecture easy to follow."
+    },
+    "s145-sf1": {
+      "test": 145,
+      "layer": 18,
+      "index": 11048,
+      "label": "mathematical notation and symbols related to inequalities and integrals",
+      "ok": true,
+      "max_activation": 13.25,
+      "prompt": "The solution requires x ≤ 5 for every value in the range."
+    },
+    "s145-sf2": {
+      "test": 145,
+      "layer": 18,
+      "index": 11048,
+      "label": "mathematical notation and symbols related to inequalities and integrals",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He evaluated the integral ∫ x² dx from zero to three."
+    },
+    "s145-nm1": {
+      "test": 145,
+      "layer": 18,
+      "index": 11048,
+      "label": "mathematical notation and symbols related to inequalities and integrals",
+      "ok": true,
+      "max_activation": 5.71875,
+      "prompt": "The solution requires x to be at most five for every value in the range."
+    },
+    "s145-nm2": {
+      "test": 145,
+      "layer": 18,
+      "index": 11048,
+      "label": "mathematical notation and symbols related to inequalities and integrals",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He worked out the area under the curve from zero to three."
+    },
+    "s146-sf1": {
+      "test": 146,
+      "layer": 18,
+      "index": 5188,
+      "label": "conjunctions and punctuation commonly used in lists or enumerations",
+      "ok": true,
+      "max_activation": 9.875,
+      "prompt": "For the picnic she packed sandwiches, apples, oranges, and a blanket."
+    },
+    "s146-sf2": {
+      "test": 146,
+      "layer": 18,
+      "index": 5188,
+      "label": "conjunctions and punctuation commonly used in lists or enumerations",
+      "ok": true,
+      "max_activation": 7.875,
+      "prompt": "The kit includes a hammer, nails, screws, or a small wrench."
+    },
+    "s146-nm1": {
+      "test": 146,
+      "layer": 18,
+      "index": 5188,
+      "label": "conjunctions and punctuation commonly used in lists or enumerations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "For the picnic she packed sandwiches alongside a warm blanket."
+    },
+    "s146-nm2": {
+      "test": 146,
+      "layer": 18,
+      "index": 5188,
+      "label": "conjunctions and punctuation commonly used in lists or enumerations",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The kit includes a hammer inside a sturdy wooden toolbox."
+    },
+    "s147-sf1": {
+      "test": 147,
+      "layer": 18,
+      "index": 15842,
+      "label": "interactive elements and calls to action within the text",
+      "ok": true,
+      "max_activation": 71.5,
+      "prompt": "Click here to sign up now and start your free trial today."
+    },
+    "s147-sf2": {
+      "test": 147,
+      "layer": 18,
+      "index": 15842,
+      "label": "interactive elements and calls to action within the text",
+      "ok": true,
+      "max_activation": 30.125,
+      "prompt": "Tap the button below to download the app and join us."
+    },
+    "s147-nm1": {
+      "test": 147,
+      "layer": 18,
+      "index": 15842,
+      "label": "interactive elements and calls to action within the text",
+      "ok": true,
+      "max_activation": 51.25,
+      "prompt": "Read here to learn more about our history and founding story today."
+    },
+    "s147-nm2": {
+      "test": 147,
+      "layer": 18,
+      "index": 15842,
+      "label": "interactive elements and calls to action within the text",
+      "ok": true,
+      "max_activation": 20.625,
+      "prompt": "See the photo below to view the garden and visit us."
+    },
+    "s148-sf1": {
+      "test": 148,
+      "layer": 18,
+      "index": 348,
+      "label": "technical terms related to semiconductor manufacturing and the properties of materials",
+      "ok": true,
+      "max_activation": 67.5,
+      "prompt": "Workers etch circuits onto the silicon wafer during semiconductor fabrication."
+    },
+    "s148-sf2": {
+      "test": 148,
+      "layer": 18,
+      "index": 348,
+      "label": "technical terms related to semiconductor manufacturing and the properties of materials",
+      "ok": true,
+      "max_activation": 46.5,
+      "prompt": "Doping the silicon changes its conductivity for use in transistors."
+    },
+    "s148-nm1": {
+      "test": 148,
+      "layer": 18,
+      "index": 348,
+      "label": "technical terms related to semiconductor manufacturing and the properties of materials",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Workers paint patterns onto the wooden board during furniture assembly."
+    },
+    "s148-nm2": {
+      "test": 148,
+      "layer": 18,
+      "index": 348,
+      "label": "technical terms related to semiconductor manufacturing and the properties of materials",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Coating the wood changes its appearance for use in cabinets."
+    },
+    "s149-sf1": {
+      "test": 149,
+      "layer": 18,
+      "index": 428,
+      "label": "conditional statements and references to actions or choices",
+      "ok": true,
+      "max_activation": 7.4375,
+      "prompt": "If it rains tomorrow, we will choose to stay home instead."
+    },
+    "s149-sf2": {
+      "test": 149,
+      "layer": 18,
+      "index": 428,
+      "label": "conditional statements and references to actions or choices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "If you finish early, you can decide whether to leave or help."
+    },
+    "s149-nm1": {
+      "test": 149,
+      "layer": 18,
+      "index": 428,
+      "label": "conditional statements and references to actions or choices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Since it rained yesterday, we stayed home for the whole evening."
+    },
+    "s149-nm2": {
+      "test": 149,
+      "layer": 18,
+      "index": 428,
+      "label": "conditional statements and references to actions or choices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Because you finished early, you helped clean up after the event."
+    },
+    "s150-sf1": {
+      "test": 150,
+      "layer": 18,
+      "index": 14479,
+      "label": "code that involves manipulating scroll position and elements in a graphical user interface",
+      "ok": true,
+      "max_activation": 47.75,
+      "prompt": "The script sets scrollTop so the page jumps back to the top element."
+    },
+    "s150-sf2": {
+      "test": 150,
+      "layer": 18,
+      "index": 14479,
+      "label": "code that involves manipulating scroll position and elements in a graphical user interface",
+      "ok": true,
+      "max_activation": 63.5,
+      "prompt": "When the user scrolls down, the code moves the sidebar element on screen."
+    },
+    "s150-nm1": {
+      "test": 150,
+      "layer": 18,
+      "index": 14479,
+      "label": "code that involves manipulating scroll position and elements in a graphical user interface",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The script sets fontSize so the page heading stands out at the top."
+    },
+    "s150-nm2": {
+      "test": 150,
+      "layer": 18,
+      "index": 14479,
+      "label": "code that involves manipulating scroll position and elements in a graphical user interface",
+      "ok": true,
+      "max_activation": 10,
+      "prompt": "When the user clicks down, the code changes the sidebar color on screen."
+    },
+    "s151-sf1": {
+      "test": 151,
+      "layer": 18,
+      "index": 2758,
+      "label": "financial figures and monetary amounts related to significant events or transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The company was acquired for $2.3 billion in a deal announced Monday."
+    },
+    "s151-sf2": {
+      "test": 151,
+      "layer": 18,
+      "index": 2758,
+      "label": "financial figures and monetary amounts related to significant events or transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Investors paid $450 million for the startup during the funding round."
+    },
+    "s151-nm1": {
+      "test": 151,
+      "layer": 18,
+      "index": 2758,
+      "label": "financial figures and monetary amounts related to significant events or transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The company was featured for two full pages in a story published Monday."
+    },
+    "s151-nm2": {
+      "test": 151,
+      "layer": 18,
+      "index": 2758,
+      "label": "financial figures and monetary amounts related to significant events or transactions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Spectators filled 450 seats for the concert during the opening night."
+    },
+    "s152-sf1": {
+      "test": 152,
+      "layer": 18,
+      "index": 16032,
+      "label": "phrases or sections of code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "This section of code loops through the list and prints each name."
+    },
+    "s152-sf2": {
+      "test": 152,
+      "layer": 18,
+      "index": 16032,
+      "label": "phrases or sections of code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The next block of code checks the password before opening the account."
+    },
+    "s152-nm1": {
+      "test": 152,
+      "layer": 18,
+      "index": 16032,
+      "label": "phrases or sections of code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "This section of prose moves through the story and introduces each character."
+    },
+    "s152-nm2": {
+      "test": 152,
+      "layer": 18,
+      "index": 16032,
+      "label": "phrases or sections of code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The next part of the essay checks the argument before reaching the conclusion."
+    },
+    "s153-sf1": {
+      "test": 153,
+      "layer": 18,
+      "index": 3108,
+      "label": "assignments and initializations in code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The code assigns the value five to the counter and initializes it to zero first."
+    },
+    "s153-sf2": {
+      "test": 153,
+      "layer": 18,
+      "index": 3108,
+      "label": "assignments and initializations in code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She declared the variable and set it equal to the user's name at startup."
+    },
+    "s153-nm1": {
+      "test": 153,
+      "layer": 18,
+      "index": 3108,
+      "label": "assignments and initializations in code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The code reads the value five from the counter and displays it to zero first."
+    },
+    "s153-nm2": {
+      "test": 153,
+      "layer": 18,
+      "index": 3108,
+      "label": "assignments and initializations in code",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She described the variable and compared it to the user's name at startup."
+    },
+    "s154-sf1": {
+      "test": 154,
+      "layer": 18,
+      "index": 14737,
+      "label": "the presence of JSON or structured data format indicators",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The response came back as {\"name\": \"Ana\", \"age\": 31} in the server log."
+    },
+    "s154-sf2": {
+      "test": 154,
+      "layer": 18,
+      "index": 14737,
+      "label": "the presence of JSON or structured data format indicators",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He saved the settings in JSON format with keys for theme and language."
+    },
+    "s154-nm1": {
+      "test": 154,
+      "layer": 18,
+      "index": 14737,
+      "label": "the presence of JSON or structured data format indicators",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The response came back as a short note about Ana in the server log."
+    },
+    "s154-nm2": {
+      "test": 154,
+      "layer": 18,
+      "index": 14737,
+      "label": "the presence of JSON or structured data format indicators",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "He saved the settings in plain sentences with notes for theme and language."
+    },
+    "s155-sf1": {
+      "test": 155,
+      "layer": 18,
+      "index": 955,
+      "label": "technical specifications and descriptions related to inventions, particularly involving methods and devices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The patent describes a method and device for filtering water using a membrane."
+    },
+    "s155-sf2": {
+      "test": 155,
+      "layer": 18,
+      "index": 955,
+      "label": "technical specifications and descriptions related to inventions, particularly involving methods and devices",
+      "ok": true,
+      "max_activation": 7.40625,
+      "prompt": "The invention provides an apparatus that measures pressure inside a sealed container."
+    },
+    "s155-nm1": {
+      "test": 155,
+      "layer": 18,
+      "index": 955,
+      "label": "technical specifications and descriptions related to inventions, particularly involving methods and devices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The article describes a recipe and technique for filtering soup using a strainer."
+    },
+    "s155-nm2": {
+      "test": 155,
+      "layer": 18,
+      "index": 955,
+      "label": "technical specifications and descriptions related to inventions, particularly involving methods and devices",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The story provides a character that measures courage inside a small village."
+    },
+    "s156-sf1": {
+      "test": 156,
+      "layer": 18,
+      "index": 4475,
+      "label": "structured XML or JSON data elements, including keys and values",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The XML file stores the title between opening and closing tags for each book."
+    },
+    "s156-sf2": {
+      "test": 156,
+      "layer": 18,
+      "index": 4475,
+      "label": "structured XML or JSON data elements, including keys and values",
+      "ok": true,
+      "max_activation": 57,
+      "prompt": "Each JSON object pairs a key with a value, like a username and its password hash."
+    },
+    "s156-nm1": {
+      "test": 156,
+      "layer": 18,
+      "index": 4475,
+      "label": "structured XML or JSON data elements, including keys and values",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The printed book stores the title between the front and back covers for each copy."
+    },
+    "s156-nm2": {
+      "test": 156,
+      "layer": 18,
+      "index": 4475,
+      "label": "structured XML or JSON data elements, including keys and values",
+      "ok": true,
+      "max_activation": 22.25,
+      "prompt": "Each printed form pairs a question with an answer, like a name and its mailing address."
+    },
+    "s157-sf1": {
+      "test": 157,
+      "layer": 18,
+      "index": 10702,
+      "label": "phrases indicating intentions, purposes, or designations related to actions or interventions",
+      "ok": true,
+      "max_activation": 41,
+      "prompt": "The program is designed to help families save money on heating bills."
+    },
+    "s157-sf2": {
+      "test": 157,
+      "layer": 18,
+      "index": 10702,
+      "label": "phrases indicating intentions, purposes, or designations related to actions or interventions",
+      "ok": true,
+      "max_activation": 43.5,
+      "prompt": "This intervention is intended to reduce smoking among teenagers in the area."
+    },
+    "s157-nm1": {
+      "test": 157,
+      "layer": 18,
+      "index": 10702,
+      "label": "phrases indicating intentions, purposes, or designations related to actions or interventions",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The program is scheduled to visit families during tours of historic homes."
+    },
+    "s157-nm2": {
+      "test": 157,
+      "layer": 18,
+      "index": 10702,
+      "label": "phrases indicating intentions, purposes, or designations related to actions or interventions",
+      "ok": true,
+      "max_activation": 38.75,
+      "prompt": "This exhibition is arranged to display paintings among galleries in the area."
+    },
+    "s158-sf1": {
+      "test": 158,
+      "layer": 18,
+      "index": 12235,
+      "label": "mechanical or technical terms related to construction and installation processes",
+      "ok": true,
+      "max_activation": 9.9375,
+      "prompt": "Workers bolted the steel beams together before installing the support columns."
+    },
+    "s158-sf2": {
+      "test": 158,
+      "layer": 18,
+      "index": 12235,
+      "label": "mechanical or technical terms related to construction and installation processes",
+      "ok": true,
+      "max_activation": 9.125,
+      "prompt": "The crew used a torque wrench to fasten the mounting bracket securely."
+    },
+    "s158-nm1": {
+      "test": 158,
+      "layer": 18,
+      "index": 12235,
+      "label": "mechanical or technical terms related to construction and installation processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Workers stacked the picnic blankets together before arranging the folding chairs."
+    },
+    "s158-nm2": {
+      "test": 158,
+      "layer": 18,
+      "index": 12235,
+      "label": "mechanical or technical terms related to construction and installation processes",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The crew used a serving spoon to portion the potato salad carefully."
+    },
+    "s159-sf1": {
+      "test": 159,
+      "layer": 18,
+      "index": 12239,
+      "label": "technical language related to medical studies and procedures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Patients in the clinical trial received the treatment twice daily for six weeks."
+    },
+    "s159-sf2": {
+      "test": 159,
+      "layer": 18,
+      "index": 12239,
+      "label": "technical language related to medical studies and procedures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The surgeon performed the procedure and monitored the patient's recovery afterward."
+    },
+    "s159-nm1": {
+      "test": 159,
+      "layer": 18,
+      "index": 12239,
+      "label": "technical language related to medical studies and procedures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "Students in the cooking class received the recipe twice weekly for six weeks."
+    },
+    "s159-nm2": {
+      "test": 159,
+      "layer": 18,
+      "index": 12239,
+      "label": "technical language related to medical studies and procedures",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The teacher performed the demonstration and monitored the students' progress afterward."
+    },
+    "s160-sf1": {
+      "test": 160,
+      "layer": 18,
+      "index": 8013,
+      "label": "discussions about challenges and hurdles faced by individuals or groups",
+      "ok": true,
+      "max_activation": 38.25,
+      "prompt": "The team faced many challenges and struggled to overcome each hurdle together."
+    },
+    "s160-sf2": {
+      "test": 160,
+      "layer": 18,
+      "index": 8013,
+      "label": "discussions about challenges and hurdles faced by individuals or groups",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She talked about the obstacles her family faced while starting over."
+    },
+    "s160-nm1": {
+      "test": 160,
+      "layer": 18,
+      "index": 8013,
+      "label": "discussions about challenges and hurdles faced by individuals or groups",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "The team enjoyed many successes and celebrated each easy victory together."
+    },
+    "s160-nm2": {
+      "test": 160,
+      "layer": 18,
+      "index": 8013,
+      "label": "discussions about challenges and hurdles faced by individuals or groups",
+      "ok": true,
+      "max_activation": 0,
+      "prompt": "She talked about the vacations her family planned while settling in."
+    }
+  },
+  "updated_at": "2026-11-12T20:41:45.573388-05:00"
+}
