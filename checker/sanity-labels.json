@@ -1,0 +1,374 @@
+[
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 12076,
+  "label": "the presence of binary or boolean representations and specific symbols"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 4116,
+  "label": "key terms related to genetic traits and population genetics"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 9939,
+  "label": "themes related to personal struggles and emotional conflicts"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 14547,
+  "label": "patterns related to numerical data and structured lists"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 12503,
+  "label": "code statements that manipulate arrays or data structures"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 8936,
+  "label": "elements related to data representation and measurement in scientific contexts"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 3420,
+  "label": "special characters and symbols used in programming or mathematical contexts"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 15873,
+  "label": "elements of code and programming constructs"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 416,
+  "label": "commands or functions related to logging or alerting in programming contexts"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 15744,
+  "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 1508,
+  "label": "chemical compounds related to lipids"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 11314,
+  "label": "links and references to external sources"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 14189,
+  "label": "technical terms and definitions related to mathematical concepts and computational processes"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 4117,
+  "label": "phrases indicating emotional engagement or personal reflections"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 1963,
+  "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 11998,
+  "label": "code snippets related to programming logic and control structures"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 5390,
+  "label": "specific scientific terms related to biology and medicine"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 3120,
+  "label": "phrases expressing preferences for sharing or communication"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 6793,
+  "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 6196,
+  "label": "elements related to electromechanical systems"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 896,
+  "label": "structured data and elements related to programming or model definitions"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 6785,
+  "label": "details about individuals' educational backgrounds and professional history"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 12314,
+  "label": "proper nouns, particularly place names and related identifiers"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 10356,
+  "label": "instances of significant numerical values or statistics"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 15792,
+  "label": "mentions of specific names or terms related to financial or transactional contexts"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 10820,
+  "label": "structured data and programming constructs"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 4584,
+  "label": "phrases related to statistical measurements and observed data frequencies"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 2819,
+  "label": "specific numerical values or symbols associated with various metrics or measurements"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 9211,
+  "label": "phrases that indicate comparisons or similarities"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 13961,
+  "label": "numerical values and sequences, indicating a focus on data or time-related information"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 5545,
+  "label": "syntax elements related to control structures in programming"
+ },
+ {
+  "layer": 12,
+  "source": "12-gemmascope-res-16k",
+  "index": 6811,
+  "label": "functions related to file and database operations"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 4689,
+  "label": "HTML and web development elements"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 3292,
+  "label": "names and quotation marks"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 791,
+  "label": "technical terms and code-related concepts"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 8148,
+  "label": "references to scientific kits and assays related to molecular biology"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 11089,
+  "label": "phrases discussing actions or activities related to considerations or decisions"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 14786,
+  "label": "terms related to the evaluation of outcomes"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 4687,
+  "label": "keywords related to paths and resources in a programming context"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 1065,
+  "label": "performance metrics related to software compilation or testing"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 7633,
+  "label": "terms related to semi-structured data or formats"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 2783,
+  "label": "phrases that express questions or inquiries about personal opinions and perceptions"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 11231,
+  "label": "references to collections or data structures in programming contexts"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 11236,
+  "label": "instances of object-oriented programming methods and attributes"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 1541,
+  "label": "numeric values and symbols related to data structures or programming syntax"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 2570,
+  "label": "punctuation marks, especially commas"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 7011,
+  "label": "semicolon-separated import statements in programming code"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 11722,
+  "label": "numeric values and operations related to time"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 10507,
+  "label": "occurrences of code structure or syntax elements commonly used in programming languages"
+ },
+ {
+  "layer": 6,
+  "source": "6-gemmascope-res-16k",
+  "index": 4846,
+  "label": "references to licensing information and URLs associated with software or documents"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 11711,
+  "label": "error-handling statements and expressions in the context of programming"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 8767,
+  "label": "punctuation marks, particularly periods"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 15775,
+  "label": "key information related to mobile application development"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 14571,
+  "label": "references to Google's libraries and frameworks"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 3432,
+  "label": "timestamps related to data entries or logs"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 7593,
+  "label": "references to software projects and their attributes"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 4319,
+  "label": "conjunctions that express contrast or exception"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 2758,
+  "label": "financial figures and monetary amounts related to significant events or transactions"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 16032,
+  "label": "phrases or sections of code"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 3108,
+  "label": "assignments and initializations in code"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 14737,
+  "label": "the presence of JSON or structured data format indicators"
+ },
+ {
+  "layer": 18,
+  "source": "18-gemmascope-res-16k",
+  "index": 12239,
+  "label": "technical language related to medical studies and procedures"
+ }
+]

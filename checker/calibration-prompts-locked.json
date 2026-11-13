@@ -1,0 +1,684 @@
+{
+  "tests": [
+    {
+      "test": 1,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 18,
+      "label": "terms related to food and culinary subjects",
+      "should_fire": [
+        "She stirred the tomato sauce and added fresh basil.",
+        "The recipe calls for two cups of flour and a pinch of salt."
+      ],
+      "near_miss": [
+        "She stirred the paint and added a second coat to the wall.",
+        "He filed the report and added his signature at the bottom."
+      ],
+      "predicted": "PASS",
+      "basis": "Concrete topic; plain on-topic sentences should fire if the label holds."
+    },
+    {
+      "test": 2,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 483,
+      "label": "references to the Windows operating system",
+      "should_fire": [
+        "Windows 11 keeps asking me to restart for updates.",
+        "He reinstalled Windows after the laptop crashed."
+      ],
+      "near_miss": [
+        "She opened the windows to let in some fresh air.",
+        "Linux keeps asking me to restart for updates."
+      ],
+      "predicted": "PASS",
+      "basis": "Named product in plain sentences; near-misses swap the sense or the OS."
+    },
+    {
+      "test": 3,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 869,
+      "label": "geographical and administrative terms related to specific regions or districts",
+      "should_fire": [
+        "The province announced new funding for rural roads.",
+        "Voters in the county will decide the measure in November."
+      ],
+      "near_miss": [
+        "She announced new funding for the community garden.",
+        "The committee published its annual report on Friday."
+      ],
+      "predicted": "PASS",
+      "basis": "Common administrative words; risk is breadth, but plain reading says pass."
+    },
+    {
+      "test": 4,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 1029,
+      "label": "references to ancient figures and mythological or legendary elements",
+      "should_fire": [
+        "Zeus hurled thunderbolts from Mount Olympus.",
+        "The legend says King Arthur pulled the sword from the stone."
+      ],
+      "near_miss": [
+        "The president addressed the nation from the capital.",
+        "She read a novel about a detective in modern London."
+      ],
+      "predicted": "PASS",
+      "basis": "Concrete mythological content in both should-fires."
+    },
+    {
+      "test": 5,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 1302,
+      "label": "shipping-related terms and phrases for large items",
+      "should_fire": [
+        "The freight company will deliver the piano on a pallet.",
+        "They shipped the industrial press by container and insured the cargo."
+      ],
+      "near_miss": [
+        "She mailed the letter in a standard envelope.",
+        "They delivered the speech to a packed auditorium."
+      ],
+      "predicted": "PASS",
+      "basis": "Large-item shipping terms in plain sentences; near-misses shrink or metaphorize."
+    },
+    {
+      "test": 6,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 1501,
+      "label": "moments of surprise or unexpected events, particularly those that are positive or celebratory in nature.",
+      "should_fire": [
+        "He had no idea about the party, and he gasped when everyone shouted surprise.",
+        "Out of nowhere, she won the raffle and laughed in disbelief."
+      ],
+      "near_miss": [
+        "They threw her a birthday party she had helped plan for weeks.",
+        "He was shocked and upset when the pipe burst flooded the kitchen."
+      ],
+      "predicted": "FAIL",
+      "basis": "Label bundles surprise with positive celebration; the two senses likely split."
+    },
+    {
+      "test": 7,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 1643,
+      "label": "references to light and illumination contexts",
+      "should_fire": [
+        "The lamp filled the room with warm light.",
+        "Sunlight streamed through the window all morning."
+      ],
+      "near_miss": [
+        "The suitcase was light enough to carry with one hand.",
+        "She packed a light jacket for the trip."
+      ],
+      "predicted": "FAIL",
+      "basis": "Polysemous label word; the weight sense likely fires as well."
+    },
+    {
+      "test": 8,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 1657,
+      "label": "references to the name “Tom”",
+      "should_fire": [
+        "Tom called to say he would be late.",
+        "I asked Tom to review the draft."
+      ],
+      "near_miss": [
+        "John called to say he would be late.",
+        "She sliced the tomatoes for the salad."
+      ],
+      "predicted": "PASS",
+      "basis": "A specific name; swap and string probes are the honest near-misses."
+    },
+    {
+      "test": 9,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 2081,
+      "label": "periods and punctuation that signify the end of sentences",
+      "should_fire": [
+        "The meeting ended early. Everyone went home.",
+        "She finished the letter. Then she sealed the envelope."
+      ],
+      "near_miss": [
+        "The meeting ended early, and everyone went home",
+        "Did the meeting end early? She certainly hoped so!"
+      ],
+      "predicted": "FAIL",
+      "basis": "Terminal punctuation is everywhere, including inside the near-misses; isolating it in lone sentences is doubtful."
+    },
+    {
+      "test": 10,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 2580,
+      "label": "references to literary works and notable authors",
+      "should_fire": [
+        "Shakespeare wrote Hamlet and Macbeth.",
+        "We studied Dickens in my English literature class."
+      ],
+      "near_miss": [
+        "The plumber fixed the sink and replaced a valve.",
+        "She wrote an email to her manager about the schedule."
+      ],
+      "predicted": "PASS",
+      "basis": "Named authors and works in plain sentences."
+    },
+    {
+      "test": 11,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 2625,
+      "label": "specific scientific or technical terms related to genetics and molecular biology",
+      "should_fire": [
+        "The BRCA1 gene mutation raises the risk of breast cancer.",
+        "Scientists sequenced the DNA to find the mutation."
+      ],
+      "near_miss": [
+        "The telescope revealed a new comet near Jupiter.",
+        "The doctor said the condition can run in families."
+      ],
+      "predicted": "PASS",
+      "basis": "Technical genetics terms in plain sentences; one near-miss is heredity without the vocabulary."
+    },
+    {
+      "test": 12,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 3070,
+      "label": "concepts related to reputation and its effects",
+      "should_fire": [
+        "The scandal ruined the senator's reputation.",
+        "She built a reputation as an honest broker over twenty years."
+      ],
+      "near_miss": [
+        "The scandal ruined the senator's chances in the primary.",
+        "He built a house on the edge of town."
+      ],
+      "predicted": "PASS",
+      "basis": "The label's own word in plain sentences; near-misses keep the frame, drop the concept."
+    },
+    {
+      "test": 13,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 3349,
+      "label": "phrases related to diversity and inclusion in various contexts",
+      "should_fire": [
+        "The company hired a more diverse leadership team this year.",
+        "The school's inclusion program pairs new students with mentors."
+      ],
+      "near_miss": [
+        "The company hired a more experienced leadership team this year.",
+        "The garden has a diverse mix of vegetables this year."
+      ],
+      "predicted": "PASS",
+      "basis": "Label terms in their social sense; one-word swap and one sense swap as near-misses."
+    },
+    {
+      "test": 14,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 3580,
+      "label": "elements of personal relationships and family connections",
+      "should_fire": [
+        "She called her mother every Sunday morning.",
+        "His brother and sister flew in for Thanksgiving."
+      ],
+      "near_miss": [
+        "She called her accountant every Sunday morning.",
+        "The company is a family of brands under one parent firm."
+      ],
+      "predicted": "PASS",
+      "basis": "Family members in plain sentences; person swap and metaphor as near-misses."
+    },
+    {
+      "test": 15,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 3592,
+      "label": "details about concert schedules and ticket sales",
+      "should_fire": [
+        "Tickets for the concert go on sale Friday at noon.",
+        "The band added a second show in Chicago after the first sold out."
+      ],
+      "near_miss": [
+        "Tickets for the train to Chicago go on sale Friday at noon.",
+        "The band practiced in the garage all afternoon."
+      ],
+      "predicted": "PASS",
+      "basis": "Concert sales and scheduling language; event swap and no-sales near-misses."
+    },
+    {
+      "test": 16,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 4207,
+      "label": "expressions of “coolness” or related positive attributes",
+      "should_fire": [
+        "He stayed cool under pressure during the final round.",
+        "That jacket looks really cool on you."
+      ],
+      "near_miss": [
+        "The soup had cooled by the time we sat down.",
+        "She stayed calm under pressure during the final round."
+      ],
+      "predicted": "FAIL",
+      "basis": "Label bundles composure, style, and temperature; the senses likely split."
+    },
+    {
+      "test": 17,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 4593,
+      "label": "concepts related to simplicity and straightforwardness",
+      "should_fire": [
+        "The instructions are simple enough for a child to follow.",
+        "It's a straightforward fix that takes five minutes."
+      ],
+      "near_miss": [
+        "The instructions are detailed enough to fill a whole binder.",
+        "The recipe has a simple list of ingredients but a complicated method."
+      ],
+      "predicted": "PASS",
+      "basis": "Label's own words in plain sentences; opposite and mixed near-misses."
+    },
+    {
+      "test": 18,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 5072,
+      "label": "terms related to medical conditions and anatomical processes",
+      "should_fire": [
+        "The infection spread to her lungs within days.",
+        "His broken ankle needed surgery and six weeks in a cast."
+      ],
+      "near_miss": [
+        "The rumor spread to every office within days.",
+        "The broken pipe needed repair and six weeks of roadwork."
+      ],
+      "predicted": "PASS",
+      "basis": "Medical events in plain sentences; structure-matched swaps as near-misses."
+    },
+    {
+      "test": 19,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 5158,
+      "label": "elements related to buttons in a UI or web interface",
+      "should_fire": [
+        "Click the blue submit button at the bottom of the form.",
+        "The button turns gray when the option is unavailable."
+      ],
+      "near_miss": [
+        "She sewed a button back onto his coat.",
+        "Click the blue link at the bottom of the form."
+      ],
+      "predicted": "PASS",
+      "basis": "UI sense in plain sentences; clothing sense and link swap as near-misses."
+    },
+    {
+      "test": 20,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 6515,
+      "label": "references to a specific shoe brand",
+      "should_fire": [
+        "He bought a new pair of Nike running shoes.",
+        "Her Adidas sneakers were worn out after a year."
+      ],
+      "near_miss": [
+        "He bought a new pair of running shoes.",
+        "Her sneakers were worn out after a year of training."
+      ],
+      "predicted": "FAIL",
+      "basis": "The label never names the brand, so a plain test cannot target it; generic brands may miss the specific one."
+    },
+    {
+      "test": 21,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 6865,
+      "label": "references to personal beliefs, self-identification, and emotional experiences",
+      "should_fire": [
+        "She identifies as an independent voter and believes in small government.",
+        "He says his faith shapes how he votes."
+      ],
+      "near_miss": [
+        "The form asks applicants to identify their employer and address.",
+        "He believes the package will arrive on Friday."
+      ],
+      "predicted": "FAIL",
+      "basis": "Label bundles belief, self-identification, and emotion; likely fragments across them."
+    },
+    {
+      "test": 22,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 7196,
+      "label": "discussions and references to issues of racism and discriminatory behaviors",
+      "should_fire": [
+        "The report documented racist hiring practices at the company.",
+        "He was fired for making racist remarks to a coworker."
+      ],
+      "near_miss": [
+        "The report documented careless hiring practices at the company.",
+        "The town debated the new zoning rules at the meeting."
+      ],
+      "predicted": "PASS",
+      "basis": "The label's own word in plain sentences; one-word swap as near-miss."
+    },
+    {
+      "test": 23,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 7223,
+      "label": "phrases that indicate summary or overall conclusions",
+      "should_fire": [
+        "In summary, the plan saves money and time.",
+        "All in all, the trip went smoothly."
+      ],
+      "near_miss": [
+        "The summary of the report is on page two.",
+        "She added up the total cost of the trip."
+      ],
+      "predicted": "PASS",
+      "basis": "Summary phrases as sentence openers; noun use and literal adding as near-misses."
+    },
+    {
+      "test": 24,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 7467,
+      "label": "words related to reading devices and the eBook industry",
+      "should_fire": [
+        "She reads novels on her Kindle every night.",
+        "The e-reader's battery lasts for weeks."
+      ],
+      "near_miss": [
+        "She reads novels in a paperback every night.",
+        "He charged his phone and tablet before the flight."
+      ],
+      "predicted": "PASS",
+      "basis": "Named device category in plain sentences; format swap and other devices as near-misses."
+    },
+    {
+      "test": 25,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 7623,
+      "label": "questions and inquiries about various topics or contexts",
+      "should_fire": [
+        "What time does the train leave?",
+        "She asked whether the store was still open."
+      ],
+      "near_miss": [
+        "The train leaves at six in the morning.",
+        "Please find the answer in the attached document."
+      ],
+      "predicted": "FAIL",
+      "basis": "A question is a form, not a topic; statements about questions blur the line the label draws."
+    },
+    {
+      "test": 26,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 7798,
+      "label": "expressions of happiness and positive emotions",
+      "should_fire": [
+        "She was thrilled when she heard the good news.",
+        "The kids laughed with joy at the surprise."
+      ],
+      "near_miss": [
+        "She was relieved when she heard the news.",
+        "The kids shouted with anger at the referee."
+      ],
+      "predicted": "PASS",
+      "basis": "Positive emotion words in plain sentences; adjacent and opposite emotions as near-misses."
+    },
+    {
+      "test": 27,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 8123,
+      "label": "references to different types and characteristics of pipes",
+      "should_fire": [
+        "The plumber replaced the copper pipes under the sink.",
+        "Water pressure dropped because a pipe burst down the street."
+      ],
+      "near_miss": [
+        "He smoked a pipe on the porch every evening.",
+        "The organ pipes filled the hall with sound."
+      ],
+      "predicted": "FAIL",
+      "basis": "The label spans pipe types; if other pipe senses fire too, the near-misses beat the rule."
+    },
+    {
+      "test": 28,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 8630,
+      "label": "discussions related to music and artistic collaborations",
+      "should_fire": [
+        "The two singers recorded a duet for the new album.",
+        "She collaborated with a jazz drummer on the track."
+      ],
+      "near_miss": [
+        "The two singers recorded solo albums in the same year.",
+        "She practiced the piano alone every morning."
+      ],
+      "predicted": "PASS",
+      "basis": "Collaboration language in plain sentences; solo work as near-misses."
+    },
+    {
+      "test": 29,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 8743,
+      "label": "negative phrases and expressions related to obligation or denial",
+      "should_fire": [
+        "You must not leave the gate unlocked.",
+        "He said he would not pay for the repairs."
+      ],
+      "near_miss": [
+        "You should leave the gate unlocked tonight.",
+        "He said he would gladly pay for the repairs."
+      ],
+      "predicted": "PASS",
+      "basis": "Negation and obligation words are concrete; positive counterparts as near-misses."
+    },
+    {
+      "test": 30,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 10276,
+      "label": "products related to fashion and beauty",
+      "should_fire": [
+        "She bought a new lipstick and a bottle of foundation.",
+        "The store sells designer handbags and silk scarves."
+      ],
+      "near_miss": [
+        "She bought a new hammer and a box of nails.",
+        "The store sells fresh bread and pastries."
+      ],
+      "predicted": "PASS",
+      "basis": "Product categories in plain sentences; other product domains as near-misses."
+    },
+    {
+      "test": 31,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 11270,
+      "label": "forward-looking statements regarding business projections and associated risks",
+      "should_fire": [
+        "The company expects revenue to grow by ten percent next year.",
+        "Management warned that future results may fall short of forecasts."
+      ],
+      "near_miss": [
+        "The company grew revenue by ten percent last year.",
+        "Management described the new office layout in detail."
+      ],
+      "predicted": "PASS",
+      "basis": "Forward-looking corporate language; past-tense swap as the key near-miss."
+    },
+    {
+      "test": 32,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 12608,
+      "label": "terms related to control and regulation",
+      "should_fire": [
+        "New regulations will control how much banks can lend.",
+        "The agency regulates food safety across the country."
+      ],
+      "near_miss": [
+        "He controlled his temper during the argument.",
+        "The remote control stopped working during the movie."
+      ],
+      "predicted": "FAIL",
+      "basis": "Label spans regulatory and everyday senses of the same word; everyday senses likely fire too."
+    },
+    {
+      "test": 33,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 12964,
+      "label": "references to crafting materials and methods",
+      "should_fire": [
+        "She glued the felt pieces onto the cardboard base.",
+        "He carved the block of wood with a small knife."
+      ],
+      "near_miss": [
+        "She assembled the metal engine parts on the workbench.",
+        "She bought the finished quilt at the craft fair."
+      ],
+      "predicted": "PASS",
+      "basis": "Hand-crafting materials and actions; industrial assembly and buying-finished as near-misses."
+    },
+    {
+      "test": 34,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 13230,
+      "label": "terms related to electricity and power infrastructure",
+      "should_fire": [
+        "The storm knocked out power to three thousand homes.",
+        "Crews repaired the transmission lines by morning."
+      ],
+      "near_miss": [
+        "The mayor holds a lot of power in this town.",
+        "She raised her voice to be heard over the crowd."
+      ],
+      "predicted": "PASS",
+      "basis": "Grid and outage language; political sense of the same word as near-miss."
+    },
+    {
+      "test": 35,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 14520,
+      "label": "terms related to governance and political processes",
+      "should_fire": [
+        "The city council voted to approve the new budget.",
+        "Parliament debated the bill for three days."
+      ],
+      "near_miss": [
+        "The book club voted to pick next month's novel.",
+        "The company board approved the new budget on Tuesday."
+      ],
+      "predicted": "PASS",
+      "basis": "Government process in plain sentences; non-government voting and corporate approval as near-misses."
+    },
+    {
+      "test": 36,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 14719,
+      "label": "terms related to colors and color coding",
+      "should_fire": [
+        "The red car stopped at the green light.",
+        "She wore a blue dress with white shoes."
+      ],
+      "near_miss": [
+        "The car stopped at the traffic light on Main Street.",
+        "She wore a dress with matching shoes to the party."
+      ],
+      "predicted": "PASS",
+      "basis": "Color words in plain sentences; same scenes with colors removed as near-misses."
+    },
+    {
+      "test": 37,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 15035,
+      "label": "phrases that highlight the concept of “short” in various contexts",
+      "should_fire": [
+        "The meeting was short, only fifteen minutes.",
+        "He wrote a short note and left it on the desk."
+      ],
+      "near_miss": [
+        "They ran short of coffee before the guests arrived.",
+        "She ordered a shortbread cookie with her tea."
+      ],
+      "predicted": "FAIL",
+      "basis": "Label bundles the word's senses; shortage sense and the letter string likely bleed across."
+    },
+    {
+      "test": 38,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 15337,
+      "label": "mentions of the term “Mercury,” particularly in relation to its propulsion systems and legal implications",
+      "should_fire": [
+        "Mercury is the closest planet to the sun.",
+        "The thermometer broke and spilled mercury on the lab floor."
+      ],
+      "near_miss": [
+        "Venus is the second planet from the sun.",
+        "The lab measured the temperature with a digital sensor."
+      ],
+      "predicted": "FAIL",
+      "basis": "Label bundles unrelated senses of one word, plus propulsion and legal senses; a single feature is unlikely to cover the bundle."
+    },
+    {
+      "test": 39,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 15623,
+      "label": "references to the color yellow and its variations",
+      "should_fire": [
+        "The yellow school bus stopped at the corner.",
+        "She painted the kitchen a soft yellow."
+      ],
+      "near_miss": [
+        "The red school bus stopped at the corner.",
+        "The pages of the old book had yellowed over time."
+      ],
+      "predicted": "PASS",
+      "basis": "One specific color; color swap and verb form as near-misses."
+    },
+    {
+      "test": 40,
+      "layer": 12,
+      "source": "12-gemmascope-res-16k",
+      "index": 16358,
+      "label": "questions and statements regarding intentions, plans, or purposes",
+      "should_fire": [
+        "She intends to apply for the job next week.",
+        "We plan to repaint the kitchen this spring."
+      ],
+      "near_miss": [
+        "She applied for the job last week.",
+        "The hammer's purpose is driving nails."
+      ],
+      "predicted": "PASS",
+      "basis": "Stated intentions and plans; completed action and object purpose as near-misses."
+    }
+  ]
+}

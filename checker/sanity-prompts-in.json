@@ -1,0 +1,1058 @@
+{
+ "tests": [
+  {
+   "test": 7,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 12076,
+   "label": "the presence of binary or boolean representations and specific symbols",
+   "should_fire": [
+    "The field accepts only true or false, stored as 1 or 0.",
+    "He set the boolean flag to true before running the check."
+   ],
+   "near_miss": [
+    "The form asks only for a name or address, stored as text in a file.",
+    "He set the oven dial to high before checking the roast."
+   ],
+   "predicted": "FAIL",
+   "basis": "Vague bundle of binary, boolean, and unspecified symbols with no single defining pattern."
+  },
+  {
+   "test": 9,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 4116,
+   "label": "key terms related to genetic traits and population genetics",
+   "should_fire": [
+    "The trait is inherited through a recessive allele passed from both parents.",
+    "Allele frequencies in the population shifted over several generations."
+   ],
+   "near_miss": [
+    "The recipe is handed down through a family notebook passed from both grandparents.",
+    "Song styles in the village shifted over several generations."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight scientific domain with distinctive vocabulary such as allele and recessive."
+  },
+  {
+   "test": 11,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 9939,
+   "label": "themes related to personal struggles and emotional conflicts",
+   "should_fire": [
+    "She lay awake worrying that she had disappointed everyone she loved.",
+    "He felt torn between staying for his family and leaving for good."
+   ],
+   "near_miss": [
+    "She lay awake planning the route she would drive on Saturday morning.",
+    "He felt pleased about staying for his family and cooking for everyone."
+   ],
+   "predicted": "FAIL",
+   "basis": "Abstract emotional theme with no distinctive surface vocabulary."
+  },
+  {
+   "test": 14,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 14547,
+   "label": "patterns related to numerical data and structured lists",
+   "should_fire": [
+    "The table lists three columns: name, date, and total for each sale.",
+    "Sales were 120 in January, 145 in February, and 160 in March."
+   ],
+   "near_miss": [
+    "The story names three characters: a baker, a sailor, and a tailor in town.",
+    "Sales were strong in January, stronger in February, and strongest in March."
+   ],
+   "predicted": "PASS",
+   "basis": "Surface format pattern of digits and enumerated lists that a feature can track directly."
+  },
+  {
+   "test": 15,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 12503,
+   "label": "code statements that manipulate arrays or data structures",
+   "should_fire": [
+    "The code adds each new score to the array and sorts it.",
+    "She removed the last item from the list and stored it in a variable."
+   ],
+   "near_miss": [
+    "The clerk adds each new letter to the tray and sorts it.",
+    "She removed the last cup from the shelf and stored it in a cabinet."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight programming subdomain with distinctive terms such as array, list, and variable."
+  },
+  {
+   "test": 22,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 8936,
+   "label": "elements related to data representation and measurement in scientific contexts",
+   "should_fire": [
+    "The temperature was recorded in degrees Celsius at five-minute intervals.",
+    "They measured the sample's weight in grams using a calibrated scale."
+   ],
+   "near_miss": [
+    "The soup was served in large bowls at five-minute intervals throughout lunch.",
+    "They judged the cake's flavor at the fair using a simple scorecard."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad bundle of data, representation, and measurement across all of science."
+  },
+  {
+   "test": 23,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 3420,
+   "label": "special characters and symbols used in programming or mathematical contexts",
+   "should_fire": [
+    "He typed the formula a + b * c into the calculator app.",
+    "The code checks if a != b before printing the result %."
+   ],
+   "near_miss": [
+    "He typed the words alpha and beta into the search box slowly.",
+    "The recipe checks if the soup tastes right before serving the meal."
+   ],
+   "predicted": "PASS",
+   "basis": "Concrete surface pattern of actual symbol characters in the text."
+  },
+  {
+   "test": 24,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 15873,
+   "label": "elements of code and programming constructs",
+   "should_fire": [
+    "The function returns a value after the loop finishes each pass.",
+    "She declared a variable and assigned it inside the class."
+   ],
+   "near_miss": [
+    "The waiter returns a menu after the guests finish each course.",
+    "She opened a notebook and wrote inside the cover."
+   ],
+   "predicted": "FAIL",
+   "basis": "Extremely broad label covering essentially all programming content."
+  },
+  {
+   "test": 29,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 416,
+   "label": "commands or functions related to logging or alerting in programming contexts",
+   "should_fire": [
+    "The system logs an error message whenever the connection drops.",
+    "She set an alert to notify the team when disk space runs low."
+   ],
+   "near_miss": [
+    "The system prints a receipt whenever the customer pays at checkout.",
+    "She set a reminder to notify the team when lunch break runs long."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight programming subdomain anchored by distinctive log and alert vocabulary."
+  },
+  {
+   "test": 32,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 15744,
+   "label": "terms related to health or medical concepts, particularly those involving anatomy and physiology",
+   "should_fire": [
+    "The heart pumps blood through arteries to the rest of the body.",
+    "Muscles in the leg contract to bend the knee joint."
+   ],
+   "near_miss": [
+    "The pump moves water through pipes to the rest of the house.",
+    "Ropes on the sail tighten to bend the wooden mast."
+   ],
+   "predicted": "FAIL",
+   "basis": "Very broad topic spanning all anatomy and physiology, like the pilot's broad food label."
+  },
+  {
+   "test": 33,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 1508,
+   "label": "chemical compounds related to lipids",
+   "should_fire": [
+    "Cholesterol and triglycerides are lipids carried in the bloodstream.",
+    "Fatty acids form the building blocks of many lipid molecules."
+   ],
+   "near_miss": [
+    "Vitamins and minerals are nutrients carried in the bloodstream.",
+    "Amino acids form the building blocks of many protein molecules."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight chemical domain with distinctive compound names such as triglycerides and fatty acids."
+  },
+  {
+   "test": 35,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 11314,
+   "label": "links and references to external sources",
+   "should_fire": [
+    "Read more at the link below, which points to the full report online.",
+    "According to the source cited at the end, the figures come from 2020 census data."
+   ],
+   "near_miss": [
+    "Read more in the chapter below, which covers the full topic in detail.",
+    "According to the summary printed at the start, the figures come from our own survey."
+   ],
+   "predicted": "PASS",
+   "basis": "Surface discourse pattern of pointing to an outside source, with recognizable link and citation phrasing."
+  },
+  {
+   "test": 36,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 14189,
+   "label": "technical terms and definitions related to mathematical concepts and computational processes",
+   "should_fire": [
+    "A derivative measures the rate of change of a function at a point.",
+    "The algorithm's complexity describes how its running time grows with input size."
+   ],
+   "near_miss": [
+    "A thermometer measures the outdoor temperature of a garden at noon.",
+    "The recipe's difficulty describes how its cooking time grows with batch size."
+   ],
+   "predicted": "FAIL",
+   "basis": "Multi-concept bundle joining all of mathematics to all computational processes."
+  },
+  {
+   "test": 38,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 4117,
+   "label": "phrases indicating emotional engagement or personal reflections",
+   "should_fire": [
+    "I still think about that summer and how much it changed me.",
+    "Reading her letter, he felt a lump rise in his throat."
+   ],
+   "near_miss": [
+    "I still think about that summer and how much it rained there.",
+    "Reading her letter, he noted the date written at the top."
+   ],
+   "predicted": "FAIL",
+   "basis": "Abstract reflective and emotional phrasing with no distinctive surface marker."
+  },
+  {
+   "test": 40,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 1963,
+   "label": "specific items, brands, and concepts related to technology or electronics, as well as people and organizations",
+   "should_fire": [
+    "The new iPhone from Apple features a brighter screen and faster chip.",
+    "Samsung released a laptop with a longer battery life this spring."
+   ],
+   "near_miss": [
+    "The new cookbook from the chef features a brighter cover and shorter chapters.",
+    "A local farm released a basket with a longer handle this spring."
+   ],
+   "predicted": "FAIL",
+   "basis": "Incoherent bundle of tech items, brands, people, and organizations with no single claim."
+  },
+  {
+   "test": 42,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 11998,
+   "label": "code snippets related to programming logic and control structures",
+   "should_fire": [
+    "The program uses an if statement to check the password before granting access.",
+    "A while loop repeats the calculation until the total reaches one hundred."
+   ],
+   "near_miss": [
+    "The program uses a login screen to check the password before granting access.",
+    "A printed table repeats the calculation until the total reaches one hundred."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad code topic covering general programming logic as well as control structures, not a single narrow pattern."
+  },
+  {
+   "test": 51,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 5390,
+   "label": "specific scientific terms related to biology and medicine",
+   "should_fire": [
+    "The enzyme breaks down proteins inside the cell during digestion.",
+    "Doctors found bacteria in the sample and prescribed an antibiotic."
+   ],
+   "near_miss": [
+    "The machine breaks down boxes inside the warehouse during sorting.",
+    "Cooks found herbs in the sample and prescribed a new recipe."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad bundle of two large fields, biology and medicine, with a huge open-ended vocabulary."
+  },
+  {
+   "test": 54,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 3120,
+   "label": "phrases expressing preferences for sharing or communication",
+   "should_fire": [
+    "I would rather share the news by email than wait until Monday.",
+    "She prefers to talk things over in person instead of by text."
+   ],
+   "near_miss": [
+    "I would rather send the news by email than wait until Monday.",
+    "She manages to talk things over in person instead of by text."
+   ],
+   "predicted": "FAIL",
+   "basis": "Abstract speech act, expressing a preference, with no fixed wording and two targets, sharing and communication."
+  },
+  {
+   "test": 55,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 6793,
+   "label": "terms related to programming functions, particularly those dealing with data structures and control mechanisms",
+   "should_fire": [
+    "The function sorts the list and returns the smallest value first.",
+    "This function checks each item in the array before updating the counter."
+   ],
+   "near_miss": [
+    "The clerk sorts the list and returns the smallest value first.",
+    "This worker checks each item in the pile before updating the counter."
+   ],
+   "predicted": "FAIL",
+   "basis": "Multi-concept bundle of functions, data structures, and control mechanisms across general programming."
+  },
+  {
+   "test": 56,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 6196,
+   "label": "elements related to electromechanical systems",
+   "should_fire": [
+    "The electric motor drives the gear that opens the automatic door.",
+    "A relay switches the current to the solenoid when the button is pressed."
+   ],
+   "near_miss": [
+    "The electric light brightens the room that opens the automatic door.",
+    "A worker flips the sign to the entrance when the bell rings."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight technical domain with distinctive component vocabulary like motor, relay, and solenoid."
+  },
+  {
+   "test": 59,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 896,
+   "label": "structured data and elements related to programming or model definitions",
+   "should_fire": [
+    "The model defines each field, its type, and whether it is required.",
+    "The data is stored as a table with rows for every customer."
+   ],
+   "near_miss": [
+    "The essay defines each term, its origin, and whether it is required.",
+    "The data is stored as a pile with boxes for every customer."
+   ],
+   "predicted": "FAIL",
+   "basis": "Vague bundle of structured data, programming elements, and model definitions with no single pattern."
+  },
+  {
+   "test": 60,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 6785,
+   "label": "details about individuals' educational backgrounds and professional history",
+   "should_fire": [
+    "She earned a degree in history before working as a school administrator.",
+    "He studied engineering at university and then spent ten years in banking."
+   ],
+   "near_miss": [
+    "She earned a badge in history before helping at the school fair.",
+    "He tended the garden at weekends and then spent ten summers in the shed."
+   ],
+   "predicted": "FAIL",
+   "basis": "Multi-concept biographical bundle combining education history and career history across many topics."
+  },
+  {
+   "test": 61,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 12314,
+   "label": "proper nouns, particularly place names and related identifiers",
+   "should_fire": [
+    "They flew from Chicago to Denver before driving into the mountains.",
+    "The River Thames flows through London past the old bridges."
+   ],
+   "near_miss": [
+    "They flew from one city to another before driving into the mountains.",
+    "The wide river flows through the painting past the old bridges."
+   ],
+   "predicted": "PASS",
+   "basis": "Narrow form pattern: capitalised place names are a distinctive, closed type of token."
+  },
+  {
+   "test": 63,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 10356,
+   "label": "instances of significant numerical values or statistics",
+   "should_fire": [
+    "Unemployment fell to 4.2 percent, the lowest rate in five years.",
+    "The survey found that 68 percent of voters supported the proposal."
+   ],
+   "near_miss": [
+    "Unemployment fell slightly, the lowest level in recent memory.",
+    "The survey found that most voters supported the proposal."
+   ],
+   "predicted": "FAIL",
+   "basis": "Numbers are everywhere and significance is a vague judgement, so the class has no exact boundary."
+  },
+  {
+   "test": 64,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 15792,
+   "label": "mentions of specific names or terms related to financial or transactional contexts",
+   "should_fire": [
+    "She transferred the payment to Marcus through her checking account.",
+    "The invoice lists Greenfield Supplies as the vendor for the delivery."
+   ],
+   "near_miss": [
+    "She transferred the parcel to Marcus through her checking account.",
+    "The invoice lists Greenfield Supplies as the driver for the delivery."
+   ],
+   "predicted": "FAIL",
+   "basis": "Vague mix of names and terms tied to a broad financial and transactional context."
+  },
+  {
+   "test": 65,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 10820,
+   "label": "structured data and programming constructs",
+   "should_fire": [
+    "The program stores the names in an array and loops through each entry.",
+    "Each record in the database has a key that links it to a customer."
+   ],
+   "near_miss": [
+    "The program stores the names in a drawer and loops through each entry.",
+    "Each letter in the drawer has a stamp that links it to a customer."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad bundle of structured data with general programming constructs, no single tight pattern."
+  },
+  {
+   "test": 66,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 4584,
+   "label": "phrases related to statistical measurements and observed data frequencies",
+   "should_fire": [
+    "The average score rose, and the most frequent result was seven.",
+    "Researchers measured the frequency of errors across a thousand trials."
+   ],
+   "near_miss": [
+    "The overall mood rose, and the common result was praise.",
+    "Researchers listened to the loudness of voices across the crowded hall."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad academic topic spanning many statistical measures and general data language."
+  },
+  {
+   "test": 67,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 2819,
+   "label": "specific numerical values or symbols associated with various metrics or measurements",
+   "should_fire": [
+    "The temperature reached 37.5 degrees during the afternoon heat.",
+    "His score of 92 out of 100 placed him near the top."
+   ],
+   "near_miss": [
+    "The temperature felt warm during the afternoon heat.",
+    "His score placed him near the top."
+   ],
+   "predicted": "FAIL",
+   "basis": "Open-ended class, any number attached to any metric, with no specific value or format named."
+  },
+  {
+   "test": 73,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 9211,
+   "label": "phrases that indicate comparisons or similarities",
+   "should_fire": [
+    "The new phone is similar to the old one but slightly lighter.",
+    "Her voice sounded like her sister's on the recording."
+   ],
+   "near_miss": [
+    "The new phone is sitting beside the old one but slightly lighter.",
+    "Her voice sounded clear on her sister's recording."
+   ],
+   "predicted": "PASS",
+   "basis": "Specific grammatical pattern marked by a small set of comparison words like similar to and like."
+  },
+  {
+   "test": 74,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 13961,
+   "label": "numerical values and sequences, indicating a focus on data or time-related information",
+   "should_fire": [
+    "The readings were 12, 18, 25, and 31 over the four days.",
+    "He counted down from ten to one before opening the door."
+   ],
+   "near_miss": [
+    "The readings were low, steady, rising, and high over the four days.",
+    "He counted down in his head before opening the door."
+   ],
+   "predicted": "FAIL",
+   "basis": "Vague class of any numbers or sequences, tied loosely to data or time with no exact boundary."
+  },
+  {
+   "test": 77,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 5545,
+   "label": "syntax elements related to control structures in programming",
+   "should_fire": [
+    "In the code, an if-else statement chooses which message to display.",
+    "The for loop in the program repeats the check for every name."
+   ],
+   "near_miss": [
+    "In the code, a print statement chooses which message to display.",
+    "The menu in the program repeats the check for every name."
+   ],
+   "predicted": "PASS",
+   "basis": "Narrow syntax class with a closed set of control structures: if-else, for, and while."
+  },
+  {
+   "test": 79,
+   "layer": 12,
+   "source": "12-gemmascope-res-16k",
+   "index": 6811,
+   "label": "functions related to file and database operations",
+   "should_fire": [
+    "The function opens the file, reads each line, and closes it afterwards.",
+    "This function saves the new record into the database table."
+   ],
+   "near_miss": [
+    "The function opens the window, reads each line, and closes it afterwards.",
+    "This function saves the new record into the shopping basket."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight operation set for files and databases, marked by distinctive verbs like open, read, save, and close a record."
+  },
+  {
+   "test": 83,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 4689,
+   "label": "HTML and web development elements",
+   "should_fire": [
+    "He added a heading tag to the HTML page so the title stood out.",
+    "She linked the stylesheet to the webpage to change its colors."
+   ],
+   "near_miss": [
+    "He added a heading style to the printed page so the title stood out.",
+    "She linked the paint swatches to the mood board to change its colors."
+   ],
+   "predicted": "FAIL",
+   "basis": "HTML plus all web development is a broad multi-concept domain."
+  },
+  {
+   "test": 84,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 3292,
+   "label": "names and quotation marks",
+   "should_fire": [
+    "\"Maria,\" he said, \"please meet my friend James at the station.\"",
+    "The sign read \"Eleanor Park\" above the gate where Thomas waited."
+   ],
+   "near_miss": [
+    "Maria, he said, please meet my friend James at the station.",
+    "The sign read Eleanor Park above the gate where Thomas waited."
+   ],
+   "predicted": "FAIL",
+   "basis": "Multi-concept bundle of proper names and quotation marks, which need not co-occur."
+  },
+  {
+   "test": 87,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 791,
+   "label": "technical terms and code-related concepts",
+   "should_fire": [
+    "The developer fixed a bug in the software after checking the error log.",
+    "She updated the database so the application would run faster."
+   ],
+   "near_miss": [
+    "The gardener fixed a leak in the hose after checking the water pressure.",
+    "She updated the address book so the office would work faster."
+   ],
+   "predicted": "FAIL",
+   "basis": "Technical terms and code concepts in general is an extremely broad topic."
+  },
+  {
+   "test": 88,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 8148,
+   "label": "references to scientific kits and assays related to molecular biology",
+   "should_fire": [
+    "She opened the PCR kit to test the DNA sample for the gene.",
+    "The lab ran an ELISA assay to measure antibodies in the sample."
+   ],
+   "near_miss": [
+    "She opened the chemistry kit to test the water sample for minerals.",
+    "The clinic ran a blood pressure test to measure circulation in the patient."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight molecular-biology domain with distinctive kit and assay vocabulary like PCR and ELISA."
+  },
+  {
+   "test": 89,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 11089,
+   "label": "phrases discussing actions or activities related to considerations or decisions",
+   "should_fire": [
+    "Before deciding, she considered all the options for the move.",
+    "They weighed the costs before making a final decision on the house."
+   ],
+   "near_miss": [
+    "Before leaving, she gathered all the bags for the move.",
+    "They counted the boxes before making a final delivery to the house."
+   ],
+   "predicted": "FAIL",
+   "basis": "Abstract decision-related phrasing with no specific wording or concrete referent."
+  },
+  {
+   "test": 91,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 14786,
+   "label": "terms related to the evaluation of outcomes",
+   "should_fire": [
+    "The results showed the new method worked better than the old one.",
+    "Teachers assessed student progress at the end of the term."
+   ],
+   "near_miss": [
+    "The photos showed the new garden looked fuller than the old one.",
+    "Teachers counted student books at the end of the term."
+   ],
+   "predicted": "FAIL",
+   "basis": "Evaluation of outcomes is an abstract function expressed with many unrelated terms."
+  },
+  {
+   "test": 93,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 4687,
+   "label": "keywords related to paths and resources in a programming context",
+   "should_fire": [
+    "The program loaded the image from the file path in the resources folder.",
+    "He set the path variable so the app could find the data files."
+   ],
+   "near_miss": [
+    "The cook loaded the ingredients from the shopping list in the kitchen cupboard.",
+    "He set the meeting time so the team could find the data room."
+   ],
+   "predicted": "FAIL",
+   "basis": "Vague keyword set spanning paths and resources, two loosely related programming notions."
+  },
+  {
+   "test": 95,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 1065,
+   "label": "performance metrics related to software compilation or testing",
+   "should_fire": [
+    "The build took twelve seconds and passed all ninety tests.",
+    "Their compiler reported fewer errors and a faster runtime this week."
+   ],
+   "near_miss": [
+    "The cake took twelve minutes and pleased all ninety guests.",
+    "Their kitchen reported fewer complaints and a faster service this week."
+   ],
+   "predicted": "FAIL",
+   "basis": "Bundles performance metrics with both compilation and testing, several distinct signal types."
+  },
+  {
+   "test": 98,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 7633,
+   "label": "terms related to semi-structured data or formats",
+   "should_fire": [
+    "He stored the data in JSON format with keys and values for each record.",
+    "She converted the spreadsheet into XML so other programs could read the tags."
+   ],
+   "near_miss": [
+    "He stored the data in a plain paragraph with sentences and descriptions for each record.",
+    "She converted the spreadsheet into a printed table so other people could read the rows."
+   ],
+   "predicted": "PASS",
+   "basis": "Semi-structured formats are a tight set with distinctive names like JSON and XML."
+  },
+  {
+   "test": 101,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 2783,
+   "label": "phrases that express questions or inquiries about personal opinions and perceptions",
+   "should_fire": [
+    "What do you think about the new park in town?",
+    "How did the movie feel to you compared with the book?"
+   ],
+   "near_miss": [
+    "What is the height of the new tower in town?",
+    "How did the movie differ in plot compared with the book?"
+   ],
+   "predicted": "FAIL",
+   "basis": "Bundles questions with opinions and perceptions, an abstract multi-part speech act."
+  },
+  {
+   "test": 102,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 11231,
+   "label": "references to collections or data structures in programming contexts",
+   "should_fire": [
+    "She stored the names in a list so the program could sort them alphabetically.",
+    "In the program, he used a dictionary data structure to map each key to a value."
+   ],
+   "near_miss": [
+    "She stored the names in a notebook so the class could sort them alphabetically.",
+    "In the library, he used a dictionary reference book to check each word's meaning."
+   ],
+   "predicted": "FAIL",
+   "basis": "Collections and data structures cover many distinct types with different vocabulary."
+  },
+  {
+   "test": 106,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 11236,
+   "label": "instances of object-oriented programming methods and attributes",
+   "should_fire": [
+    "In the program, the Car object has a color attribute and a start method.",
+    "The student class stores a name and prints a report card when called."
+   ],
+   "near_miss": [
+    "In the garage, the car itself has a color paint job and a start button.",
+    "The school office stores a name and prints a report card when asked."
+   ],
+   "predicted": "FAIL",
+   "basis": "Bundles methods and attributes across all object-oriented code, a wide construct class."
+  },
+  {
+   "test": 108,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 1541,
+   "label": "numeric values and symbols related to data structures or programming syntax",
+   "should_fire": [
+    "The array index started at 0 and the next value was 1.",
+    "He entered 42 into the variable and ended the line with a semicolon."
+   ],
+   "near_miss": [
+    "The shelf label started at A and the next letter was B.",
+    "He entered a name into the form and ended the line with a period."
+   ],
+   "predicted": "FAIL",
+   "basis": "Bundles numbers and symbols with two different programming referents, data structures and syntax."
+  },
+  {
+   "test": 109,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 2570,
+   "label": "punctuation marks, especially commas",
+   "should_fire": [
+    "She packed apples, oranges, bread, and cheese for the picnic.",
+    "On Tuesday, after the meeting, he drove home, cooked dinner, and called his sister."
+   ],
+   "near_miss": [
+    "She packed apples and oranges and bread and cheese for the picnic.",
+    "On Tuesday after the meeting he drove home and cooked dinner and called his sister."
+   ],
+   "predicted": "PASS",
+   "basis": "Punctuation, especially the comma, is a specific surface pattern a feature can track."
+  },
+  {
+   "test": 113,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 7011,
+   "label": "semicolon-separated import statements in programming code",
+   "should_fire": [
+    "The Java program began with import statements for the math and file libraries, each ending with a semicolon.",
+    "He added another import statement after the first one and separated the statements with semicolons so the compiler would accept them."
+   ],
+   "near_miss": [
+    "The Python program began with import statements for the math and file libraries, each on its own line without a semicolon.",
+    "He added another import statement after the first one and separated the statements with new lines so the reader could follow them."
+   ],
+   "predicted": "PASS",
+   "basis": "A single specific format pattern: import statements separated by semicolons."
+  },
+  {
+   "test": 117,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 11722,
+   "label": "numeric values and operations related to time",
+   "should_fire": [
+    "The train ride lasted two hours and forty minutes.",
+    "She set the timer for 30 seconds before checking the oven."
+   ],
+   "near_miss": [
+    "The train ride passed two towns and forty fields.",
+    "She set the marker for 30 pages before checking the book."
+   ],
+   "predicted": "FAIL",
+   "basis": "Bundles numeric values with time operations, covering many number-plus-unit combinations."
+  },
+  {
+   "test": 119,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 10507,
+   "label": "occurrences of code structure or syntax elements commonly used in programming languages",
+   "should_fire": [
+    "The program used a loop to repeat the instructions until the condition changed.",
+    "She added brackets around the block of code so the function would run correctly."
+   ],
+   "near_miss": [
+    "The assembly line used a cycle to repeat the steps until the product changed.",
+    "She added brackets around the block of text so the paragraph would stand out clearly."
+   ],
+   "predicted": "FAIL",
+   "basis": "Code structure and syntax elements in general covers nearly all programming constructs."
+  },
+  {
+   "test": 120,
+   "layer": 6,
+   "source": "6-gemmascope-res-16k",
+   "index": 4846,
+   "label": "references to licensing information and URLs associated with software or documents",
+   "should_fire": [
+    "He downloaded the software under a Creative Commons license from the project website.",
+    "The document included licensing information and a link to the source website."
+   ],
+   "near_miss": [
+    "He downloaded the software as a free trial from the project website.",
+    "The document included cooking information and a link to the source website."
+   ],
+   "predicted": "PASS",
+   "basis": "Licensing notices are formulaic with distinctive license names, paired with URL references."
+  },
+  {
+   "test": 124,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 11711,
+   "label": "error-handling statements and expressions in the context of programming",
+   "should_fire": [
+    "Wrap the file read in a try block and catch the exception if it fails.",
+    "The function throws an error when the input is null and logs the failure."
+   ],
+   "near_miss": [
+    "Wrap the file read in a loop and repeat the operation if it pauses.",
+    "The function returns a value when the input is null and saves the result."
+   ],
+   "predicted": "PASS",
+   "basis": "Tight programming subdomain with distinctive vocabulary like try, catch, exception, and throws."
+  },
+  {
+   "test": 125,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 8767,
+   "label": "punctuation marks, particularly periods",
+   "should_fire": [
+    "Dr. Patel arrived at 3 p.m. and reviewed the chart.",
+    "The package came from the U.S. office, e.g. the branch in Ohio."
+   ],
+   "near_miss": [
+    "Doctor Patel arrived at three in the afternoon and reviewed the chart.",
+    "The package came from the American office, for example the branch in Ohio."
+   ],
+   "predicted": "PASS",
+   "basis": "Specific punctuation pattern, with periods inside abbreviations, that is directly present or absent in the text."
+  },
+  {
+   "test": 129,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 15775,
+   "label": "key information related to mobile application development",
+   "should_fire": [
+    "Building a mobile app for Android requires testing on many screen sizes.",
+    "The iOS app sends push notifications when a new message arrives."
+   ],
+   "near_miss": [
+    "Building a desktop program for Windows requires testing on many screen sizes.",
+    "The web page sends email alerts when a new message arrives."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad development topic with vague wording about key information, not a tight distinctive pattern."
+  },
+  {
+   "test": 130,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 14571,
+   "label": "references to Google's libraries and frameworks",
+   "should_fire": [
+    "The team built the model in TensorFlow, a machine learning library from Google.",
+    "She used Angular, the Google framework, to build the web interface."
+   ],
+   "near_miss": [
+    "The team built the model in PyTorch, a machine learning library from Meta.",
+    "She used Vue, the community framework, to build the web interface."
+   ],
+   "predicted": "PASS",
+   "basis": "Narrow set of named Google products like TensorFlow and Angular with distinctive proper names."
+  },
+  {
+   "test": 131,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 3432,
+   "label": "timestamps related to data entries or logs",
+   "should_fire": [
+    "The log entry was recorded at 2024-06-18 09:14:22 and marked as complete.",
+    "Each row in the database carries a timestamp of 15:42:07 from that morning."
+   ],
+   "near_miss": [
+    "The log entry was recorded on a Tuesday in June and marked as complete.",
+    "Each row in the database carries a note about the weather from that morning."
+   ],
+   "predicted": "PASS",
+   "basis": "Specific date-and-time format that appears as a concrete, recognizable token pattern."
+  },
+  {
+   "test": 133,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 7593,
+   "label": "references to software projects and their attributes",
+   "should_fire": [
+    "The open-source software project released version two with a faster interface.",
+    "Their software project has fifty contributors and a public issue tracker."
+   ],
+   "near_miss": [
+    "The community garden project planted row two with a faster growing variety.",
+    "Their neighborhood project has fifty volunteers and a public sign-up sheet."
+   ],
+   "predicted": "FAIL",
+   "basis": "Very broad and vague category covering almost any software project and any attribute."
+  },
+  {
+   "test": 140,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 4319,
+   "label": "conjunctions that express contrast or exception",
+   "should_fire": [
+    "She wanted to go outside, but it started raining hard.",
+    "Everyone was invited except Tom, who had to work late."
+   ],
+   "near_miss": [
+    "She wanted to go outside, and it started raining hard.",
+    "Everyone was invited including Tom, who had to work late."
+   ],
+   "predicted": "PASS",
+   "basis": "Small set of specific contrast and exception words like but and except."
+  },
+  {
+   "test": 151,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 2758,
+   "label": "financial figures and monetary amounts related to significant events or transactions",
+   "should_fire": [
+    "The company was acquired for $2.3 billion in a deal announced Monday.",
+    "Investors paid $450 million for the startup during the funding round."
+   ],
+   "near_miss": [
+    "The company was featured for two full pages in a story published Monday.",
+    "Spectators filled 450 seats for the concert during the opening night."
+   ],
+   "predicted": "PASS",
+   "basis": "Concrete monetary amount format, with dollar figures tied to transactions, that is directly visible in the text."
+  },
+  {
+   "test": 152,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 16032,
+   "label": "phrases or sections of code",
+   "should_fire": [
+    "This section of code loops through the list and prints each name.",
+    "The next block of code checks the password before opening the account."
+   ],
+   "near_miss": [
+    "This section of prose moves through the story and introduces each character.",
+    "The next part of the essay checks the argument before reaching the conclusion."
+   ],
+   "predicted": "FAIL",
+   "basis": "Extremely vague label that could cover almost any phrase or any section of code."
+  },
+  {
+   "test": 153,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 3108,
+   "label": "assignments and initializations in code",
+   "should_fire": [
+    "The code assigns the value five to the counter and initializes it to zero first.",
+    "She declared the variable and set it equal to the user's name at startup."
+   ],
+   "near_miss": [
+    "The code reads the value five from the counter and displays it to zero first.",
+    "She described the variable and compared it to the user's name at startup."
+   ],
+   "predicted": "PASS",
+   "basis": "Specific programming construct of assignment and initialization with distinctive verbs and structure."
+  },
+  {
+   "test": 154,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 14737,
+   "label": "the presence of JSON or structured data format indicators",
+   "should_fire": [
+    "The response came back as {\"name\": \"Ana\", \"age\": 31} in the server log.",
+    "He saved the settings in JSON format with keys for theme and language."
+   ],
+   "near_miss": [
+    "The response came back as a short note about Ana in the server log.",
+    "He saved the settings in plain sentences with notes for theme and language."
+   ],
+   "predicted": "PASS",
+   "basis": "Specific structured-data format with concrete indicators like braces, quoted keys, and JSON itself."
+  },
+  {
+   "test": 159,
+   "layer": 18,
+   "source": "18-gemmascope-res-16k",
+   "index": 12239,
+   "label": "technical language related to medical studies and procedures",
+   "should_fire": [
+    "Patients in the clinical trial received the treatment twice daily for six weeks.",
+    "The surgeon performed the procedure and monitored the patient's recovery afterward."
+   ],
+   "near_miss": [
+    "Students in the cooking class received the recipe twice weekly for six weeks.",
+    "The teacher performed the demonstration and monitored the students' progress afterward."
+   ],
+   "predicted": "FAIL",
+   "basis": "Broad medical register covering many studies, treatments, and procedures rather than a narrow pattern."
+  }
+ ]
+}

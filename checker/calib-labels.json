@@ -1,0 +1,282 @@
+[
+  {
+    "test": 1,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 18,
+    "label": "terms related to food and culinary subjects"
+  },
+  {
+    "test": 2,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 483,
+    "label": "references to the Windows operating system"
+  },
+  {
+    "test": 3,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 869,
+    "label": "geographical and administrative terms related to specific regions or districts"
+  },
+  {
+    "test": 4,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 1029,
+    "label": "references to ancient figures and mythological or legendary elements"
+  },
+  {
+    "test": 5,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 1302,
+    "label": "shipping-related terms and phrases for large items"
+  },
+  {
+    "test": 6,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 1501,
+    "label": "moments of surprise or unexpected events, particularly those that are positive or celebratory in nature."
+  },
+  {
+    "test": 7,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 1643,
+    "label": "references to light and illumination contexts"
+  },
+  {
+    "test": 8,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 1657,
+    "label": "references to the name “Tom”"
+  },
+  {
+    "test": 9,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 2081,
+    "label": "periods and punctuation that signify the end of sentences"
+  },
+  {
+    "test": 10,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 2580,
+    "label": "references to literary works and notable authors"
+  },
+  {
+    "test": 11,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 2625,
+    "label": "specific scientific or technical terms related to genetics and molecular biology"
+  },
+  {
+    "test": 12,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 3070,
+    "label": "concepts related to reputation and its effects"
+  },
+  {
+    "test": 13,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 3349,
+    "label": "phrases related to diversity and inclusion in various contexts"
+  },
+  {
+    "test": 14,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 3580,
+    "label": "elements of personal relationships and family connections"
+  },
+  {
+    "test": 15,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 3592,
+    "label": "details about concert schedules and ticket sales"
+  },
+  {
+    "test": 16,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 4207,
+    "label": "expressions of “coolness” or related positive attributes"
+  },
+  {
+    "test": 17,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 4593,
+    "label": "concepts related to simplicity and straightforwardness"
+  },
+  {
+    "test": 18,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 5072,
+    "label": "terms related to medical conditions and anatomical processes"
+  },
+  {
+    "test": 19,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 5158,
+    "label": "elements related to buttons in a UI or web interface"
+  },
+  {
+    "test": 20,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 6515,
+    "label": "references to a specific shoe brand"
+  },
+  {
+    "test": 21,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 6865,
+    "label": "references to personal beliefs, self-identification, and emotional experiences"
+  },
+  {
+    "test": 22,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 7196,
+    "label": "discussions and references to issues of racism and discriminatory behaviors"
+  },
+  {
+    "test": 23,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 7223,
+    "label": "phrases that indicate summary or overall conclusions"
+  },
+  {
+    "test": 24,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 7467,
+    "label": "words related to reading devices and the eBook industry"
+  },
+  {
+    "test": 25,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 7623,
+    "label": "questions and inquiries about various topics or contexts"
+  },
+  {
+    "test": 26,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 7798,
+    "label": "expressions of happiness and positive emotions"
+  },
+  {
+    "test": 27,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 8123,
+    "label": "references to different types and characteristics of pipes"
+  },
+  {
+    "test": 28,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 8630,
+    "label": "discussions related to music and artistic collaborations"
+  },
+  {
+    "test": 29,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 8743,
+    "label": "negative phrases and expressions related to obligation or denial"
+  },
+  {
+    "test": 30,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 10276,
+    "label": "products related to fashion and beauty"
+  },
+  {
+    "test": 31,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 11270,
+    "label": "forward-looking statements regarding business projections and associated risks"
+  },
+  {
+    "test": 32,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 12608,
+    "label": "terms related to control and regulation"
+  },
+  {
+    "test": 33,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 12964,
+    "label": "references to crafting materials and methods"
+  },
+  {
+    "test": 34,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 13230,
+    "label": "terms related to electricity and power infrastructure"
+  },
+  {
+    "test": 35,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 14520,
+    "label": "terms related to governance and political processes"
+  },
+  {
+    "test": 36,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 14719,
+    "label": "terms related to colors and color coding"
+  },
+  {
+    "test": 37,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 15035,
+    "label": "phrases that highlight the concept of “short” in various contexts"
+  },
+  {
+    "test": 38,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 15337,
+    "label": "mentions of the term “Mercury,” particularly in relation to its propulsion systems and legal implications"
+  },
+  {
+    "test": 39,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 15623,
+    "label": "references to the color yellow and its variations"
+  },
+  {
+    "test": 40,
+    "layer": 12,
+    "source": "12-gemmascope-res-16k",
+    "index": 16358,
+    "label": "questions and statements regarding intentions, plans, or purposes"
+  }
+]
