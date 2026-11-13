@@ -1,0 +1,182 @@
+{
+  "r1": {
+    "index": 2081,
+    "text": "The court cited the earlier ruling (Colo. 2000)). In contrast, the principles underlying the statute pointed the other way, as later cases confirmed.",
+    "ok": true,
+    "max_activation": 4.09375,
+    "top_tokens": [
+      {
+        "token": ")).",
+        "value": 4.09
+      },
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " court",
+        "value": 0
+      }
+    ]
+  },
+  "r2": {
+    "index": 2081,
+    "text": "The trail wound through the pines for nearly a mile before it reached the river. Maria walked slowly, listening to the water over the stones. She had come here every summer since she was a child, first with her father and later on her own. The cabin stood where it always had, past the bend, its porch sagging a little more each year. She set her pack down by the door and looked out at the hills. Nothing about the place had changed, and that was the point.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " trail",
+        "value": 0
+      },
+      {
+        "token": " wound",
+        "value": 0
+      }
+    ]
+  },
+  "r3": {
+    "index": 2081,
+    "text": "Signaling in immune cells ([@bib0190]). Due to the importance of JAK-STAT signaling, the pathway has been studied extensively in recent years.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Sign",
+        "value": 0
+      },
+      {
+        "token": "aling",
+        "value": 0
+      },
+      {
+        "token": " in",
+        "value": 0
+      }
+    ]
+  },
+  "r4": {
+    "index": 2625,
+    "text": "func decodeMessage<D: Decoder>(decoder: inout D) throws { if lhs.unknownFields != rhs.unknownFields { return } }",
+    "ok": true,
+    "max_activation": 7.25,
+    "top_tokens": [
+      {
+        "token": "unknownFields",
+        "value": 7.25
+      },
+      {
+        "token": " !=",
+        "value": 3.5
+      },
+      {
+        "token": "func",
+        "value": 0
+      }
+    ]
+  },
+  "r5": {
+    "index": 2625,
+    "text": "The BRCA1 gene encodes a protein that repairs damaged DNA in human cells. Mutations in this gene disrupt homologous recombination and raise the risk of breast and ovarian cancer. In this study, we sequenced tumor samples from 214 patients and identified 31 distinct variants. Several variants clustered in the RING finger domain, a region critical for the protein's ubiquitin ligase activity. These findings suggest that variant position, alongside variant type, shapes clinical risk.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "The",
+        "value": 0
+      },
+      {
+        "token": " BR",
+        "value": 0
+      },
+      {
+        "token": "CA",
+        "value": 0
+      }
+    ]
+  },
+  "r6": {
+    "index": 2625,
+    "text": "Q:\n\nnatural language query processing\n\nI have a NLP (natural language processing application) running that gives me a tree of the parsed sentence.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Q",
+        "value": 0
+      },
+      {
+        "token": ":",
+        "value": 0
+      },
+      {
+        "token": "\n\n",
+        "value": 0
+      }
+    ]
+  },
+  "r7": {
+    "index": 2580,
+    "text": "Hamlet is a tragedy by William Shakespeare. The play tells the story of a prince who delays avenging his father's murder.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Hamlet",
+        "value": 0
+      },
+      {
+        "token": " is",
+        "value": 0
+      },
+      {
+        "token": " a",
+        "value": 0
+      }
+    ]
+  },
+  "r8": {
+    "index": 2580,
+    "text": "Pride and Prejudice is a novel by Jane Austen. It tells the story of Elizabeth Bennet, her four sisters, and the proud Mr. Darcy.",
+    "ok": true,
+    "max_activation": 0,
+    "top_tokens": [
+      {
+        "token": "Pride",
+        "value": 0
+      },
+      {
+        "token": " and",
+        "value": 0
+      },
+      {
+        "token": " Prejudice",
+        "value": 0
+      }
+    ]
+  },
+  "r9": {
+    "index": 2580,
+    "text": "This novel will appeal to fans of Shakespeare and Dickens.",
+    "ok": true,
+    "max_activation": 39,
+    "top_tokens": [
+      {
+        "token": " of",
+        "value": 39
+      },
+      {
+        "token": " Dickens",
+        "value": 28.88
+      },
+      {
+        "token": " fans",
+        "value": 26.38
+      }
+    ]
+  }
+}
