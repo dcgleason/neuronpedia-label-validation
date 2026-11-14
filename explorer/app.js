@@ -75,14 +75,16 @@ function renderStats() {
   for (const el of sc.querySelectorAll(".countup")) countUp(el);
 
   const byLayer = groupStats(gemma, (r) => `Gemma layer ${r.layer}`);
-  const llamaStats = groupStats(llama, () => "Llama layer 16");
+  const llamaByLayer = groupStats(llama, (r) => `Llama layer ${r.layer}`);
   let bars = "";
   for (const layer of [6, 12, 18]) {
     const g = byLayer.get(`Gemma layer ${layer}`);
     if (g) bars += barRow(`Gemma-2-2B, layer ${layer}`, g.pass, g.n, "");
   }
-  const lg = llamaStats.get("Llama layer 16");
-  if (lg) bars += barRow("Llama 3.1 8B, layer 16", lg.pass, lg.n, "llama");
+  for (const layer of [8, 16, 24]) {
+    const g = llamaByLayer.get(`Llama layer ${layer}`);
+    if (g) bars += barRow(`Llama 3.1 8B, layer ${layer}`, g.pass, g.n, "llama");
+  }
   const pb = document.getElementById("passBars");
   pb.innerHTML = bars;
   animateWidths(pb);
@@ -147,7 +149,7 @@ function promptBlock(tag, text, value, max, cls) {
 }
 
 function hashFor(r) {
-  return `#f-${r.model === "Gemma-2-2B" ? "gemma" : "llama"}-${r.index}`;
+  return `#f-${r.model === "Gemma-2-2B" ? "gemma" : "llama"}-${r.layer}-${r.index}`;
 }
 
 function showDetail(r, scroll) {
@@ -173,6 +175,12 @@ function showDetail(r, scroll) {
 }
 
 function openFromHash() {
+  const withLayer = location.hash.match(/^#f-(gemma|llama)-(\d+)-(\d+)$/);
+  if (withLayer) {
+    const model = withLayer[1] === "gemma" ? "Gemma-2-2B" : "Llama 3.1 8B";
+    const rec = RECORDS.find((r) => r.model === model && r.layer === Number(withLayer[2]) && r.index === Number(withLayer[3]));
+    if (rec) { showDetail(rec, true); return; }
+  }
   const m = location.hash.match(/^#f-(gemma|llama)-(\d+)$/);
   if (!m) return;
   const model = m[1] === "gemma" ? "Gemma-2-2B" : "Llama 3.1 8B";
