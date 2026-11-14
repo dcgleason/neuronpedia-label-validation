@@ -12,7 +12,7 @@
   <div class="wrap">
     <p class="kicker">Neuronpedia label validation &middot; Gemma-2-2B &amp; Llama 3.1 8B</p>
     <h1>Do auto-generated feature labels survive held-out text?</h1>
-    <p class="lede">Neuronpedia&rsquo;s feature labels are written by an explainer model from a feature&rsquo;s top-activating examples. They are never tested on fresh text. This study tests them: for each label, two prompts that should make the feature fire and two near-miss prompts that should not, written and predicted in advance, then scored against the real feature. A label passes only if both should-fire prompts activate clearly above both near-misses.</p>
+    <p class="lede">Neuronpedia&rsquo;s feature labels are written by an <span class="tip" tabindex="0" data-tip="An AI model (here GPT-4o-mini) that reads the texts a feature responds to most strongly and writes a one-line description of what it thinks the feature detects.">explainer model</span> from a feature&rsquo;s <span class="tip" tabindex="0" data-tip="The texts that made this feature respond most strongly. The label was written from these examples alone, and never checked against any other text.">top-activating examples</span>. They are never tested on fresh text. This study tests them: for each label, two prompts that should make the feature fire and two <span class="tip" tabindex="0" data-tip="Prompts that sound related to the label but should not trigger the feature if the label is accurate. If a near-miss scores higher than a should-fire prompt, the label is describing the wrong thing.">near-miss prompts</span> that should not, written and <span class="tip" tabindex="0" data-tip="Every prediction was written down and locked before any scores were run, so the predictions could not be adjusted after seeing the results.">predicted in advance</span>, then scored against the real feature. A label passes only if both should-fire prompts <span class="tip" tabindex="0" data-tip="How strongly the feature responds to a text, as a number. Zero means the feature did not respond at all.">activate</span> clearly above both near-misses.</p>
     <div class="stats" id="statCards"></div>
     <p class="hero-links">
       <a href="https://github.com/dcgleason/neuronpedia-label-validation">Code and data on GitHub</a>
@@ -39,6 +39,17 @@
   </section>
 
   <section>
+    <h2>Start with one feature</h2>
+    <div class="card story">
+      <p><strong>Gemma layer 12, feature 5158</strong> is labeled &ldquo;elements related to buttons in a UI or web interface.&rdquo; On fresh text it scored <strong>0.00</strong> on &ldquo;Click the blue button in the top right corner to submit the form&rdquo; and <strong>0.00</strong> on &ldquo;The download button appears once the file is ready.&rdquo; Follow-up probes found why: the feature fires on the code token <code>btn</code> in HTML (activation 45.0) and not at all on the word &ldquo;button&rdquo; in ordinary prose (0.0). The label names a concept. The feature detects a string.</p>
+      <p>
+        <button class="btnlike" id="btnExample" type="button">See feature 5158&rsquo;s test</button>
+        <button class="btnlike ghost" id="btnSurprise" type="button">Surprise me: a random silent failure</button>
+      </p>
+    </div>
+  </section>
+
+  <section>
     <h2>Explore all 280 labels</h2>
     <p class="note">Every label tested, with its prompts and scores. Click any row to see the four prompts and how the feature answered each one.</p>
     <div class="controls">
@@ -51,7 +62,7 @@
     <p class="count" id="countLine"></p>
     <div class="tablewrap">
       <table>
-        <thead><tr><th>Model</th><th>Layer</th><th>Feature</th><th>Label</th><th>Predicted</th><th>Verdict</th><th>Class</th><th>Margin</th></tr></thead>
+        <thead><tr><th>Model</th><th>Layer</th><th>Feature</th><th>Label</th><th>Predicted</th><th>Verdict</th><th>Class</th><th><span class="tip" tabindex="0" data-tip="Weakest should-fire score minus strongest near-miss score. Positive means the label passed. The bigger the number, the cleaner the pass.">Margin</span></th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
     </div>

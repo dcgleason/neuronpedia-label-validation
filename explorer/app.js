@@ -20,10 +20,29 @@ function groupStats(records, keyFn) {
   return groups;
 }
 
+function animateWidths(scope) {
+  const els = scope.querySelectorAll("[data-w]");
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    for (const el of els) el.style.width = el.dataset.w + "%";
+  }));
+}
+
+function countUp(el) {
+  const target = Number(el.dataset.n);
+  const start = performance.now();
+  const dur = 900;
+  const step = (now) => {
+    const t = Math.min(1, (now - start) / dur);
+    el.textContent = Math.round(target * (1 - Math.pow(1 - t, 3))).toString();
+    if (t < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
 function barRow(label, passed, total, cls) {
   const p = total ? (passed / total) * 100 : 0;
   return `<div class="bar-row"><div class="bar-head"><span>${label}</span><span><strong>${passed} of ${total}</strong> passed (${pct(passed, total)}%)</span></div>` +
-    `<div class="bar-track"><div class="bar-fill ${cls || ""}" style="width:${p}%"></div></div></div>`;
+    `<div class="bar-track"><div class="bar-fill ${cls || ""}" title="${passed} of ${total} passed" data-w="${p}" style="width:0%"></div></div></div>`;
 }
 
 function classRow(label, g) {
@@ -32,9 +51,9 @@ function classRow(label, g) {
   const w = (x) => (x / g.n) * 100;
   return `<div class="bar-row"><div class="bar-head"><span>${label}</span><span>${fails} failed of ${g.n}</span></div>` +
     `<div class="bar-track">` +
-    `<div class="seg silent" style="width:${w(g.silent)}%"></div>` +
-    `<div class="seg partial" style="width:${w(g.partial)}%"></div>` +
-    `<div class="seg nmb" style="width:${w(g.nmb)}%"></div></div></div>`;
+    `<div class="seg silent" title="Silent: ${g.silent}" data-w="${w(g.silent)}" style="width:0%"></div>` +
+    `<div class="seg partial" title="Partial: ${g.partial}" data-w="${w(g.partial)}" style="width:0%"></div>` +
+    `<div class="seg nmb" title="Near-miss beat: ${g.nmb}" data-w="${w(g.nmb)}" style="width:0%"></div></div></div>`;
 }
 
 function renderStats() {
@@ -45,13 +64,15 @@ function renderStats() {
   const su = gemma.filter((r) => r.predicted);
   const suRight = su.filter((r) => (r.predicted === "PASS") === (r.verdict === "PASS")).length;
   const cards = [
-    [`${gp} / ${gemma.length}`, `Gemma labels passed (${pct(gp, gemma.length)}%)`],
-    [`${lp} / ${llama.length}`, `Llama labels passed (${pct(lp, llama.length)}%)`],
-    [`${suRight} / ${su.length}`, `pre-registered predictions right, scale-up`],
-    [`15 / 21`, `corrected labels that passed on retest`],
+    [`<span class="countup" data-n="${gp}">0</span> / ${gemma.length}`, `Gemma labels passed (${pct(gp, gemma.length)}%)`],
+    [`<span class="countup" data-n="${lp}">0</span> / ${llama.length}`, `Llama labels passed (${pct(lp, llama.length)}%)`],
+    [`<span class="countup" data-n="${suRight}">0</span> / ${su.length}`, `pre-registered predictions right, scale-up`],
+    [`<span class="countup" data-n="15">0</span> / 21`, `corrected labels that passed on retest`],
   ];
-  document.getElementById("statCards").innerHTML =
+  const sc = document.getElementById("statCards");
+  sc.innerHTML =
     cards.map(([big, lbl]) => `<div class="stat"><span class="big">${big}</span><span class="lbl">${lbl}</span></div>`).join("");
+  for (const el of sc.querySelectorAll(".countup")) countUp(el);
 
   const byLayer = groupStats(gemma, (r) => `Gemma layer ${r.layer}`);
   const llamaStats = groupStats(llama, () => "Llama layer 16");
@@ -62,15 +83,19 @@ function renderStats() {
   }
   const lg = llamaStats.get("Llama layer 16");
   if (lg) bars += barRow("Llama 3.1 8B, layer 16", lg.pass, lg.n, "llama");
-  document.getElementById("passBars").innerHTML = bars;
+  const pb = document.getElementById("passBars");
+  pb.innerHTML = bars;
+  animateWidths(pb);
 
   const gAll = groupStats(gemma, () => "Gemma").get("Gemma");
   const lAll = groupStats(llama, () => "Llama").get("Llama");
-  document.getElementById("classBars").innerHTML =
+  const cb = document.getElementById("classBars");
+  cb.innerHTML =
     classRow("Gemma-2-2B (all layers)", gAll) + classRow("Llama 3.1 8B", lAll) +
     `<div class="legend"><span><span class="dot" style="background:var(--silent)"></span>Silent</span>` +
     `<span><span class="dot" style="background:var(--partial)"></span>Partial</span>` +
     `<span><span class="dot" style="background:var(--nmb)"></span>Near-miss beat</span></div>`;
+  animateWidths(cb);
 }
 
 function currentFilters() {
@@ -102,7 +127,7 @@ function margin(r) {
 function renderTable() {
   const rows = applyFilters();
   document.getElementById("countLine").textContent = `Showing ${rows.length} of ${RECORDS.length} labels.`;
-  document.getElementById("rows").innerHTML = rows.map((r, i) => {
+  document.getElementById("rows").innerHTML = rows.map((r) => {
     const cls = r.verdict === "PASS" ? "—" : r.failure_class;
     const pred = r.predicted || "—";
     return `<tr data-i="${RECORDS.indexOf(r)}"><td>${r.model}</td><td>${r.layer}</td><td>${r.index}</td>` +
@@ -111,23 +136,28 @@ function renderTable() {
       `<td>${cls}</td><td>${fmt(margin(r))}</td></tr>`;
   }).join("");
   for (const tr of document.querySelectorAll("#rows tr")) {
-    tr.addEventListener("click", () => showDetail(RECORDS[Number(tr.dataset.i)]));
+    tr.addEventListener("click", () => showDetail(RECORDS[Number(tr.dataset.i)], true));
   }
 }
 
 function promptBlock(tag, text, value, max, cls) {
   const w = max > 0 ? Math.max(2, (value / max) * 100) : 0;
   return `<div class="prompt"><span class="tag">${tag}</span> <span style="float:right"><strong>${fmt(value)}</strong></span>` +
-    `<div class="ptext">${text}</div><div class="scorebar"><div class="${cls}" style="width:${w}%"></div></div></div>`;
+    `<div class="ptext">${text}</div><div class="scorebar"><div class="${cls}" data-w="${w}" style="width:0%"></div></div></div>`;
 }
 
-function showDetail(r) {
+function hashFor(r) {
+  return `#f-${r.model === "Gemma-2-2B" ? "gemma" : "llama"}-${r.index}`;
+}
+
+function showDetail(r, scroll) {
   const max = Math.max(...r.sf, ...r.nm);
   const verdictText = r.verdict === "PASS"
     ? `<span class="pill pass">PASSED</span>`
     : `<span class="pill fail">FAILED</span> (${r.failure_class})`;
   const pred = r.predicted ? `<p class="note">Pre-registered prediction: <strong>${r.predicted}</strong> &mdash; prediction was ${((r.predicted === "PASS") === (r.verdict === "PASS")) ? "right" : "wrong"}.</p>` : "";
-  document.getElementById("detail").innerHTML =
+  const d = document.getElementById("detail");
+  d.innerHTML =
     `<h3>${r.model}, layer ${r.layer}, feature ${r.index}</h3>` +
     `<p><strong>Label:</strong> &ldquo;${r.label}&rdquo;</p>` +
     `<p>Verdict: ${verdictText}. Margin (weakest should-fire minus strongest near-miss): <strong>${fmt(margin(r))}</strong>.</p>` +
@@ -136,9 +166,31 @@ function showDetail(r) {
     promptBlock("Should fire 2", r.sf_prompts[1], r.sf[1], max, "sf-color") +
     promptBlock("Near miss 1", r.nm_prompts[0], r.nm[0], max, "nm-color") +
     promptBlock("Near miss 2", r.nm_prompts[1], r.nm[1], max, "nm-color");
-  const d = document.getElementById("detail");
   d.hidden = false;
-  d.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  history.replaceState(null, "", hashFor(r));
+  animateWidths(d);
+  if (scroll) d.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function openFromHash() {
+  const m = location.hash.match(/^#f-(gemma|llama)-(\d+)$/);
+  if (!m) return;
+  const model = m[1] === "gemma" ? "Gemma-2-2B" : "Llama 3.1 8B";
+  const rec = RECORDS.find((r) => r.model === model && r.index === Number(m[2]));
+  if (rec) showDetail(rec, true);
+}
+
+function wireStoryButtons() {
+  const ex = document.getElementById("btnExample");
+  if (ex) ex.addEventListener("click", () => {
+    const rec = RECORDS.find((r) => r.model === "Gemma-2-2B" && r.index === 5158);
+    if (rec) showDetail(rec, true);
+  });
+  const su = document.getElementById("btnSurprise");
+  if (su) su.addEventListener("click", () => {
+    const silent = RECORDS.filter((r) => r.failure_class === "silent");
+    if (silent.length) showDetail(silent[Math.floor(Math.random() * silent.length)], true);
+  });
 }
 
 function initFilters() {
@@ -161,6 +213,8 @@ fetch("data.json")
     renderStats();
     initFilters();
     renderTable();
+    wireStoryButtons();
+    openFromHash();
   })
   .catch((err) => {
     document.getElementById("countLine").textContent = "Could not load the results data (" + err.message + ").";
