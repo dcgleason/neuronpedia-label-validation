@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do auto-generated feature labels survive held-out text?</title>
+<meta name="description" content="A held-out validation of Neuronpedia's auto-generated SAE feature labels on Gemma-2-2B and Llama 3.1 8B: 59 of 200 Gemma labels and 11 of 80 Llama labels passed.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Neuronpedia label validation &middot; Gemma-2-2B &amp; Llama 3.1 8B</p>
+    <h1>Do auto-generated feature labels survive held-out text?</h1>
+    <p class="lede">Neuronpedia&rsquo;s feature labels are written by an explainer model from a feature&rsquo;s top-activating examples. They are never tested on fresh text. This study tests them: for each label, two prompts that should make the feature fire and two near-miss prompts that should not, written and predicted in advance, then scored against the real feature. A label passes only if both should-fire prompts activate clearly above both near-misses.</p>
+    <div class="stats" id="statCards"></div>
+    <p class="hero-links">
+      <a href="https://github.com/dcgleason/neuronpedia-label-validation">Code and data on GitHub</a>
+      <a href="https://dcgleason.github.io/neuronpedia-label-validation/pilot-writeup.html">Pilot writeup</a>
+      <a href="https://dcgleason.github.io/neuronpedia-label-validation/study2-design-labeling-bakeoff.html">Study 2 design</a>
+    </p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Results at a glance</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Pass rate by model and layer</h3>
+        <div id="passBars"></div>
+      </div>
+      <div class="card">
+        <h3>How the failures break down</h3>
+        <div id="classBars"></div>
+        <p class="note">Failure classes: <strong>silent</strong> &mdash; neither should-fire prompt fired at all. <strong>Partial</strong> &mdash; the feature fired, but weakly or on only one should-fire prompt. <strong>Near-miss beat</strong> &mdash; a near-miss prompt outscored every should-fire prompt.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Explore all 280 labels</h2>
+    <p class="note">Every label tested, with its prompts and scores. Click any row to see the four prompts and how the feature answered each one.</p>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search labels or feature numbers&hellip;">
+      <select id="fModel"><option value="">All models</option></select>
+      <select id="fLayer"><option value="">All layers</option></select>
+      <select id="fVerdict"><option value="">Pass + fail</option><option value="PASS">Passed</option><option value="FAIL">Failed</option></select>
+      <select id="fClass"><option value="">Any failure class</option><option value="silent">Silent</option><option value="partial">Partial</option><option value="near-miss-beat">Near-miss beat</option></select>
+    </div>
+    <p class="count" id="countLine"></p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Model</th><th>Layer</th><th>Feature</th><th>Label</th><th>Predicted</th><th>Verdict</th><th>Class</th><th>Margin</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="card detail" id="detail" hidden></div>
+  </section>
+
+  <section>
+    <h2>What the failures look like</h2>
+    <p>Most failures are not random. The label describes a broad concept; the feature turns out to be something narrower and more mechanical. One example: a Gemma feature labeled as detecting UI buttons stayed silent on ordinary prose about buttons, because it actually detects the code token <code>btn</code>. Across the silent features, the same shapes recur: word-form detectors, register detectors (obituary formulas, clinical-journal style, forum questions), and features bound to document structure rather than meaning.</p>
+    <p>Labels can be fixed. After the pilot, 21 failed labels were rewritten from the probe evidence and retested on fresh prompts: 15 of the 21 corrected labels passed, against 0 of 21 for the originals. That result is what Study 2 tests properly.</p>
+  </section>
+
+  <section>
+    <h2>Study 2: can labels be made accurate?</h2>
+    <p>A labeling bake-off on the same 60 Gemma layer-12 features, with the same held-out protocol for every method. Predictions are made per label, locked, and publicly committed before any scoring. Design published November 14, 2026; the run is planned for December 2026.</p>
+    <div class="arms">
+      <div class="arm"><strong>A</strong><span>Baseline &mdash; the current Neuronpedia label, fresh prompts</span></div>
+      <div class="arm"><strong>B</strong><span>Full-range examples &mdash; explainer sees stored examples across the activation range</span></div>
+      <div class="arm"><strong>C</strong><span>Feedback loop &mdash; the current label, revised against its own Study 1 failures</span></div>
+      <div class="arm"><strong>D</strong><span>Narrow-label instruction &mdash; the explainer is told to prefer narrow labels</span></div>
+      <div class="arm"><strong>E</strong><span>Careful human &mdash; a person writes the label from the same evidence (20 features)</span></div>
+      <div class="arm"><strong>F</strong><span>Verified selection &mdash; several candidate labels, the one that scores best on trigger texts ships</span></div>
+    </div>
+    <p class="note">Pre-registered headline predictions: baseline passes at most 15% of the previously failed features; full-range examples at least 35%; the feedback loop at least 50%. If the feedback loop lands under 30%, the feedback claim is dead. Full design, prior-art scan, sample, and arm specifications are in the <a href="https://github.com/dcgleason/neuronpedia-label-validation">repository</a>.</p>
+  </section>
+
+  <footer>
+    <p>Method: prompts and predictions were drafted with the assistance of an AI research assistant and approved by Danny Gleason before locking. Pass rule: min(should-fire) &gt; max(near-miss). All raw scores are in the repository.</p>
+    <p><a href="https://github.com/dcgleason/neuronpedia-label-validation">github.com/dcgleason/neuronpedia-label-validation</a></p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
