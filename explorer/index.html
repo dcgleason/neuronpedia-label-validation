@@ -49,7 +49,7 @@
   </section>
 
   <section>
-    <h2>Explore all 360 labels</h2>
+    <h2>Explore all 440 labels</h2>
     <p class="note">Every label tested, with its prompts and scores. Click any row to see the four prompts and how the feature answered each one.</p>
     <div class="controls">
       <input id="q" type="search" placeholder="Search labels or feature numbers&hellip;">
@@ -90,6 +90,7 @@
 
   <footer>
     <p>Method: prompts and predictions were drafted with the assistance of an AI research assistant and approved by Danny Gleason before locking. Pass rule: min(should-fire) &gt; max(near-miss). All raw scores are in the repository.</p>
+    <p>Width control: the 65k-width Gemma arm was not run. Local scoring failed bridge validation against the Neuronpedia API, so the arm is recorded as a limitation and contributes no records to this explorer. See <a href="https://dcgleason.github.io/neuronpedia-label-validation/bridge-check-results-nov14.html">the bridge check results</a>.</p>
     <p><a href="https://github.com/dcgleason/neuronpedia-label-validation">github.com/dcgleason/neuronpedia-label-validation</a></p>
   </footer>
 </main>
