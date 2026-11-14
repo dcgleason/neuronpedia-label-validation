@@ -2,6 +2,52 @@
 
 Daniel Gleason — November 12, 2026
 
+## The short version
+
+This project tests whether Neuronpedia's auto-generated feature labels
+describe what their features actually do, using text the labeler never saw.
+The headline: **59 of 200 Gemma-2-2B labels passed (29.5%)**, and on Llama
+3.1 8B **32 of 160 passed** under the identical protocol. Three controls say
+the labels are the weak link, not the features: corrected labels passed 15 of
+21 where the originals went 0 of 21; shuffled label–feature pairings passed 0
+of 40 against 12 of 40 for the real pairings; and labels regenerated blind by
+Claude Sonnet passed 28 of 40 against the shipped labels' 12 of 40. Every
+scored label, with its prompts, is in the
+[interactive explorer](https://dcgleason.github.io/neuronpedia-label-validation/explorer/)
+(440 records).
+
+| Run | Tested | Passed | Predictions right |
+|---|---|---|---|
+| Gemma pilot (layer 12) | 40 | 12 | — (verdicts predicted per label) |
+| Gemma scale-up (layers 6/12/18) | 160 | 47 | 94 of 160 (59%) |
+| Label rewrite retest | 21 | 15 | all 21 predicted pass |
+| Llama replication (layer 16) | 80 | 11 | 56 of 80 (70%) |
+| Llama layers 8 and 24 | 80 | 21 | 60 of 80 (75%) |
+| Permutation control | 40 | 0 | all three arm-level predictions held |
+| Explainer swap (Sonnet labels) | 40 | 28 | all three arm-level predictions held |
+| Width control (65k SAE) | — | not run | closed as a limitation, below |
+
+## Integrity: predictions locked before scoring
+
+No verdict in this repo rests on a prediction made after the fact. Every
+run's prompts and predictions were frozen and SHA-256 hashed before the
+first activation was queried; from the Llama replication onward, the locks
+were also committed to this repository before scoring, so the git history is
+the timestamp.
+
+- Pilot predictions, frozen Nov 12, 2026, 4:28 PM EST —
+  `affcbe8cf3e1b601655a84426426b1f90a1c88b69fbf2d21765325201e6b84a2`
+- Scale-up prompts and predictions —
+  `f611f7709bf0a679a174bd54387c21792b2152e371f3c61780832d4834ac8f8f`
+- Label-rewrite prompts —
+  `47367fc02e1236e4216658e097c3a705827917f0c173518339bfbbd9967e4ee3`
+- Llama layers predictions — commit `f820cb5`,
+  `9bedd27f155ebc91dda8e21aecd86129b102a35cd2a2b3500f3f92cf6b5172f1`
+- Permutation control — design `ab93fbe460407354643383ad8818127da84d803e4b0cdc19cd74138cceb4b16f`,
+  predictions `c6ea8efe352f6b3db32a148fcf0ac61d39207f7deee5494c16be4452eedab582`, lock commit `2b67c388`
+- Explainer swap — design `019aeacd57d3d5b4043832e7252729d6db429629413a20e2c67f56c507f31c4e`,
+  predictions `dad4b6e336d354e51a580563e29a4f7b75332678e54b09f7f416e44b333906f7`, lock commit `08f7b237`
+
 ## The question
 
 Neuronpedia puts a short text label on most features in the Gemma Scope sparse autoencoders. GPT-4o-mini wrote those labels from each feature's strongest activating examples, and every label I tested carried a "No Scores" marker: nobody had checked them against text the labeler never saw. A label is a claim about what a feature responds to, and anyone steering or auditing with a feature leans on it. I tested 40 of them.
@@ -92,3 +138,42 @@ Each mechanism has a matching cheap check: remove the keyword and retest; swap t
 **3. Scale-up: 160 more labels, three layers.** A fresh random sample (seed fixed in advance) of 160 features never in the pilot: 80 at layer 12, 40 at layer 6, 40 at layer 18, same 16k residual-stream SAEs. Same protocol: four prompts per label, a pass/fail prediction registered for every test, prompts locked and hashed before the run. **Result: 47 of 160 labels passed (29%).** By layer: layer 6, 10 of 40; layer 12, 19 of 80; layer 18, 18 of 40. My registered predictions were right 94 of 160 times (59%) — better than chance, far from reliable, which is itself a measure of how hard these labels are to read at face value. Combined with the pilot, **59 of 200 labels passed (29.5%)** under the registered rule. Sample and method: [scaleup-sample.md](scaleup-sample.md); per-test scores: [scaleup-summary.md](scaleup-summary.md).
 
 The headline across all three parts is the pilot's headline, now with a base rate: labels generated from top activations alone describe features as broader and more concept-shaped than they behave, and roughly seven in ten do not survive a held-out test written from the label itself.
+
+## Extensions, November 13–14, 2026
+
+Four follow-ups ran after the expansion above, each locked before scoring.
+
+**Llama replication and layers.** The identical protocol on Llama 3.1 8B
+passed 11 of 80 labels at layer 16 (13.8%), 9 of 40 at layer 8, and 12 of 40
+at layer 24. Silence dominated failures at every layer. The low pass rate is
+not a Gemma quirk; it tracks the labeling method across model families.
+Results: `replication-results-llama-nov13.md`, `llama-layers-results-nov14.md`.
+
+**Automated checker.** The held-out test, automated end to end: the checker
+writes its own prompts from a label, locks them, scores them, and classifies
+the failures. Against the 40 hand-scored pilot verdicts it agrees on 38
+(95%); on 62 held-out silent features it reproduced the original verdicts
+exactly, 0 pass and 62 fail. The mechanism sorter is a first pass and is
+labeled as such. Code and calibration notes: `checker/`.
+
+**Permutation control.** The pilot's 40 labels were shuffled onto the wrong
+features under a seeded derangement and rescored. 0 of 40 shuffled pairings
+passed, against 12 of 40 for the real pairings, and all three locked
+arm-level predictions held. The labels carry real feature-specific signal;
+they just overclaim it. Results: `permutation-control-results-nov14.md`.
+
+**Explainer swap.** Claude Sonnet regenerated the 40 pilot labels blind,
+from the same stored examples the original labeler saw, without the original
+labels or results. 28 of 40 passed, against 12 of 40 for the shipped
+GPT-4o-mini labels; 17 pilot failures flipped to passes. The swap changes
+the model, the example format, and one instruction together, so the win
+supports the combined claim only. Results: `explainer-swap-results-nov14.md`.
+
+**Width control — closed as a limitation.** Whether SAE width explains the
+Gemma–Llama gap could not be tested. Neuronpedia's inference is unavailable
+for Gemma-2-2B SAEs wider than 16k, and local scoring of the 65k SAE failed
+a bridge validation against the reference API: token counts and peak
+positions matched, magnitudes did not, and a diagnostic ruled out a layer
+offset and a threshold artifact. The arm was closed unscored rather than
+pool local and API activations, so width remains an open confound. Full
+record: `bridge-check-results-nov14.md`.
