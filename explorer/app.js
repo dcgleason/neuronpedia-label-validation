@@ -42,7 +42,7 @@ function countUp(el) {
 function barRow(label, passed, total, cls) {
   const p = total ? (passed / total) * 100 : 0;
   return `<div class="bar-row"><div class="bar-head"><span>${label}</span><span><strong>${passed} of ${total}</strong> passed (${pct(passed, total)}%)</span></div>` +
-    `<div class="bar-track"><div class="bar-fill ${cls || ""}" title="${passed} of ${total} passed" data-w="${p}" style="width:0%"></div></div></div>`;
+    `<div class="bar-track"><div class="bar-fill ${cls || ""}" data-w="${p}" style="width:0%"></div></div></div>`;
 }
 
 function classRow(label, g) {
@@ -51,9 +51,9 @@ function classRow(label, g) {
   const w = (x) => (x / g.n) * 100;
   return `<div class="bar-row"><div class="bar-head"><span>${label}</span><span>${fails} failed of ${g.n}</span></div>` +
     `<div class="bar-track">` +
-    `<div class="seg silent" title="Silent: ${g.silent}" data-w="${w(g.silent)}" style="width:0%"></div>` +
-    `<div class="seg partial" title="Partial: ${g.partial}" data-w="${w(g.partial)}" style="width:0%"></div>` +
-    `<div class="seg nmb" title="Near-miss beat: ${g.nmb}" data-w="${w(g.nmb)}" style="width:0%"></div></div></div>`;
+    `<div class="seg silent" data-w="${w(g.silent)}" style="width:0%"></div>` +
+    `<div class="seg partial" data-w="${w(g.partial)}" style="width:0%"></div>` +
+    `<div class="seg nmb" data-w="${w(g.nmb)}" style="width:0%"></div></div></div>`;
 }
 
 function renderStats() {
@@ -185,11 +185,6 @@ function wireStoryButtons() {
   if (ex) ex.addEventListener("click", () => {
     const rec = RECORDS.find((r) => r.model === "Gemma-2-2B" && r.index === 5158);
     if (rec) showDetail(rec, true);
-  });
-  const su = document.getElementById("btnSurprise");
-  if (su) su.addEventListener("click", () => {
-    const silent = RECORDS.filter((r) => r.failure_class === "silent");
-    if (silent.length) showDetail(silent[Math.floor(Math.random() * silent.length)], true);
   });
 }
 
