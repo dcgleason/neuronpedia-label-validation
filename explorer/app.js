@@ -5,6 +5,12 @@ const pct = (a, b) => Math.round((a / b) * 1000) / 10;
 
 let RECORDS = [];
 
+const CLASS_LABEL = {
+  "silent": "No activation",
+  "partial": "Partial",
+  "near-miss-beat": "Hard negative outscored",
+};
+
 function groupStats(records, keyFn) {
   const groups = new Map();
   for (const r of records) {
@@ -94,9 +100,9 @@ function renderStats() {
   const cb = document.getElementById("classBars");
   cb.innerHTML =
     classRow("Gemma-2-2B (all layers)", gAll) + classRow("Llama 3.1 8B", lAll) +
-    `<div class="legend"><span><span class="dot" style="background:var(--silent)"></span>Silent</span>` +
+    `<div class="legend"><span><span class="dot" style="background:var(--silent)"></span>No activation</span>` +
     `<span><span class="dot" style="background:var(--partial)"></span>Partial</span>` +
-    `<span><span class="dot" style="background:var(--nmb)"></span>Near-miss beat</span></div>`;
+    `<span><span class="dot" style="background:var(--nmb)"></span>Hard negative outscored</span></div>`;
   animateWidths(cb);
 }
 
@@ -130,7 +136,7 @@ function renderTable() {
   const rows = applyFilters();
   document.getElementById("countLine").textContent = `Showing ${rows.length} of ${RECORDS.length} labels.`;
   document.getElementById("rows").innerHTML = rows.map((r) => {
-    const cls = r.verdict === "PASS" ? "—" : r.failure_class;
+    const cls = r.verdict === "PASS" ? "—" : (CLASS_LABEL[r.failure_class] || r.failure_class);
     const pred = r.predicted || "—";
     return `<tr data-i="${RECORDS.indexOf(r)}"><td>${r.model}</td><td>${r.layer}</td><td>${r.index}</td>` +
       `<td>${r.label}</td><td>${pred}</td>` +
@@ -156,18 +162,18 @@ function showDetail(r, scroll) {
   const max = Math.max(...r.sf, ...r.nm);
   const verdictText = r.verdict === "PASS"
     ? `<span class="pill pass">PASSED</span>`
-    : `<span class="pill fail">FAILED</span> (${r.failure_class})`;
+    : `<span class="pill fail">FAILED</span> (${CLASS_LABEL[r.failure_class] || r.failure_class})`;
   const pred = r.predicted ? `<p class="note">Pre-registered prediction: <strong>${r.predicted}</strong> &mdash; prediction was ${((r.predicted === "PASS") === (r.verdict === "PASS")) ? "right" : "wrong"}.</p>` : "";
   const d = document.getElementById("detail");
   d.innerHTML =
     `<h3>${r.model}, layer ${r.layer}, feature ${r.index}</h3>` +
     `<p><strong>Label:</strong> &ldquo;${r.label}&rdquo;</p>` +
-    `<p>Verdict: ${verdictText}. Margin (weakest should-fire minus strongest near-miss): <strong>${fmt(margin(r))}</strong>.</p>` +
+    `<p>Verdict: ${verdictText}. Margin (weakest positive minus strongest hard negative): <strong>${fmt(margin(r))}</strong>.</p>` +
     pred +
-    promptBlock("Should fire 1", r.sf_prompts[0], r.sf[0], max, "sf-color") +
-    promptBlock("Should fire 2", r.sf_prompts[1], r.sf[1], max, "sf-color") +
-    promptBlock("Near miss 1", r.nm_prompts[0], r.nm[0], max, "nm-color") +
-    promptBlock("Near miss 2", r.nm_prompts[1], r.nm[1], max, "nm-color");
+    promptBlock("Positive 1", r.sf_prompts[0], r.sf[0], max, "sf-color") +
+    promptBlock("Positive 2", r.sf_prompts[1], r.sf[1], max, "sf-color") +
+    promptBlock("Hard negative 1", r.nm_prompts[0], r.nm[0], max, "nm-color") +
+    promptBlock("Hard negative 2", r.nm_prompts[1], r.nm[1], max, "nm-color");
   d.hidden = false;
   history.replaceState(null, "", hashFor(r));
   animateWidths(d);
