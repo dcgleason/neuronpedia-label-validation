@@ -1,10 +1,10 @@
 # Proposed Study 3: the evaluate–correct–retest loop, systematized
 
-Status: proposed, not yet run. Nothing in this file is a result. The predictions below are stated in advance and will be locked and hashed, with the prompt sets, before any activation is scored — the same discipline as Studies 1 and 2.
+Status: proposed, not yet run. Nothing in this file is a result. The predictions below are stated in advance and will be locked and hashed, with the prompt sets, before any activation is scored — the same discipline as Study 1.
 
 ## Why
 
-Studies 1 and 2 established the base rates: 59 of 200 Gemma labels and 32 of 160 Llama labels passed a held-out test written from the label itself; corrected labels passed 15 of 21 where the originals passed 0 of 21; shuffled label–feature pairings passed 0 of 40 against 12 of 40 for the real pairings; a stronger explainer's labels passed 28 of 40 against the shipped labels' 12 of 40. The correction result is the one that does not scale by hand. Each corrected label took an autopsy: stored examples read token by token, probes written and run one variable at a time, a diagnosis, a rewrite, a locked retest. Study 3 asks whether that loop can be systematized without losing the two properties that made it trustworthy: scoring that never asks a model to judge a label, and corrections that say only what the evidence supports.
+Study 1 established the base rates: 59 of 200 Gemma labels and 32 of 160 Llama labels passed a held-out test written from the label itself; corrected labels passed 15 of 21 where the originals passed 0 of 21; shuffled label–feature pairings passed 0 of 40 against 12 of 40 for the real pairings; a stronger explainer's labels passed 28 of 40 against the shipped labels' 12 of 40. The correction result is the one that does not scale by hand. Each corrected label took an autopsy: stored examples read token by token, probes written and run one variable at a time, a diagnosis, a rewrite, a locked retest. Study 3 asks whether that loop can be systematized without losing the two properties that made it trustworthy: scoring that never asks a model to judge a label, and corrections that say only what the evidence supports.
 
 ## The pipeline
 
