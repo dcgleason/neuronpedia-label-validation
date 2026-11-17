@@ -179,12 +179,12 @@ and connection failures (DNS, timeout, reset) surface as a clean
 
 The checker was calibrated against the 40 hand-tested pilot labels
 (fresh prompts, same pass rule, verdicts compared by feature index,
-mechanism tags compared against the 17 hand-autopsied silent
+mechanism tags compared against the 17 manually analyzed silent
 features). Results, the disagreement list, and honest notes on where
 the checker is weak: see `CALIBRATION.md`.
 
 Mechanism sorter versions: that calibration ran sorter **v1**, whose
-mechanism tags scored **2/17** against the hand autopsies — it
+mechanism tags scored **2/17** against the manual failure analyses — it
 over-tagged `displaced-theme`, because its theme check matched label
 words literally in the stored examples (v1 is preserved verbatim in
 `mechanisms_v1.py`; its report is `CALIBRATION-V1.md`). Sorter **v2** (preserved in `mechanisms_v2.py`)
