@@ -17,7 +17,7 @@
 
 ## The three blind re-derivations
 
-The locked draft flagged three features where Sonnet, shown only the stored examples, independently reproduced the pilot hand autopsy's findings. All three new labels PASSED:
+The locked draft flagged three features where Sonnet, shown only the stored examples, independently reproduced the pilot manual failure analysis's findings. All three new labels PASSED:
 
 - **idx 5158** — margin +43.00: the flagship case. The new label (Bootstrap "btn" CSS class names) scored SF 43.00 / 44.75 against NM 0.00 / 0.00, the second-largest margin in the run.
 - **idx 14719** — margin +31.38: the word "color" as a token. SF 41.50 / 43.50; a near-miss with a code context but no token fired 10.12, well below both should-fires.
