@@ -551,8 +551,7 @@ def register_swap(record, test, score_fn, rewrite_fn=None,
        NEUTRAL topic, supplied per test (run_checker --style-in).
        Register evidence = any style probe >= MIN_FIRE while both
        plain should-fires stay < MIN_FIRE (classify() applies the
-       should-fire condition). This is the probe kind the hand
-       failure analyses actually used — the feature's OWN register, not a
+       should-fire condition). This is the probe kind the manual failure analyses actually used — the feature's OWN register, not a
        generic one; v2's generic probes went 0/5 on register cases.
     2. GENERATED STYLE PROBES: when no style probes are supplied but
        a rewrite_fn is available, _generated_style_probes asks it for
