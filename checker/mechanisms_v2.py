@@ -2,7 +2,7 @@
 """Failure-mechanism checks for the Neuronpedia label checker — v2.
 
 Each failed label gets probed for WHY it failed, following the method of
-the Nov 12 silent-feature autopsies: one variable changed at a time.
+the Nov 12 silent-feature failure analyses: one variable changed at a time.
 
 Checks:
   theme_count   - what fraction of the feature's stored (positive)
@@ -25,11 +25,11 @@ Checks:
 
 classify() maps the evidence to one of: word-form, register,
 displaced-theme, document-bound, unresolved. "unresolved" is a
-legitimate result: 3 of the 17 hand-autopsied silent features earned it,
+legitimate result: 3 of the 17 manually analyzed silent features earned it,
 and in v2 it is the DEFAULT when nothing fired.
 
 What changed in v2 (v1 is preserved verbatim in mechanisms_v1.py):
-Calibration of v1 against the 17 hand-autopsied silent features scored
+Calibration of v1 against the 17 manually analyzed silent features scored
 2/17 on mechanism tags. The dominant failure was over-tagging
 "displaced-theme": v1's theme_count matched label words literally, and
 the stored examples almost never contain the label's own phrasing, so
@@ -59,12 +59,12 @@ from collections import Counter
 BASE_URL = "https://www.neuronpedia.org/api/feature/gemma-2-2b"
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cache")
 
-# --- Thresholds (named constants; tuned to the pilot autopsies, Nov 12) ---
+# --- Thresholds (named constants; tuned to the pilot failure analyses, Nov 12) ---
 # A should-fire max below this counts as the feature staying silent.
 SILENT_EPS = 0.5
 # v2: a probe at or above this counts as CLEARLY fired. The v2 checks
 # (mining, length, register) and the displaced-theme evidence test all
-# use this one bar, matching the firing levels the hand autopsies
+# use this one bar, matching the firing levels the manual failure analyses
 # treated as real (weak traces of 3-8 in long documents aside).
 MIN_FIRE = 4.0
 # Ablation: if removing the label's content words drops the should-fire
@@ -392,7 +392,7 @@ def register_swap(record, test, score_fn, rewrite_fn=None):
         when no function is supplied);
       - template probe (v2): a fixed recommendation-register sentence
         built from the label's top content word. Recommendation /
-        promotional register is the register the hand autopsies kept
+        promotional register is the register the manual failure analyses kept
         finding (e.g. the 'literary works' feature firing on
         'will appeal to fans of...' text), and this probe needs no
         rewrite function, so the check runs standalone.
@@ -440,7 +440,7 @@ The treasurer presented the monthly accounts. Spending on utilities was slightly
 After a short break, the committee reviewed the events calendar for the coming season. A local history talk was confirmed for the first Thursday of next month, and a children's reading morning was planned for the school holidays. The notice boards would be updated once the dates were final. The final item was the annual review of the emergency procedures. The assembly points remain unchanged, the alarm test will continue to take place on the first Monday of each month, and new staff will receive the standard briefing during their induction week. The meeting closed with agreement on the date of the next session, and the chair thanked everyone for attending before the room was cleared and the lights were switched off."""
 
 # The v1 neutral document (~450 words) is the filler; v2 repeats it to
-# reach the ~700-900 word range the hand autopsies found necessary.
+# reach the ~700-900 word range the manual failure analyses found necessary.
 FILLER_TEXT = LONG_DOCUMENT
 NEUTRAL_TARGET_WORDS = 820
 TOPICAL_MAX_WORDS = 900
