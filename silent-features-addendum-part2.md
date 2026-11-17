@@ -23,7 +23,7 @@ Part 1 of this follow-up (silent-features-addendum.md) asked what actually trigg
 
 ## The seventeen, sorted
 
-With all 17 silent features autopsied, the pilot's single largest failure shape — silence — resolves into five mechanisms:
+With all 17 silent features analyzed, the pilot's single largest failure shape — silence — resolves into five mechanisms:
 
 - **Word-form detectors (4).** The feature tracks a token; the label names the token's topic. Colors (the word "color"), buttons ("btn"), obligation/denial ("or"/"nor"), ancient figures (Chinese name fragments).
 - **Register detectors (5).** The feature tracks a genre's phrasing; the label names the genre's subject. Literary works (recommendation blurbs), family connections (obituaries), medical terms (clinical journal prose), music collaborations (talk-show appearances), questions (forum posts).
