@@ -2,7 +2,7 @@
 """Failure-mechanism checks for the Neuronpedia label checker.
 
 Each failed label gets probed for WHY it failed, following the method of
-the Nov 12 silent-feature autopsies: one variable changed at a time.
+the Nov 12 silent-feature failure analyses: one variable changed at a time.
 
 Checks:
   theme_count   - what fraction of the feature's stored (positive)
@@ -18,7 +18,7 @@ Checks:
 
 classify() maps the evidence to one of: word-form, register,
 displaced-theme, document-bound, unresolved. "unresolved" is a
-legitimate result: 3 of the 17 hand-autopsied silent features earned it.
+legitimate result: 3 of the 17 manually analyzed silent features earned it.
 """
 import json
 import os
@@ -28,7 +28,7 @@ import urllib.request
 BASE_URL = "https://www.neuronpedia.org/api/feature/gemma-2-2b"
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cache")
 
-# --- Thresholds (named constants; tuned to the pilot autopsies, Nov 12) ---
+# --- Thresholds (named constants; tuned to the pilot failure analyses, Nov 12) ---
 # A should-fire max below this counts as the feature staying silent.
 SILENT_EPS = 0.5
 # Ablation: if removing the label's content words drops the should-fire
