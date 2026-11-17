@@ -4,13 +4,13 @@ Status: proposed, not yet run. Nothing in this file is a result. The predictions
 
 ## Why
 
-Study 1 established the base rates: 59 of 200 Gemma labels and 32 of 160 Llama labels passed a held-out test written from the label itself; corrected labels passed 15 of 21 where the originals passed 0 of 21; shuffled label–feature pairings passed 0 of 40 against 12 of 40 for the real pairings; a stronger explainer's labels passed 28 of 40 against the shipped labels' 12 of 40. The correction result is the one that does not scale by hand. Each corrected label took an autopsy: stored examples read token by token, probes written and run one variable at a time, a diagnosis, a rewrite, a locked retest. Study 3 asks whether that loop can be systematized without losing the two properties that made it trustworthy: scoring that never asks a model to judge a label, and corrections that say only what the evidence supports.
+Study 1 established the base rates: 59 of 200 Gemma labels and 32 of 160 Llama labels passed a held-out test written from the label itself; corrected labels passed 15 of 21 where the originals passed 0 of 21; shuffled label–feature pairings passed 0 of 40 against 12 of 40 for the real pairings; a stronger explainer's labels passed 28 of 40 against the shipped labels' 12 of 40. The correction result is the one that does not scale by hand. Each corrected label took a failure analysis: stored examples read token by token, probes written and run one variable at a time, a diagnosis, a rewrite, a locked retest. Study 3 asks whether that loop can be systematized without losing the two properties that made it trustworthy: scoring that never asks a model to judge a label, and corrections that say only what the evidence supports.
 
 ## The pipeline
 
 **Stage 1 — Evaluate.** For each sampled label, generate should-fire and near-miss prompts from the label alone (near-misses change one variable at a time, as in the pilot), lock and hash the set, score the activations, and compute the margin: min(should-fire) − max(near-miss). A label passes if the margin is above zero — the registered rule throughout this repo.
 
-**Stage 2 — Autopsy.** For each failure, gather the evidence the manual autopsies used: the feature's top-activating stored examples with their peak tokens, the label's theme counted across all stored examples rather than just the top few, and the cheap mechanism checks the autopsies produced — remove the keyword and retest; swap the register and keep the content; test at document length. Sort the failure into the five mechanisms found in Study 1 (word-form, register, displaced center of mass, document-structure bound, no consistent trigger), or mark it unclassified.
+**Stage 2 — Failure analysis.** For each failure, gather the evidence the manual failure analyses used: the feature's top-activating stored examples with their peak tokens, the label's theme counted across all stored examples rather than just the top few, and the cheap mechanism checks the failure analyses produced — remove the keyword and retest; swap the register and keep the content; test at document length. Sort the failure into the five mechanisms found in Study 1 (word-form, register, displaced center of mass, document-structure bound, no consistent trigger), or mark it unclassified.
 
 **Stage 3 — Correct, or decline to.** Where the evidence states a trigger, draft a corrected label that says only that: the token, the register, the narrowed topic. Where it does not — document-structure-bound features, features with no consistent trigger — the pipeline offers no corrected label and records the feature as unresolved, with the evidence attached. A system that invents a label for every failure would reproduce the original problem at scale.
 
@@ -32,7 +32,7 @@ Stated here in advance; the exact thresholds lock with the design file.
 
 1. Systematized corrected labels will pass at a rate far above the original labels' rate on the same features, and at or below the manual rewrite's 15 of 21. The gap between the automated and manual rates is itself a result.
 2. A substantial share of failures will terminate as unresolved rather than corrected, concentrated in the document-structure-bound and no-consistent-trigger mechanisms.
-3. The automated mechanism sorter will agree with the 17 hand autopsies from Study 1 on most, not all, features. Disagreements get hand-checked and reported.
+3. The automated mechanism sorter will agree with the 17 manual failure analyses from Study 1 on most, not all, features. Disagreements get hand-checked and reported.
 
 ## What would change my mind
 
