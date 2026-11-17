@@ -4,7 +4,7 @@ The checker was calibrated against the 40 hand-tested pilot labels:
 fresh prompts written from each label's plain reading, the pilot's
 pass rule (min(should-fire) > max(near-miss)) applied on both sides,
 verdicts compared by feature index, and mechanism tags compared
-against the 17 silent features the pilot autopsied by hand.
+against the 17 silent features the pilot analyzed by hand.
 
 ## Verdicts
 
@@ -24,7 +24,7 @@ human passes whose verdict flips with prompt wording — prompt
 sensitivity, not a scorer error. The checker's own fresh-prompt
 pass split was 10 pass / 30 fail in each run.
 
-## Mechanism sorter accuracy (17 hand-autopsied silent features)
+## Mechanism sorter accuracy (17 manually analyzed silent features)
 
 - v1: 2/17 (11.8%) — see `CALIBRATION-V1.md`
 - v2: 4/17 (23.5%) — see `CALIBRATION-V2.md`
